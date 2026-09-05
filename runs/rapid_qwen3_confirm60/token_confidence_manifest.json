@@ -1,0 +1,13 @@
+{
+  "created_at": "2026-09-04T17:55:54.398437+00:00",
+  "config": "configs/rapid_qwen3_confirm60.yaml",
+  "config_sha256": "e10f43d027fa28d39b2710d6d565192e0435d6f72ca11113034c7ba2fe74c9a6",
+  "model_manifest": "runs/rapid_qwen3_model_manifest.json",
+  "run_dir": "runs/rapid_qwen3_confirm60",
+  "top_logprobs": 5,
+  "expected_rows": 180,
+  "recorded_rows": 180,
+  "matched_rows": 172,
+  "status": "incomplete",
+  "output_sha256": "fe172dded660c9617a7519a462fbe26141736567ebbe30b49c4c6350edc2c3eb"
+}

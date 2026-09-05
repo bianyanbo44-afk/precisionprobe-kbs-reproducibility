@@ -1,6 +1,6 @@
 {
   "status": "STATIC_ONLY",
-  "run_dir": "runs\\rapid_qwen3_confirm60",
+  "run_dir": "runs/rapid_qwen3_confirm60",
   "precisions": [
     "q2",
     "q4",

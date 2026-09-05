@@ -1,0 +1,13 @@
+{
+  "created_at": "2026-08-26T11:04:30.544515+00:00",
+  "config": "configs/pcqrc_deepseek_mbpp.yaml",
+  "config_sha256": "7d5a915e5ae925f3b54ad132f3967578c62f262336490a3778227c8cf96d474c",
+  "model_manifest": "runs/deepseek_model_manifest.json",
+  "run_dir": "runs/pcqrc_deepseek_mbpp",
+  "top_logprobs": 5,
+  "expected_rows": 756,
+  "recorded_rows": 756,
+  "matched_rows": 756,
+  "status": "complete",
+  "output_sha256": "add12657f5c6dbc2f8ec3266e19b8e635d3dd3c44981174a5850227c4b38c24c"
+}

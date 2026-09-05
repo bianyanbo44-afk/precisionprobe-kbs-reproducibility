@@ -1,0 +1,13 @@
+{
+  "created_at": "2026-08-26T10:33:51.406216+00:00",
+  "config": "configs/pcqrc_qwen_humaneval.yaml",
+  "config_sha256": "bcd145e40b3596c0f2263f1814d0bbb937bd05cf55fe8763eaa266f6bb8c9b3a",
+  "model_manifest": "runs/model_manifest.json",
+  "run_dir": "runs/pcqrc_qwen_humaneval",
+  "top_logprobs": 5,
+  "expected_rows": 328,
+  "recorded_rows": 328,
+  "matched_rows": 328,
+  "status": "complete",
+  "output_sha256": "3103c95f898591f87d1ff5e457091a08c9021df28c5a07446ab53de5c3610105"
+}

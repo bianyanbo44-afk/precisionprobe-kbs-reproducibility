@@ -1,0 +1,13 @@
+{
+  "created_at": "2026-08-26T10:44:02.496626+00:00",
+  "config": "configs/quartz_deepseek_humaneval.yaml",
+  "config_sha256": "2f196a3bcf58ff5437bf62c1c46828f74a9832f7138d35b90f99c7b7223bb1ea",
+  "model_manifest": "runs/deepseek_model_manifest.json",
+  "run_dir": "runs/quartz_deepseek_humaneval",
+  "top_logprobs": 5,
+  "expected_rows": 328,
+  "recorded_rows": 328,
+  "matched_rows": 328,
+  "status": "complete",
+  "output_sha256": "cc1bbf1b5562ae62084b2b65f3abff5076102852532650f18b72b076b9d78acd"
+}

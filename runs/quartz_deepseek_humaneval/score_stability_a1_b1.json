@@ -1,0 +1,18 @@
+{
+  "expected_tasks": 164,
+  "left_tasks": 164,
+  "right_tasks": 164,
+  "left_complete": true,
+  "right_complete": true,
+  "missing_from_left": [],
+  "missing_from_right": [],
+  "semantic_mismatch_count": 0,
+  "semantic_mismatch_task_ids": [],
+  "left_semantic_sha256": "b6e1a24bf470f54bce741fccfb56ed86df2d48b9fb22cb7d9a4912eb8add74a5",
+  "right_semantic_sha256": "b6e1a24bf470f54bce741fccfb56ed86df2d48b9fb22cb7d9a4912eb8add74a5",
+  "status": "PASS",
+  "left_file": "runs/quartz_deepseek_humaneval/scores_stability_a1.jsonl",
+  "right_file": "runs/quartz_deepseek_humaneval/scores_stability_b1.jsonl",
+  "left_file_sha256": "45698d2ada45ed3a689e65a19ea26c9ab3e0a2d2f5c0014cd3b8849f41b67e11",
+  "right_file_sha256": "3eb7520ff16fac0ee96d71f767a230a079f13bcc6c79a52825e02556e6f08aa7"
+}

@@ -1,0 +1,53 @@
+{
+  "n": 164,
+  "q4_errors": 66,
+  "q8_errors": 63,
+  "label_disagreement": 0.11585365853658537,
+  "paired": {
+    "accuracy_difference_q4_minus_q8": -0.018292682926829285,
+    "accuracy_difference_ci90": [
+      -0.060975609756097615,
+      0.024390243902439046
+    ],
+    "auc_difference_q4_minus_q8": -0.013278878908299041,
+    "auc_difference_ci90": [
+      -0.06804703969200751,
+      0.0415778828185759
+    ],
+    "spearman": 0.6938274690610672,
+    "spearman_ci95": [
+      0.5864769812585988,
+      0.7860427094516147
+    ],
+    "decision_drift": 0.21951219512195122,
+    "decision_drift_ci95": [
+      0.14634146341463414,
+      0.2926829268292683
+    ],
+    "decision_drift_tie_rule": "score_then_task_id_then_draw_position",
+    "bootstrap_repeats": 10000
+  },
+  "q4_dsde": {
+    "auc": 0.8237476808905381,
+    "ci95": [
+      0.7568007884972171,
+      0.8849721706864564
+    ],
+    "valid_repeats": 4000
+  },
+  "q8_dsde": {
+    "auc": 0.8370265597988371,
+    "ci95": [
+      0.7696782178217823,
+      0.8950298601288701
+    ],
+    "valid_repeats": 4000
+  },
+  "gates": {
+    "accuracy_equivalent": false,
+    "auc_equivalent": false,
+    "rank_portability_failure": true,
+    "decision_drift": false,
+    "both_informative": true
+  }
+}

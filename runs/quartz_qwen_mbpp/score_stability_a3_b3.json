@@ -1,0 +1,18 @@
+{
+  "expected_tasks": 378,
+  "left_tasks": 378,
+  "right_tasks": 378,
+  "left_complete": true,
+  "right_complete": true,
+  "missing_from_left": [],
+  "missing_from_right": [],
+  "semantic_mismatch_count": 0,
+  "semantic_mismatch_task_ids": [],
+  "left_semantic_sha256": "0189ed75b3fdd28da9e2a6c5295291665718162930b4eb1ed03990e3f178f501",
+  "right_semantic_sha256": "0189ed75b3fdd28da9e2a6c5295291665718162930b4eb1ed03990e3f178f501",
+  "status": "PASS",
+  "left_file": "runs/quartz_qwen_mbpp/scores_stability_a3.jsonl",
+  "right_file": "runs/quartz_qwen_mbpp/scores_stability_b3.jsonl",
+  "left_file_sha256": "a2744efbfdd392f3eb5138d5dce9c30493b40396043b6ecd32fe21637ad904bb",
+  "right_file_sha256": "aed6e75bd232424bfd0731455a5a10aaa6892a32e31e070c4427ad08ab395d78"
+}

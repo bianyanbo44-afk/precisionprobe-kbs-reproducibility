@@ -1,0 +1,1193 @@
+{
+  "run_dir": "runs/quartz_qwen_mbpp",
+  "total_candidates": 3780,
+  "stages": {
+    "original": {
+      "rejected": 134,
+      "accepted": 3646,
+      "rejection_reasons": {
+        "denied_attribute:remove": 1,
+        "denied_attribute:replace": 85,
+        "denied_call:eval": 2,
+        "denied_import:cmath": 26,
+        "denied_import:sympy": 1,
+        "denied_import:sys": 10,
+        "syntax_error:'[' was never closed": 1,
+        "syntax_error:invalid syntax": 5,
+        "syntax_error:unmatched ')'": 2,
+        "syntax_error:unterminated string literal (detected at line 5)": 1
+      }
+    },
+    "attribute_fixed": {
+      "rejected": 48,
+      "accepted": 3732,
+      "rejection_reasons": {
+        "denied_call:eval": 2,
+        "denied_import:cmath": 26,
+        "denied_import:sympy": 1,
+        "denied_import:sys": 10,
+        "syntax_error:'[' was never closed": 1,
+        "syntax_error:invalid syntax": 5,
+        "syntax_error:unmatched ')'": 2,
+        "syntax_error:unterminated string literal (detected at line 5)": 1
+      }
+    },
+    "final": {
+      "rejected": 11,
+      "accepted": 3769,
+      "rejection_reasons": {
+        "denied_call:eval": 2,
+        "syntax_error:'[' was never closed": 1,
+        "syntax_error:invalid syntax": 5,
+        "syntax_error:unmatched ')'": 2,
+        "syntax_error:unterminated string literal (detected at line 5)": 1
+      }
+    }
+  },
+  "recovered_candidates": 123,
+  "recovered_by_transition": {
+    "attribute_repair": 86,
+    "import_repair": 37
+  },
+  "affected_tasks": 20,
+  "recovered_greedy": 28,
+  "recovered_greedy_with_official_labels": 28,
+  "recovered_greedy_official_plus_pass": 16,
+  "recovered_records": [
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/11",
+      "kind": "greedy",
+      "seed": 0,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null,
+      "official_plus_pass": false
+    },
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/11",
+      "kind": "alternative",
+      "seed": 47,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/11",
+      "kind": "alternative",
+      "seed": 71,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/124",
+      "kind": "greedy",
+      "seed": 0,
+      "transition": "import_repair",
+      "original_reason": "denied_import:cmath",
+      "attribute_fixed_reason": "denied_import:cmath",
+      "official_plus_pass": false
+    },
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/124",
+      "kind": "alternative",
+      "seed": 11,
+      "transition": "import_repair",
+      "original_reason": "denied_import:cmath",
+      "attribute_fixed_reason": "denied_import:cmath"
+    },
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/124",
+      "kind": "alternative",
+      "seed": 29,
+      "transition": "import_repair",
+      "original_reason": "denied_import:cmath",
+      "attribute_fixed_reason": "denied_import:cmath"
+    },
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/124",
+      "kind": "alternative",
+      "seed": 71,
+      "transition": "import_repair",
+      "original_reason": "denied_import:cmath",
+      "attribute_fixed_reason": "denied_import:cmath"
+    },
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/16",
+      "kind": "greedy",
+      "seed": 0,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null,
+      "official_plus_pass": false
+    },
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/16",
+      "kind": "alternative",
+      "seed": 11,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/230",
+      "kind": "greedy",
+      "seed": 0,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null,
+      "official_plus_pass": true
+    },
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/230",
+      "kind": "alternative",
+      "seed": 11,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/230",
+      "kind": "alternative",
+      "seed": 29,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/230",
+      "kind": "alternative",
+      "seed": 47,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/230",
+      "kind": "alternative",
+      "seed": 71,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/252",
+      "kind": "greedy",
+      "seed": 0,
+      "transition": "import_repair",
+      "original_reason": "denied_import:cmath",
+      "attribute_fixed_reason": "denied_import:cmath",
+      "official_plus_pass": true
+    },
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/252",
+      "kind": "alternative",
+      "seed": 11,
+      "transition": "import_repair",
+      "original_reason": "denied_import:cmath",
+      "attribute_fixed_reason": "denied_import:cmath"
+    },
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/252",
+      "kind": "alternative",
+      "seed": 29,
+      "transition": "import_repair",
+      "original_reason": "denied_import:cmath",
+      "attribute_fixed_reason": "denied_import:cmath"
+    },
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/252",
+      "kind": "alternative",
+      "seed": 47,
+      "transition": "import_repair",
+      "original_reason": "denied_import:cmath",
+      "attribute_fixed_reason": "denied_import:cmath"
+    },
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/252",
+      "kind": "alternative",
+      "seed": 71,
+      "transition": "import_repair",
+      "original_reason": "denied_import:cmath",
+      "attribute_fixed_reason": "denied_import:cmath"
+    },
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/427",
+      "kind": "greedy",
+      "seed": 0,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null,
+      "official_plus_pass": false
+    },
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/451",
+      "kind": "greedy",
+      "seed": 0,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null,
+      "official_plus_pass": true
+    },
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/451",
+      "kind": "alternative",
+      "seed": 11,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/451",
+      "kind": "alternative",
+      "seed": 29,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/451",
+      "kind": "alternative",
+      "seed": 47,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/451",
+      "kind": "alternative",
+      "seed": 71,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/474",
+      "kind": "greedy",
+      "seed": 0,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null,
+      "official_plus_pass": true
+    },
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/474",
+      "kind": "alternative",
+      "seed": 11,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/474",
+      "kind": "alternative",
+      "seed": 29,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/474",
+      "kind": "alternative",
+      "seed": 71,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/590",
+      "kind": "greedy",
+      "seed": 0,
+      "transition": "import_repair",
+      "original_reason": "denied_import:cmath",
+      "attribute_fixed_reason": "denied_import:cmath",
+      "official_plus_pass": false
+    },
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/590",
+      "kind": "alternative",
+      "seed": 11,
+      "transition": "import_repair",
+      "original_reason": "denied_import:cmath",
+      "attribute_fixed_reason": "denied_import:cmath"
+    },
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/590",
+      "kind": "alternative",
+      "seed": 29,
+      "transition": "import_repair",
+      "original_reason": "denied_import:cmath",
+      "attribute_fixed_reason": "denied_import:cmath"
+    },
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/590",
+      "kind": "alternative",
+      "seed": 47,
+      "transition": "import_repair",
+      "original_reason": "denied_import:cmath",
+      "attribute_fixed_reason": "denied_import:cmath"
+    },
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/590",
+      "kind": "alternative",
+      "seed": 71,
+      "transition": "import_repair",
+      "original_reason": "denied_import:cmath",
+      "attribute_fixed_reason": "denied_import:cmath"
+    },
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/596",
+      "kind": "greedy",
+      "seed": 0,
+      "transition": "import_repair",
+      "original_reason": "denied_import:sys",
+      "attribute_fixed_reason": "denied_import:sys",
+      "official_plus_pass": true
+    },
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/596",
+      "kind": "alternative",
+      "seed": 11,
+      "transition": "import_repair",
+      "original_reason": "denied_import:sys",
+      "attribute_fixed_reason": "denied_import:sys"
+    },
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/596",
+      "kind": "alternative",
+      "seed": 29,
+      "transition": "import_repair",
+      "original_reason": "denied_import:sys",
+      "attribute_fixed_reason": "denied_import:sys"
+    },
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/596",
+      "kind": "alternative",
+      "seed": 47,
+      "transition": "import_repair",
+      "original_reason": "denied_import:sys",
+      "attribute_fixed_reason": "denied_import:sys"
+    },
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/596",
+      "kind": "alternative",
+      "seed": 71,
+      "transition": "import_repair",
+      "original_reason": "denied_import:sys",
+      "attribute_fixed_reason": "denied_import:sys"
+    },
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/628",
+      "kind": "greedy",
+      "seed": 0,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null,
+      "official_plus_pass": true
+    },
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/628",
+      "kind": "alternative",
+      "seed": 11,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/628",
+      "kind": "alternative",
+      "seed": 29,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/628",
+      "kind": "alternative",
+      "seed": 47,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/628",
+      "kind": "alternative",
+      "seed": 71,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/631",
+      "kind": "greedy",
+      "seed": 0,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null,
+      "official_plus_pass": false
+    },
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/631",
+      "kind": "alternative",
+      "seed": 11,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/631",
+      "kind": "alternative",
+      "seed": 29,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/631",
+      "kind": "alternative",
+      "seed": 47,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/631",
+      "kind": "alternative",
+      "seed": 71,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/732",
+      "kind": "greedy",
+      "seed": 0,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null,
+      "official_plus_pass": true
+    },
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/732",
+      "kind": "alternative",
+      "seed": 11,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/732",
+      "kind": "alternative",
+      "seed": 71,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/759",
+      "kind": "alternative",
+      "seed": 11,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/800",
+      "kind": "greedy",
+      "seed": 0,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null,
+      "official_plus_pass": true
+    },
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/800",
+      "kind": "alternative",
+      "seed": 11,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/800",
+      "kind": "alternative",
+      "seed": 29,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/800",
+      "kind": "alternative",
+      "seed": 47,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/800",
+      "kind": "alternative",
+      "seed": 71,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/99",
+      "kind": "alternative",
+      "seed": 11,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/99",
+      "kind": "alternative",
+      "seed": 29,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q4",
+      "task_id": "Mbpp/99",
+      "kind": "alternative",
+      "seed": 47,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/11",
+      "kind": "greedy",
+      "seed": 0,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null,
+      "official_plus_pass": false
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/11",
+      "kind": "alternative",
+      "seed": 11,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/11",
+      "kind": "alternative",
+      "seed": 29,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/11",
+      "kind": "alternative",
+      "seed": 47,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/11",
+      "kind": "alternative",
+      "seed": 71,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/124",
+      "kind": "greedy",
+      "seed": 0,
+      "transition": "import_repair",
+      "original_reason": "denied_import:cmath",
+      "attribute_fixed_reason": "denied_import:cmath",
+      "official_plus_pass": false
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/124",
+      "kind": "alternative",
+      "seed": 11,
+      "transition": "import_repair",
+      "original_reason": "denied_import:cmath",
+      "attribute_fixed_reason": "denied_import:cmath"
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/16",
+      "kind": "greedy",
+      "seed": 0,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null,
+      "official_plus_pass": false
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/161",
+      "kind": "alternative",
+      "seed": 47,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:remove",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/230",
+      "kind": "greedy",
+      "seed": 0,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null,
+      "official_plus_pass": true
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/230",
+      "kind": "alternative",
+      "seed": 11,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/230",
+      "kind": "alternative",
+      "seed": 29,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/230",
+      "kind": "alternative",
+      "seed": 47,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/230",
+      "kind": "alternative",
+      "seed": 71,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/252",
+      "kind": "greedy",
+      "seed": 0,
+      "transition": "import_repair",
+      "original_reason": "denied_import:cmath",
+      "attribute_fixed_reason": "denied_import:cmath",
+      "official_plus_pass": true
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/252",
+      "kind": "alternative",
+      "seed": 11,
+      "transition": "import_repair",
+      "original_reason": "denied_import:cmath",
+      "attribute_fixed_reason": "denied_import:cmath"
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/252",
+      "kind": "alternative",
+      "seed": 29,
+      "transition": "import_repair",
+      "original_reason": "denied_import:cmath",
+      "attribute_fixed_reason": "denied_import:cmath"
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/252",
+      "kind": "alternative",
+      "seed": 47,
+      "transition": "import_repair",
+      "original_reason": "denied_import:cmath",
+      "attribute_fixed_reason": "denied_import:cmath"
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/252",
+      "kind": "alternative",
+      "seed": 71,
+      "transition": "import_repair",
+      "original_reason": "denied_import:cmath",
+      "attribute_fixed_reason": "denied_import:cmath"
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/260",
+      "kind": "alternative",
+      "seed": 47,
+      "transition": "import_repair",
+      "original_reason": "denied_import:sympy",
+      "attribute_fixed_reason": "denied_import:sympy"
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/427",
+      "kind": "greedy",
+      "seed": 0,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null,
+      "official_plus_pass": false
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/427",
+      "kind": "alternative",
+      "seed": 11,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/451",
+      "kind": "greedy",
+      "seed": 0,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null,
+      "official_plus_pass": true
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/451",
+      "kind": "alternative",
+      "seed": 11,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/451",
+      "kind": "alternative",
+      "seed": 29,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/451",
+      "kind": "alternative",
+      "seed": 47,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/451",
+      "kind": "alternative",
+      "seed": 71,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/474",
+      "kind": "greedy",
+      "seed": 0,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null,
+      "official_plus_pass": true
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/474",
+      "kind": "alternative",
+      "seed": 11,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/474",
+      "kind": "alternative",
+      "seed": 29,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/474",
+      "kind": "alternative",
+      "seed": 47,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/474",
+      "kind": "alternative",
+      "seed": 71,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/590",
+      "kind": "greedy",
+      "seed": 0,
+      "transition": "import_repair",
+      "original_reason": "denied_import:cmath",
+      "attribute_fixed_reason": "denied_import:cmath",
+      "official_plus_pass": false
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/590",
+      "kind": "alternative",
+      "seed": 11,
+      "transition": "import_repair",
+      "original_reason": "denied_import:cmath",
+      "attribute_fixed_reason": "denied_import:cmath"
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/590",
+      "kind": "alternative",
+      "seed": 29,
+      "transition": "import_repair",
+      "original_reason": "denied_import:cmath",
+      "attribute_fixed_reason": "denied_import:cmath"
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/590",
+      "kind": "alternative",
+      "seed": 47,
+      "transition": "import_repair",
+      "original_reason": "denied_import:cmath",
+      "attribute_fixed_reason": "denied_import:cmath"
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/590",
+      "kind": "alternative",
+      "seed": 71,
+      "transition": "import_repair",
+      "original_reason": "denied_import:cmath",
+      "attribute_fixed_reason": "denied_import:cmath"
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/596",
+      "kind": "greedy",
+      "seed": 0,
+      "transition": "import_repair",
+      "original_reason": "denied_import:sys",
+      "attribute_fixed_reason": "denied_import:sys",
+      "official_plus_pass": true
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/596",
+      "kind": "alternative",
+      "seed": 11,
+      "transition": "import_repair",
+      "original_reason": "denied_import:sys",
+      "attribute_fixed_reason": "denied_import:sys"
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/596",
+      "kind": "alternative",
+      "seed": 29,
+      "transition": "import_repair",
+      "original_reason": "denied_import:sys",
+      "attribute_fixed_reason": "denied_import:sys"
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/596",
+      "kind": "alternative",
+      "seed": 47,
+      "transition": "import_repair",
+      "original_reason": "denied_import:sys",
+      "attribute_fixed_reason": "denied_import:sys"
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/596",
+      "kind": "alternative",
+      "seed": 71,
+      "transition": "import_repair",
+      "original_reason": "denied_import:sys",
+      "attribute_fixed_reason": "denied_import:sys"
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/619",
+      "kind": "alternative",
+      "seed": 11,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/619",
+      "kind": "alternative",
+      "seed": 29,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/628",
+      "kind": "greedy",
+      "seed": 0,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null,
+      "official_plus_pass": true
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/628",
+      "kind": "alternative",
+      "seed": 11,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/628",
+      "kind": "alternative",
+      "seed": 29,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/628",
+      "kind": "alternative",
+      "seed": 47,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/628",
+      "kind": "alternative",
+      "seed": 71,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/631",
+      "kind": "greedy",
+      "seed": 0,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null,
+      "official_plus_pass": false
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/631",
+      "kind": "alternative",
+      "seed": 11,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/631",
+      "kind": "alternative",
+      "seed": 29,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/631",
+      "kind": "alternative",
+      "seed": 47,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/631",
+      "kind": "alternative",
+      "seed": 71,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/732",
+      "kind": "greedy",
+      "seed": 0,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null,
+      "official_plus_pass": true
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/732",
+      "kind": "alternative",
+      "seed": 11,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/765",
+      "kind": "alternative",
+      "seed": 11,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/800",
+      "kind": "greedy",
+      "seed": 0,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null,
+      "official_plus_pass": true
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/800",
+      "kind": "alternative",
+      "seed": 11,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/800",
+      "kind": "alternative",
+      "seed": 29,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/800",
+      "kind": "alternative",
+      "seed": 47,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q8",
+      "task_id": "Mbpp/800",
+      "kind": "alternative",
+      "seed": 71,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    }
+  ]
+}

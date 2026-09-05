@@ -25,3 +25,6 @@ Thumbs.db
 *.onnx
 *.lock
 *.tmp
+reproduced/
+logs/
+*.log

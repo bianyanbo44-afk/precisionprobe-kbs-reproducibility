@@ -1,5 +1,5 @@
 {
-  "run_dir": "runs\\pcqrc_qwen_humaneval",
+  "run_dir": "runs/pcqrc_qwen_humaneval",
   "total_candidates": 1640,
   "stages": {
     "original": {

@@ -1,0 +1,516 @@
+{
+  "run_dir": "runs/quartz_deepseek_humaneval",
+  "total_candidates": 1031,
+  "stages": {
+    "original": {
+      "rejected": 56,
+      "accepted": 975,
+      "rejection_reasons": {
+        "denied_attribute:remove": 4,
+        "denied_attribute:replace": 23,
+        "denied_call:eval": 4,
+        "denied_import:calendar": 1,
+        "denied_import:doctest": 10,
+        "denied_import:hashlib": 5,
+        "denied_import:numpy": 4,
+        "denied_import:queue": 1,
+        "denied_import:sympy": 1,
+        "denied_import:sys": 2,
+        "syntax_error:invalid syntax": 1
+      }
+    },
+    "attribute_fixed": {
+      "rejected": 29,
+      "accepted": 1002,
+      "rejection_reasons": {
+        "denied_call:eval": 4,
+        "denied_import:calendar": 1,
+        "denied_import:doctest": 10,
+        "denied_import:hashlib": 5,
+        "denied_import:numpy": 4,
+        "denied_import:queue": 1,
+        "denied_import:sympy": 1,
+        "denied_import:sys": 2,
+        "syntax_error:invalid syntax": 1
+      }
+    },
+    "final": {
+      "rejected": 5,
+      "accepted": 1026,
+      "rejection_reasons": {
+        "denied_call:eval": 4,
+        "syntax_error:invalid syntax": 1
+      }
+    }
+  },
+  "recovered_candidates": 51,
+  "recovered_by_transition": {
+    "attribute_repair": 27,
+    "import_repair": 24
+  },
+  "affected_tasks": 27,
+  "recovered_greedy": 6,
+  "recovered_greedy_with_official_labels": 0,
+  "recovered_greedy_official_plus_pass": 0,
+  "recovered_records": [
+    {
+      "precision": "q4",
+      "task_id": "HumanEval/101",
+      "kind": "alternative",
+      "seed": 11,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q4",
+      "task_id": "HumanEval/125",
+      "kind": "alternative",
+      "seed": 29,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q4",
+      "task_id": "HumanEval/129",
+      "kind": "alternative",
+      "seed": 11,
+      "transition": "import_repair",
+      "original_reason": "denied_import:sys",
+      "attribute_fixed_reason": "denied_import:sys"
+    },
+    {
+      "precision": "q4",
+      "task_id": "HumanEval/129",
+      "kind": "alternative",
+      "seed": 29,
+      "transition": "import_repair",
+      "original_reason": "denied_import:sys",
+      "attribute_fixed_reason": "denied_import:sys"
+    },
+    {
+      "precision": "q4",
+      "task_id": "HumanEval/137",
+      "kind": "greedy",
+      "seed": 0,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q4",
+      "task_id": "HumanEval/137",
+      "kind": "alternative",
+      "seed": 11,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q4",
+      "task_id": "HumanEval/137",
+      "kind": "alternative",
+      "seed": 29,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q4",
+      "task_id": "HumanEval/137",
+      "kind": "alternative",
+      "seed": 47,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q4",
+      "task_id": "HumanEval/137",
+      "kind": "alternative",
+      "seed": 71,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q4",
+      "task_id": "HumanEval/140",
+      "kind": "greedy",
+      "seed": 0,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q4",
+      "task_id": "HumanEval/140",
+      "kind": "alternative",
+      "seed": 11,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q4",
+      "task_id": "HumanEval/140",
+      "kind": "alternative",
+      "seed": 29,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q4",
+      "task_id": "HumanEval/140",
+      "kind": "alternative",
+      "seed": 47,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q4",
+      "task_id": "HumanEval/140",
+      "kind": "alternative",
+      "seed": 71,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q4",
+      "task_id": "HumanEval/162",
+      "kind": "greedy",
+      "seed": 0,
+      "transition": "import_repair",
+      "original_reason": "denied_import:hashlib",
+      "attribute_fixed_reason": "denied_import:hashlib"
+    },
+    {
+      "precision": "q4",
+      "task_id": "HumanEval/162",
+      "kind": "alternative",
+      "seed": 11,
+      "transition": "import_repair",
+      "original_reason": "denied_import:hashlib",
+      "attribute_fixed_reason": "denied_import:hashlib"
+    },
+    {
+      "precision": "q4",
+      "task_id": "HumanEval/162",
+      "kind": "alternative",
+      "seed": 29,
+      "transition": "import_repair",
+      "original_reason": "denied_import:hashlib",
+      "attribute_fixed_reason": "denied_import:hashlib"
+    },
+    {
+      "precision": "q4",
+      "task_id": "HumanEval/162",
+      "kind": "alternative",
+      "seed": 47,
+      "transition": "import_repair",
+      "original_reason": "denied_import:hashlib",
+      "attribute_fixed_reason": "denied_import:hashlib"
+    },
+    {
+      "precision": "q4",
+      "task_id": "HumanEval/162",
+      "kind": "alternative",
+      "seed": 71,
+      "transition": "import_repair",
+      "original_reason": "denied_import:hashlib",
+      "attribute_fixed_reason": "denied_import:hashlib"
+    },
+    {
+      "precision": "q4",
+      "task_id": "HumanEval/32",
+      "kind": "alternative",
+      "seed": 29,
+      "transition": "import_repair",
+      "original_reason": "denied_import:numpy",
+      "attribute_fixed_reason": "denied_import:numpy"
+    },
+    {
+      "precision": "q4",
+      "task_id": "HumanEval/35",
+      "kind": "alternative",
+      "seed": 29,
+      "transition": "import_repair",
+      "original_reason": "denied_import:doctest",
+      "attribute_fixed_reason": "denied_import:doctest"
+    },
+    {
+      "precision": "q4",
+      "task_id": "HumanEval/36",
+      "kind": "alternative",
+      "seed": 47,
+      "transition": "import_repair",
+      "original_reason": "denied_import:doctest",
+      "attribute_fixed_reason": "denied_import:doctest"
+    },
+    {
+      "precision": "q4",
+      "task_id": "HumanEval/37",
+      "kind": "alternative",
+      "seed": 71,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:remove",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q4",
+      "task_id": "HumanEval/39",
+      "kind": "greedy",
+      "seed": 0,
+      "transition": "import_repair",
+      "original_reason": "denied_import:sympy",
+      "attribute_fixed_reason": "denied_import:sympy"
+    },
+    {
+      "precision": "q4",
+      "task_id": "HumanEval/4",
+      "kind": "greedy",
+      "seed": 0,
+      "transition": "import_repair",
+      "original_reason": "denied_import:numpy",
+      "attribute_fixed_reason": "denied_import:numpy"
+    },
+    {
+      "precision": "q4",
+      "task_id": "HumanEval/4",
+      "kind": "alternative",
+      "seed": 47,
+      "transition": "import_repair",
+      "original_reason": "denied_import:numpy",
+      "attribute_fixed_reason": "denied_import:numpy"
+    },
+    {
+      "precision": "q4",
+      "task_id": "HumanEval/44",
+      "kind": "alternative",
+      "seed": 71,
+      "transition": "import_repair",
+      "original_reason": "denied_import:doctest",
+      "attribute_fixed_reason": "denied_import:doctest"
+    },
+    {
+      "precision": "q4",
+      "task_id": "HumanEval/47",
+      "kind": "alternative",
+      "seed": 29,
+      "transition": "import_repair",
+      "original_reason": "denied_import:doctest",
+      "attribute_fixed_reason": "denied_import:doctest"
+    },
+    {
+      "precision": "q4",
+      "task_id": "HumanEval/51",
+      "kind": "alternative",
+      "seed": 11,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q4",
+      "task_id": "HumanEval/51",
+      "kind": "alternative",
+      "seed": 47,
+      "transition": "import_repair",
+      "original_reason": "denied_import:doctest",
+      "attribute_fixed_reason": "denied_import:doctest"
+    },
+    {
+      "precision": "q4",
+      "task_id": "HumanEval/51",
+      "kind": "alternative",
+      "seed": 71,
+      "transition": "import_repair",
+      "original_reason": "denied_import:doctest",
+      "attribute_fixed_reason": "denied_import:doctest"
+    },
+    {
+      "precision": "q4",
+      "task_id": "HumanEval/55",
+      "kind": "alternative",
+      "seed": 29,
+      "transition": "import_repair",
+      "original_reason": "denied_import:doctest",
+      "attribute_fixed_reason": "denied_import:doctest"
+    },
+    {
+      "precision": "q4",
+      "task_id": "HumanEval/60",
+      "kind": "alternative",
+      "seed": 47,
+      "transition": "import_repair",
+      "original_reason": "denied_import:doctest",
+      "attribute_fixed_reason": "denied_import:doctest"
+    },
+    {
+      "precision": "q4",
+      "task_id": "HumanEval/62",
+      "kind": "alternative",
+      "seed": 71,
+      "transition": "import_repair",
+      "original_reason": "denied_import:doctest",
+      "attribute_fixed_reason": "denied_import:doctest"
+    },
+    {
+      "precision": "q4",
+      "task_id": "HumanEval/67",
+      "kind": "greedy",
+      "seed": 0,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q4",
+      "task_id": "HumanEval/70",
+      "kind": "alternative",
+      "seed": 29,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:remove",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q4",
+      "task_id": "HumanEval/79",
+      "kind": "alternative",
+      "seed": 11,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q4",
+      "task_id": "HumanEval/79",
+      "kind": "alternative",
+      "seed": 29,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q4",
+      "task_id": "HumanEval/79",
+      "kind": "alternative",
+      "seed": 47,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q4",
+      "task_id": "HumanEval/79",
+      "kind": "alternative",
+      "seed": 71,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q4",
+      "task_id": "HumanEval/90",
+      "kind": "alternative",
+      "seed": 29,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:remove",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q4",
+      "task_id": "HumanEval/90",
+      "kind": "alternative",
+      "seed": 71,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:remove",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q4",
+      "task_id": "HumanEval/91",
+      "kind": "alternative",
+      "seed": 11,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q4",
+      "task_id": "HumanEval/91",
+      "kind": "alternative",
+      "seed": 29,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q4",
+      "task_id": "HumanEval/97",
+      "kind": "alternative",
+      "seed": 71,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q8",
+      "task_id": "HumanEval/101",
+      "kind": "alternative",
+      "seed": 11,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q8",
+      "task_id": "HumanEval/101",
+      "kind": "alternative",
+      "seed": 71,
+      "transition": "attribute_repair",
+      "original_reason": "denied_attribute:replace",
+      "attribute_fixed_reason": null
+    },
+    {
+      "precision": "q8",
+      "task_id": "HumanEval/115",
+      "kind": "alternative",
+      "seed": 11,
+      "transition": "import_repair",
+      "original_reason": "denied_import:numpy",
+      "attribute_fixed_reason": "denied_import:numpy"
+    },
+    {
+      "precision": "q8",
+      "task_id": "HumanEval/124",
+      "kind": "alternative",
+      "seed": 47,
+      "transition": "import_repair",
+      "original_reason": "denied_import:calendar",
+      "attribute_fixed_reason": "denied_import:calendar"
+    },
+    {
+      "precision": "q8",
+      "task_id": "HumanEval/129",
+      "kind": "alternative",
+      "seed": 29,
+      "transition": "import_repair",
+      "original_reason": "denied_import:queue",
+      "attribute_fixed_reason": "denied_import:queue"
+    },
+    {
+      "precision": "q8",
+      "task_id": "HumanEval/13",
+      "kind": "alternative",
+      "seed": 47,
+      "transition": "import_repair",
+      "original_reason": "denied_import:doctest",
+      "attribute_fixed_reason": "denied_import:doctest"
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "study": "rapid_qwen3_confirm60",
+  "config": "configs/rapid_qwen3_confirm60.yaml",
+  "config_sha256": "e10f43d027fa28d39b2710d6d565192e0435d6f72ca11113034c7ba2fe74c9a6",
+  "model_manifest": "runs/rapid_qwen3_model_manifest.json",
+  "execution_mode": "wsl",
+  "models": {
+    "q2": {
+      "label": "q2",
+      "repo_id": "unsloth/Qwen3-4B-Instruct-2507-GGUF",
+      "filename": "Qwen3-4B-Instruct-2507-Q2_K.gguf",
+      "path": ".models_qwen3/unsloth--Qwen3-4B-Instruct-2507-GGUF/Qwen3-4B-Instruct-2507-Q2_K.gguf",
+      "bytes": 1669500000,
+      "sha256": "F7ED2F57713AD29E1A4EC093BE0CDF3D7FD31E137E8FD4FC3EDCFD04A5267862"
+    },
+    "q4": {
+      "label": "q4",
+      "repo_id": "unsloth/Qwen3-4B-Instruct-2507-GGUF",
+      "filename": "Qwen3-4B-Instruct-2507-Q4_K_M.gguf",
+      "path": ".models_qwen3/unsloth--Qwen3-4B-Instruct-2507-GGUF/Qwen3-4B-Instruct-2507-Q4_K_M.gguf",
+      "bytes": 2497281120,
+      "sha256": "3605803B982CB64AEAD44F6C1B2AE36E3ACDB41D8E46C8A94C6533BC4C67E597"
+    },
+    "q8": {
+      "label": "q8",
+      "repo_id": "unsloth/Qwen3-4B-Instruct-2507-GGUF",
+      "filename": "Qwen3-4B-Instruct-2507-Q8_0.gguf",
+      "path": ".models_qwen3/unsloth--Qwen3-4B-Instruct-2507-GGUF/Qwen3-4B-Instruct-2507-Q8_0.gguf",
+      "bytes": 4280405600,
+      "sha256": "391C1E410FD9F4CF2DE2B510273B56A84C19CE18F4FA3BFB3774031DAC4EF068"
+    }
+  },
+  "task_ids": [
+    "Mbpp/160",
+    "Mbpp/238",
+    "Mbpp/566",
+    "Mbpp/572",
+    "Mbpp/622",
+    "Mbpp/767",
+    "Mbpp/240",
+    "Mbpp/607",
+    "Mbpp/58",
+    "Mbpp/392",
+    "Mbpp/623",
+    "Mbpp/227",
+    "Mbpp/75",
+    "Mbpp/750",
+    "Mbpp/632",
+    "Mbpp/749",
+    "Mbpp/92",
+    "Mbpp/476",
+    "Mbpp/419",
+    "Mbpp/123",
+    "Mbpp/643",
+    "Mbpp/462",
+    "Mbpp/752",
+    "Mbpp/611",
+    "Mbpp/3",
+    "Mbpp/603",
+    "Mbpp/735",
+    "Mbpp/79",
+    "Mbpp/757",
+    "Mbpp/86",
+    "Mbpp/608",
+    "Mbpp/726",
+    "Mbpp/101",
+    "Mbpp/311",
+    "Mbpp/142",
+    "Mbpp/141",
+    "Mbpp/780",
+    "Mbpp/165",
+    "Mbpp/600",
+    "Mbpp/722",
+    "Mbpp/748",
+    "Mbpp/599",
+    "Mbpp/759",
+    "Mbpp/589",
+    "Mbpp/734",
+    "Mbpp/300",
+    "Mbpp/276",
+    "Mbpp/80",
+    "Mbpp/259",
+    "Mbpp/244",
+    "Mbpp/456",
+    "Mbpp/578",
+    "Mbpp/85",
+    "Mbpp/616",
+    "Mbpp/429",
+    "Mbpp/638",
+    "Mbpp/458",
+    "Mbpp/605",
+    "Mbpp/97",
+    "Mbpp/128"
+  ],
+  "llama_server_sha256": "06444801bb1dc38a848bb5a527728c4ea14ad2aa45ce7e81a29a5fb5d2560eaf",
+  "python": {
+    "version": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+    "executable": "python",
+    "base_executable": "python"
+  },
+  "code_sha256": {
+    "run_quartz_cell.py": "5dbdd37d7638ff0c67a2793040a445445ff1305498328cd4a6dcdeca5b2602a5",
+    "execution.py": "ccf954b092e4cebf7456f6129dce785c6ce72561c21cccaa4bb2fe483ec4166b",
+    "inference.py": "64f64f00faea5f117db059c424bbff889d7d10a22a25908199d9ae863ce03a4e",
+    "scoring.py": "a1aaae895f8cda934465d072f0baa88c0c3cd681193eea4a0881625018b7db63",
+    "data.py": "d7315f7268825cf010f7be05353ab2b601d713a2a1043223c0864c3e4ecb6fe5"
+  },
+  "created_at": "2026-09-04T17:00:57.589793+00:00",
+  "manifest_schema_version": 2,
+  "updated_at": "2026-09-04T17:39:25.087797+00:00",
+  "phases": {
+    "generation": [
+      {
+        "recorded_at": "2026-09-04T17:35:30.247923+00:00",
+        "status": "COMPLETED",
+        "invocation_id": 1,
+        "config_sha256": "e10f43d027fa28d39b2710d6d565192e0435d6f72ca11113034c7ba2fe74c9a6",
+        "execution_mode": "windows",
+        "models": {
+          "q2": {
+            "label": "q2",
+            "repo_id": "unsloth/Qwen3-4B-Instruct-2507-GGUF",
+            "filename": "Qwen3-4B-Instruct-2507-Q2_K.gguf",
+            "path": ".models_qwen3/unsloth--Qwen3-4B-Instruct-2507-GGUF/Qwen3-4B-Instruct-2507-Q2_K.gguf",
+            "bytes": 1669500000,
+            "sha256": "F7ED2F57713AD29E1A4EC093BE0CDF3D7FD31E137E8FD4FC3EDCFD04A5267862"
+          },
+          "q4": {
+            "label": "q4",
+            "repo_id": "unsloth/Qwen3-4B-Instruct-2507-GGUF",
+            "filename": "Qwen3-4B-Instruct-2507-Q4_K_M.gguf",
+            "path": ".models_qwen3/unsloth--Qwen3-4B-Instruct-2507-GGUF/Qwen3-4B-Instruct-2507-Q4_K_M.gguf",
+            "bytes": 2497281120,
+            "sha256": "3605803B982CB64AEAD44F6C1B2AE36E3ACDB41D8E46C8A94C6533BC4C67E597"
+          },
+          "q8": {
+            "label": "q8",
+            "repo_id": "unsloth/Qwen3-4B-Instruct-2507-GGUF",
+            "filename": "Qwen3-4B-Instruct-2507-Q8_0.gguf",
+            "path": ".models_qwen3/unsloth--Qwen3-4B-Instruct-2507-GGUF/Qwen3-4B-Instruct-2507-Q8_0.gguf",
+            "bytes": 4280405600,
+            "sha256": "391C1E410FD9F4CF2DE2B510273B56A84C19CE18F4FA3BFB3774031DAC4EF068"
+          }
+        },
+        "expected_tasks": 60,
+        "task_ids_sha256": "0abab976f5a01c5da9d7f1a7ac5449cf8aca92f3a563696015b15a2d54919594",
+        "llama_server_sha256": "06444801bb1dc38a848bb5a527728c4ea14ad2aa45ce7e81a29a5fb5d2560eaf",
+        "code_sha256": {
+          "run_quartz_cell.py": "5dbdd37d7638ff0c67a2793040a445445ff1305498328cd4a6dcdeca5b2602a5",
+          "execution.py": "ccf954b092e4cebf7456f6129dce785c6ce72561c21cccaa4bb2fe483ec4166b",
+          "inference.py": "64f64f00faea5f117db059c424bbff889d7d10a22a25908199d9ae863ce03a4e",
+          "scoring.py": "a1aaae895f8cda934465d072f0baa88c0c3cd681193eea4a0881625018b7db63",
+          "data.py": "d7315f7268825cf010f7be05353ab2b601d713a2a1043223c0864c3e4ecb6fe5"
+        },
+        "outputs": {
+          "q2": {
+            "path": "runs/rapid_qwen3_confirm60/generations/q2.jsonl",
+            "bytes": 466960,
+            "sha256": "602684d5a36d63ce3cda51581524323270d8c83a5029aa3cef529d99e6ce50da"
+          },
+          "q4": {
+            "path": "runs/rapid_qwen3_confirm60/generations/q4.jsonl",
+            "bytes": 612003,
+            "sha256": "07532ad711b613e7de4d6bdf40fca85ff689d4dcce7c1adfe0188f9d0fe986f1"
+          },
+          "q8": {
+            "path": "runs/rapid_qwen3_confirm60/generations/q8.jsonl",
+            "bytes": 578199,
+            "sha256": "c2f8f6f2f3164b6a37d46f406a4b8dee502247c523d76cebf3256bd9016325fd"
+          }
+        }
+      }
+    ],
+    "scoring": [
+      {
+        "recorded_at": "2026-09-04T17:39:25.087797+00:00",
+        "status": "COMPLETED",
+        "invocation_id": 2,
+        "config_sha256": "e10f43d027fa28d39b2710d6d565192e0435d6f72ca11113034c7ba2fe74c9a6",
+        "execution_mode": "wsl",
+        "expected_tasks": 60,
+        "code_sha256": {
+          "run_quartz_cell.py": "5dbdd37d7638ff0c67a2793040a445445ff1305498328cd4a6dcdeca5b2602a5",
+          "execution.py": "ccf954b092e4cebf7456f6129dce785c6ce72561c21cccaa4bb2fe483ec4166b",
+          "inference.py": "64f64f00faea5f117db059c424bbff889d7d10a22a25908199d9ae863ce03a4e",
+          "scoring.py": "a1aaae895f8cda934465d072f0baa88c0c3cd681193eea4a0881625018b7db63",
+          "data.py": "d7315f7268825cf010f7be05353ab2b601d713a2a1043223c0864c3e4ecb6fe5"
+        },
+        "inputs": {
+          "generations": {
+            "q2": {
+              "path": "runs/rapid_qwen3_confirm60/generations/q2.jsonl",
+              "bytes": 466960,
+              "sha256": "602684d5a36d63ce3cda51581524323270d8c83a5029aa3cef529d99e6ce50da"
+            },
+            "q4": {
+              "path": "runs/rapid_qwen3_confirm60/generations/q4.jsonl",
+              "bytes": 612003,
+              "sha256": "07532ad711b613e7de4d6bdf40fca85ff689d4dcce7c1adfe0188f9d0fe986f1"
+            },
+            "q8": {
+              "path": "runs/rapid_qwen3_confirm60/generations/q8.jsonl",
+              "bytes": 578199,
+              "sha256": "c2f8f6f2f3164b6a37d46f406a4b8dee502247c523d76cebf3256bd9016325fd"
+            }
+          }
+        },
+        "outputs": {
+          "scores": {
+            "path": "runs/rapid_qwen3_confirm60/scores.jsonl",
+            "bytes": 237886,
+            "sha256": "4564389900a9f3bb417d6227cfa6a882bd4d1a30f1db753066ca0d3e8e8f48bd"
+          },
+          "evalplus_samples": {
+            "path": "runs/rapid_qwen3_confirm60/evalplus_samples.jsonl",
+            "bytes": 116871,
+            "sha256": "b4992e15083a746e5d1be27290c903c3c4d9328d868062d02a5cc265a5ec04a5"
+          }
+        }
+      }
+    ],
+    "evaluation": []
+  },
+  "invocations": [
+    {
+      "id": 1,
+      "mode": "generation_only",
+      "started_at": "2026-09-04T17:00:57.589793+00:00",
+      "status": "COMPLETED",
+      "config_sha256": "e10f43d027fa28d39b2710d6d565192e0435d6f72ca11113034c7ba2fe74c9a6",
+      "code_sha256": {
+        "run_quartz_cell.py": "5dbdd37d7638ff0c67a2793040a445445ff1305498328cd4a6dcdeca5b2602a5",
+        "execution.py": "ccf954b092e4cebf7456f6129dce785c6ce72561c21cccaa4bb2fe483ec4166b",
+        "inference.py": "64f64f00faea5f117db059c424bbff889d7d10a22a25908199d9ae863ce03a4e",
+        "scoring.py": "a1aaae895f8cda934465d072f0baa88c0c3cd681193eea4a0881625018b7db63",
+        "data.py": "d7315f7268825cf010f7be05353ab2b601d713a2a1043223c0864c3e4ecb6fe5"
+      },
+      "finished_at": "2026-09-04T17:35:30.283294+00:00"
+    },
+    {
+      "id": 2,
+      "mode": "score_only",
+      "started_at": "2026-09-04T17:36:11.205385+00:00",
+      "status": "COMPLETED",
+      "config_sha256": "e10f43d027fa28d39b2710d6d565192e0435d6f72ca11113034c7ba2fe74c9a6",
+      "code_sha256": {
+        "run_quartz_cell.py": "5dbdd37d7638ff0c67a2793040a445445ff1305498328cd4a6dcdeca5b2602a5",
+        "execution.py": "ccf954b092e4cebf7456f6129dce785c6ce72561c21cccaa4bb2fe483ec4166b",
+        "inference.py": "64f64f00faea5f117db059c424bbff889d7d10a22a25908199d9ae863ce03a4e",
+        "scoring.py": "a1aaae895f8cda934465d072f0baa88c0c3cd681193eea4a0881625018b7db63",
+        "data.py": "d7315f7268825cf010f7be05353ab2b601d713a2a1043223c0864c3e4ecb6fe5"
+      },
+      "finished_at": "2026-09-04T17:39:25.087797+00:00"
+    }
+  ]
+}

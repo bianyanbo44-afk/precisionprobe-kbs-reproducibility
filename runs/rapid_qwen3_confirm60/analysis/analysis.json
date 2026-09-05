@@ -1,0 +1,1253 @@
+{
+  "analysis_status": "CONFIRMATION_ANALYSIS",
+  "run_dir": "runs/rapid_qwen3_confirm60",
+  "n_tasks": 60,
+  "precisions": [
+    "q2",
+    "q4",
+    "q8"
+  ],
+  "label_definition": "EvalPlus official plus error: base and plus suites must both pass",
+  "metrics": {
+    "q2": {
+      "n": 60,
+      "errors": 27,
+      "error_rate": 0.45,
+      "scores": {
+        "dsde": {
+          "n": 60,
+          "excluded_missing": 0,
+          "nonzero_rate": 0.35,
+          "median": 0.0,
+          "q25": 0.0,
+          "q75": 0.13842546718146986,
+          "auroc": {
+            "value": 0.8013468013468013,
+            "ci95": [
+              0.6980780022446689,
+              0.8956228956228957
+            ],
+            "valid_repeats": 4000
+          },
+          "auprc": {
+            "value": 0.7804147574959406,
+            "ci95": [
+              0.6704964546547363,
+              0.8838731392287686
+            ],
+            "valid_repeats": 4000
+          },
+          "risk_coverage": {
+            "0.1": {
+              "target_risk": 0.1,
+              "coverage": 0.016666666666666666,
+              "empirical_risk": 0.0,
+              "threshold": 0.0,
+              "accepted": 1
+            },
+            "0.2": {
+              "target_risk": 0.2,
+              "coverage": 0.3333333333333333,
+              "empirical_risk": 0.2,
+              "threshold": 0.0,
+              "accepted": 20
+            },
+            "0.3": {
+              "target_risk": 0.3,
+              "coverage": 0.7333333333333333,
+              "empirical_risk": 0.29545454545454547,
+              "threshold": 0.12000000000000001,
+              "accepted": 44
+            },
+            "0.4": {
+              "target_risk": 0.4,
+              "coverage": 0.9166666666666666,
+              "empirical_risk": 0.4,
+              "threshold": 0.3280973129992738,
+              "accepted": 55
+            }
+          }
+        },
+        "sde": {
+          "n": 60,
+          "excluded_missing": 0,
+          "nonzero_rate": 0.35,
+          "median": 0.0,
+          "q25": 0.0,
+          "q75": 0.08126698385049194,
+          "auroc": {
+            "value": 0.7979797979797979,
+            "ci95": [
+              0.6936026936026936,
+              0.8928310886644222
+            ],
+            "valid_repeats": 4000
+          },
+          "auprc": {
+            "value": 0.7702847640326138,
+            "ci95": [
+              0.6576240963557138,
+              0.8782522838534798
+            ],
+            "valid_repeats": 4000
+          },
+          "risk_coverage": {
+            "0.1": {
+              "target_risk": 0.1,
+              "coverage": 0.016666666666666666,
+              "empirical_risk": 0.0,
+              "threshold": 0.0,
+              "accepted": 1
+            },
+            "0.2": {
+              "target_risk": 0.2,
+              "coverage": 0.3333333333333333,
+              "empirical_risk": 0.2,
+              "threshold": 0.0,
+              "accepted": 20
+            },
+            "0.3": {
+              "target_risk": 0.3,
+              "coverage": 0.7333333333333333,
+              "empirical_risk": 0.29545454545454547,
+              "threshold": 0.052131523565443844,
+              "accepted": 44
+            },
+            "0.4": {
+              "target_risk": 0.4,
+              "coverage": 0.9166666666666666,
+              "empirical_risk": 0.4,
+              "threshold": 0.16879687499999999,
+              "accepted": 55
+            }
+          }
+        },
+        "exact_dsde": {
+          "n": 60,
+          "excluded_missing": 0,
+          "nonzero_rate": 0.35,
+          "median": 0.0,
+          "q25": 0.0,
+          "q75": 0.2,
+          "auroc": {
+            "value": 0.7878787878787877,
+            "ci95": [
+              0.6806818181818182,
+              0.8866582491582493
+            ],
+            "valid_repeats": 4000
+          },
+          "auprc": {
+            "value": 0.7205054500978134,
+            "ci95": [
+              0.5845572771757414,
+              0.857666718911559
+            ],
+            "valid_repeats": 4000
+          },
+          "risk_coverage": {
+            "0.1": {
+              "target_risk": 0.1,
+              "coverage": 0.016666666666666666,
+              "empirical_risk": 0.0,
+              "threshold": 0.0,
+              "accepted": 1
+            },
+            "0.2": {
+              "target_risk": 0.2,
+              "coverage": 0.3333333333333333,
+              "empirical_risk": 0.2,
+              "threshold": 0.0,
+              "accepted": 20
+            },
+            "0.3": {
+              "target_risk": 0.3,
+              "coverage": 0.75,
+              "empirical_risk": 0.28888888888888886,
+              "threshold": 0.2,
+              "accepted": 45
+            },
+            "0.4": {
+              "target_risk": 0.4,
+              "coverage": 0.8833333333333333,
+              "empirical_risk": 0.39622641509433965,
+              "threshold": 0.6666666666666666,
+              "accepted": 53
+            }
+          }
+        },
+        "exact_sde": {
+          "n": 60,
+          "excluded_missing": 0,
+          "nonzero_rate": 0.35,
+          "median": 0.0,
+          "q25": 0.0,
+          "q75": 0.16,
+          "auroc": {
+            "value": 0.7850729517396183,
+            "ci95": [
+              0.6767676767676768,
+              0.8860830527497194
+            ],
+            "valid_repeats": 4000
+          },
+          "auprc": {
+            "value": 0.7021766595468005,
+            "ci95": [
+              0.571445259080063,
+              0.8574074074074074
+            ],
+            "valid_repeats": 4000
+          },
+          "risk_coverage": {
+            "0.1": {
+              "target_risk": 0.1,
+              "coverage": 0.016666666666666666,
+              "empirical_risk": 0.0,
+              "threshold": 0.0,
+              "accepted": 1
+            },
+            "0.2": {
+              "target_risk": 0.2,
+              "coverage": 0.3333333333333333,
+              "empirical_risk": 0.2,
+              "threshold": 0.0,
+              "accepted": 20
+            },
+            "0.3": {
+              "target_risk": 0.3,
+              "coverage": 0.75,
+              "empirical_risk": 0.28888888888888886,
+              "threshold": 0.16,
+              "accepted": 45
+            },
+            "0.4": {
+              "target_risk": 0.4,
+              "coverage": 0.8833333333333333,
+              "empirical_risk": 0.39622641509433965,
+              "threshold": 0.28,
+              "accepted": 53
+            }
+          }
+        },
+        "mean_nll": {
+          "n": 54,
+          "excluded_missing": 6,
+          "nonzero_rate": 1.0,
+          "median": 0.03430287949894062,
+          "q25": 0.013326803743021384,
+          "q75": 0.06781614534283784,
+          "auroc": {
+            "value": 0.7888888888888889,
+            "ci95": [
+              0.663888888888889,
+              0.8972222222222223
+            ],
+            "valid_repeats": 4000
+          },
+          "auprc": {
+            "value": 0.7785215018257248,
+            "ci95": [
+              0.6608736846152751,
+              0.8901681650974212
+            ],
+            "valid_repeats": 4000
+          },
+          "risk_coverage": {
+            "0.1": {
+              "target_risk": 0.1,
+              "coverage": 0.25925925925925924,
+              "empirical_risk": 0.07142857142857142,
+              "threshold": 0.013202219562867365,
+              "accepted": 14
+            },
+            "0.2": {
+              "target_risk": 0.2,
+              "coverage": 0.4074074074074074,
+              "empirical_risk": 0.18181818181818182,
+              "threshold": 0.023177443160450506,
+              "accepted": 22
+            },
+            "0.3": {
+              "target_risk": 0.3,
+              "coverage": 0.5925925925925926,
+              "empirical_risk": 0.28125,
+              "threshold": 0.04098111860342225,
+              "accepted": 32
+            },
+            "0.4": {
+              "target_risk": 0.4,
+              "coverage": 0.9259259259259259,
+              "empirical_risk": 0.4,
+              "threshold": 0.14203581119531866,
+              "accepted": 50
+            }
+          }
+        }
+      }
+    },
+    "q4": {
+      "n": 60,
+      "errors": 24,
+      "error_rate": 0.4,
+      "scores": {
+        "dsde": {
+          "n": 60,
+          "excluded_missing": 0,
+          "nonzero_rate": 0.3,
+          "median": 0.0,
+          "q25": 0.0,
+          "q75": 0.03911811465038202,
+          "auroc": {
+            "value": 0.8124999999999999,
+            "ci95": [
+              0.7106481481481483,
+              0.9143518518518519
+            ],
+            "valid_repeats": 4000
+          },
+          "auprc": {
+            "value": 0.7647210258423492,
+            "ci95": [
+              0.6395143103299064,
+              0.8999999999999999
+            ],
+            "valid_repeats": 4000
+          },
+          "risk_coverage": {
+            "0.1": {
+              "target_risk": 0.1,
+              "coverage": 0.03333333333333333,
+              "empirical_risk": 0.0,
+              "threshold": 0.0,
+              "accepted": 2
+            },
+            "0.2": {
+              "target_risk": 0.2,
+              "coverage": 0.7166666666666667,
+              "empirical_risk": 0.18604651162790697,
+              "threshold": 0.02809224318658281,
+              "accepted": 43
+            },
+            "0.3": {
+              "target_risk": 0.3,
+              "coverage": 0.8333333333333334,
+              "empirical_risk": 0.3,
+              "threshold": 0.13333333333333333,
+              "accepted": 50
+            },
+            "0.4": {
+              "target_risk": 0.4,
+              "coverage": 1.0,
+              "empirical_risk": 0.4,
+              "threshold": 0.8,
+              "accepted": 60
+            }
+          }
+        },
+        "sde": {
+          "n": 60,
+          "excluded_missing": 0,
+          "nonzero_rate": 0.3,
+          "median": 0.0,
+          "q25": 0.0,
+          "q75": 0.03129449172030562,
+          "auroc": {
+            "value": 0.8107638888888888,
+            "ci95": [
+              0.7083333333333334,
+              0.9143518518518519
+            ],
+            "valid_repeats": 4000
+          },
+          "auprc": {
+            "value": 0.7525682480645716,
+            "ci95": [
+              0.6148276853354978,
+              0.8999999999999999
+            ],
+            "valid_repeats": 4000
+          },
+          "risk_coverage": {
+            "0.1": {
+              "target_risk": 0.1,
+              "coverage": 0.03333333333333333,
+              "empirical_risk": 0.0,
+              "threshold": 0.0,
+              "accepted": 2
+            },
+            "0.2": {
+              "target_risk": 0.2,
+              "coverage": 0.7166666666666667,
+              "empirical_risk": 0.18604651162790697,
+              "threshold": 0.02247379454926625,
+              "accepted": 43
+            },
+            "0.3": {
+              "target_risk": 0.3,
+              "coverage": 0.8333333333333334,
+              "empirical_risk": 0.3,
+              "threshold": 0.08214591369969856,
+              "accepted": 50
+            },
+            "0.4": {
+              "target_risk": 0.4,
+              "coverage": 1.0,
+              "empirical_risk": 0.4,
+              "threshold": 0.304910051416674,
+              "accepted": 60
+            }
+          }
+        },
+        "exact_dsde": {
+          "n": 60,
+          "excluded_missing": 0,
+          "nonzero_rate": 0.3,
+          "median": 0.0,
+          "q25": 0.0,
+          "q75": 0.13333333333333333,
+          "auroc": {
+            "value": 0.8107638888888888,
+            "ci95": [
+              0.710648148148148,
+              0.9108940972222223
+            ],
+            "valid_repeats": 4000
+          },
+          "auprc": {
+            "value": 0.7646388469917882,
+            "ci95": [
+              0.6433692956349205,
+              0.889452798663325
+            ],
+            "valid_repeats": 4000
+          },
+          "risk_coverage": {
+            "0.1": {
+              "target_risk": 0.1,
+              "coverage": 0.03333333333333333,
+              "empirical_risk": 0.0,
+              "threshold": 0.0,
+              "accepted": 2
+            },
+            "0.2": {
+              "target_risk": 0.2,
+              "coverage": 0.7,
+              "empirical_risk": 0.19047619047619047,
+              "threshold": 0.0,
+              "accepted": 42
+            },
+            "0.3": {
+              "target_risk": 0.3,
+              "coverage": 0.8333333333333334,
+              "empirical_risk": 0.3,
+              "threshold": 0.2,
+              "accepted": 50
+            },
+            "0.4": {
+              "target_risk": 0.4,
+              "coverage": 1.0,
+              "empirical_risk": 0.4,
+              "threshold": 0.8,
+              "accepted": 60
+            }
+          }
+        },
+        "exact_sde": {
+          "n": 60,
+          "excluded_missing": 0,
+          "nonzero_rate": 0.3,
+          "median": 0.0,
+          "q25": 0.0,
+          "q75": 0.10666666666666666,
+          "auroc": {
+            "value": 0.808449074074074,
+            "ci95": [
+              0.7083333333333334,
+              0.9103009259259259
+            ],
+            "valid_repeats": 4000
+          },
+          "auprc": {
+            "value": 0.7548685927362397,
+            "ci95": [
+              0.6299612713675213,
+              0.8847928414786969
+            ],
+            "valid_repeats": 4000
+          },
+          "risk_coverage": {
+            "0.1": {
+              "target_risk": 0.1,
+              "coverage": 0.03333333333333333,
+              "empirical_risk": 0.0,
+              "threshold": 0.0,
+              "accepted": 2
+            },
+            "0.2": {
+              "target_risk": 0.2,
+              "coverage": 0.7,
+              "empirical_risk": 0.19047619047619047,
+              "threshold": 0.0,
+              "accepted": 42
+            },
+            "0.3": {
+              "target_risk": 0.3,
+              "coverage": 0.8333333333333334,
+              "empirical_risk": 0.3,
+              "threshold": 0.16,
+              "accepted": 50
+            },
+            "0.4": {
+              "target_risk": 0.4,
+              "coverage": 1.0,
+              "empirical_risk": 0.4,
+              "threshold": 0.4,
+              "accepted": 60
+            }
+          }
+        },
+        "mean_nll": {
+          "n": 58,
+          "excluded_missing": 2,
+          "nonzero_rate": 1.0,
+          "median": 0.023225541207425357,
+          "q25": 0.015607711820576917,
+          "q75": 0.038167343738602075,
+          "auroc": {
+            "value": 0.8207070707070707,
+            "ci95": [
+              0.7045454545454545,
+              0.9217171717171717
+            ],
+            "valid_repeats": 4000
+          },
+          "auprc": {
+            "value": 0.7665916068317082,
+            "ci95": [
+              0.6325312432238526,
+              0.8986380641578273
+            ],
+            "valid_repeats": 4000
+          },
+          "risk_coverage": {
+            "0.1": {
+              "target_risk": 0.1,
+              "coverage": 0.29310344827586204,
+              "empirical_risk": 0.058823529411764705,
+              "threshold": 0.0159000491915068,
+              "accepted": 17
+            },
+            "0.2": {
+              "target_risk": 0.2,
+              "coverage": 0.5517241379310345,
+              "empirical_risk": 0.1875,
+              "threshold": 0.028858752665158752,
+              "accepted": 32
+            },
+            "0.3": {
+              "target_risk": 0.3,
+              "coverage": 0.8620689655172413,
+              "empirical_risk": 0.3,
+              "threshold": 0.045038435266991646,
+              "accepted": 50
+            },
+            "0.4": {
+              "target_risk": 0.4,
+              "coverage": 1.0,
+              "empirical_risk": 0.3793103448275862,
+              "threshold": 0.1933824273617599,
+              "accepted": 58
+            }
+          }
+        }
+      }
+    },
+    "q8": {
+      "n": 60,
+      "errors": 23,
+      "error_rate": 0.38333333333333336,
+      "scores": {
+        "dsde": {
+          "n": 60,
+          "excluded_missing": 0,
+          "nonzero_rate": 0.23333333333333334,
+          "median": 0.0,
+          "q25": 0.0,
+          "q75": 0.0,
+          "auroc": {
+            "value": 0.6598119858989424,
+            "ci95": [
+              0.5458137485311398,
+              0.77439776733255
+            ],
+            "valid_repeats": 4000
+          },
+          "auprc": {
+            "value": 0.5370361522535436,
+            "ci95": [
+              0.41760011441647604,
+              0.7050724637681159
+            ],
+            "valid_repeats": 4000
+          },
+          "risk_coverage": {
+            "0.1": null,
+            "0.2": null,
+            "0.3": {
+              "target_risk": 0.3,
+              "coverage": 0.7833333333333333,
+              "empirical_risk": 0.2978723404255319,
+              "threshold": 0.021593144065072543,
+              "accepted": 47
+            },
+            "0.4": {
+              "target_risk": 0.4,
+              "coverage": 1.0,
+              "empirical_risk": 0.38333333333333336,
+              "threshold": 0.48902505706853533,
+              "accepted": 60
+            }
+          }
+        },
+        "sde": {
+          "n": 60,
+          "excluded_missing": 0,
+          "nonzero_rate": 0.23333333333333334,
+          "median": 0.0,
+          "q25": 0.0,
+          "q75": 0.0,
+          "auroc": {
+            "value": 0.663337250293772,
+            "ci95": [
+              0.5511016451233842,
+              0.7773354876615748
+            ],
+            "valid_repeats": 4000
+          },
+          "auprc": {
+            "value": 0.5489534619969403,
+            "ci95": [
+              0.4246324448498361,
+              0.7145005175983437
+            ],
+            "valid_repeats": 4000
+          },
+          "risk_coverage": {
+            "0.1": null,
+            "0.2": null,
+            "0.3": {
+              "target_risk": 0.3,
+              "coverage": 0.7833333333333333,
+              "empirical_risk": 0.2978723404255319,
+              "threshold": 0.017274515252058035,
+              "accepted": 47
+            },
+            "0.4": {
+              "target_risk": 0.4,
+              "coverage": 1.0,
+              "empirical_risk": 0.38333333333333336,
+              "threshold": 0.26512783219342295,
+              "accepted": 60
+            }
+          }
+        },
+        "exact_dsde": {
+          "n": 60,
+          "excluded_missing": 0,
+          "nonzero_rate": 0.23333333333333334,
+          "median": 0.0,
+          "q25": 0.0,
+          "q75": 0.0,
+          "auroc": {
+            "value": 0.6721504112808461,
+            "ci95": [
+              0.5581521739130435,
+              0.7861486486486488
+            ],
+            "valid_repeats": 4000
+          },
+          "auprc": {
+            "value": 0.5992753623188407,
+            "ci95": [
+              0.47173913043478255,
+              0.7384057971014493
+            ],
+            "valid_repeats": 4000
+          },
+          "risk_coverage": {
+            "0.1": null,
+            "0.2": null,
+            "0.3": {
+              "target_risk": 0.3,
+              "coverage": 0.8333333333333334,
+              "empirical_risk": 0.3,
+              "threshold": 0.2,
+              "accepted": 50
+            },
+            "0.4": {
+              "target_risk": 0.4,
+              "coverage": 1.0,
+              "empirical_risk": 0.38333333333333336,
+              "threshold": 0.8,
+              "accepted": 60
+            }
+          }
+        },
+        "exact_sde": {
+          "n": 60,
+          "excluded_missing": 0,
+          "nonzero_rate": 0.23333333333333334,
+          "median": 0.0,
+          "q25": 0.0,
+          "q75": 0.0,
+          "auroc": {
+            "value": 0.672737955346651,
+            "ci95": [
+              0.5593419506462985,
+              0.7861780258519391
+            ],
+            "valid_repeats": 4000
+          },
+          "auprc": {
+            "value": 0.6079710144927537,
+            "ci95": [
+              0.4801242236024845,
+              0.7413224637681161
+            ],
+            "valid_repeats": 4000
+          },
+          "risk_coverage": {
+            "0.1": null,
+            "0.2": null,
+            "0.3": {
+              "target_risk": 0.3,
+              "coverage": 0.8333333333333334,
+              "empirical_risk": 0.3,
+              "threshold": 0.16,
+              "accepted": 50
+            },
+            "0.4": {
+              "target_risk": 0.4,
+              "coverage": 1.0,
+              "empirical_risk": 0.38333333333333336,
+              "threshold": 0.36,
+              "accepted": 60
+            }
+          }
+        },
+        "mean_nll": {
+          "n": 60,
+          "excluded_missing": 0,
+          "nonzero_rate": 1.0,
+          "median": 0.022607661195335218,
+          "q25": 0.014036305980222867,
+          "q75": 0.0368909565691492,
+          "auroc": {
+            "value": 0.8331374853113984,
+            "ci95": [
+              0.7132784958871915,
+              0.9341950646298471
+            ],
+            "valid_repeats": 4000
+          },
+          "auprc": {
+            "value": 0.7772128802053466,
+            "ci95": [
+              0.6343539247084531,
+              0.9130356970331995
+            ],
+            "valid_repeats": 4000
+          },
+          "risk_coverage": {
+            "0.1": {
+              "target_risk": 0.1,
+              "coverage": 0.5166666666666667,
+              "empirical_risk": 0.0967741935483871,
+              "threshold": 0.023329172214735343,
+              "accepted": 31
+            },
+            "0.2": {
+              "target_risk": 0.2,
+              "coverage": 0.6666666666666666,
+              "empirical_risk": 0.2,
+              "threshold": 0.02692672575793406,
+              "accepted": 40
+            },
+            "0.3": {
+              "target_risk": 0.3,
+              "coverage": 0.85,
+              "empirical_risk": 0.29411764705882354,
+              "threshold": 0.04229847421677256,
+              "accepted": 51
+            },
+            "0.4": {
+              "target_risk": 0.4,
+              "coverage": 1.0,
+              "empirical_risk": 0.38333333333333336,
+              "threshold": 0.20182915438606314,
+              "accepted": 60
+            }
+          }
+        }
+      }
+    }
+  },
+  "pairwise_rank_and_scale": {
+    "dsde": {
+      "q2_vs_q4": {
+        "n": 60,
+        "spearman_rho": 0.49796458316732484,
+        "p_value": 5.155112344230442e-05,
+        "mean_abs_difference": 0.10901905045766795
+      },
+      "q2_vs_q8": {
+        "n": 60,
+        "spearman_rho": 0.2123194924713785,
+        "p_value": 0.10338678100309336,
+        "mean_abs_difference": 0.10240782382646602
+      },
+      "q4_vs_q8": {
+        "n": 60,
+        "spearman_rho": 0.5529048666924398,
+        "p_value": 4.6275202605897555e-06,
+        "mean_abs_difference": 0.07970091666724494
+      }
+    },
+    "sde": {
+      "q2_vs_q4": {
+        "n": 60,
+        "spearman_rho": 0.4643787541911276,
+        "p_value": 0.00018579485540788808,
+        "mean_abs_difference": 0.05219269819220207
+      },
+      "q2_vs_q8": {
+        "n": 60,
+        "spearman_rho": 0.22063798004954813,
+        "p_value": 0.09025580705838131,
+        "mean_abs_difference": 0.05446301504496178
+      },
+      "q4_vs_q8": {
+        "n": 60,
+        "spearman_rho": 0.5394015876219047,
+        "p_value": 8.706106202972158e-06,
+        "mean_abs_difference": 0.03900244323680327
+      }
+    },
+    "exact_dsde": {
+      "q2_vs_q4": {
+        "n": 60,
+        "spearman_rho": 0.5087290049614038,
+        "p_value": 3.320096761671843e-05,
+        "mean_abs_difference": 0.15716666666666665
+      },
+      "q2_vs_q8": {
+        "n": 60,
+        "spearman_rho": 0.21334085896203148,
+        "p_value": 0.10169913405166936,
+        "mean_abs_difference": 0.1683888888888889
+      },
+      "q4_vs_q8": {
+        "n": 60,
+        "spearman_rho": 0.5749452766397234,
+        "p_value": 1.551332265384931e-06,
+        "mean_abs_difference": 0.07444444444444445
+      }
+    },
+    "exact_sde": {
+      "q2_vs_q4": {
+        "n": 60,
+        "spearman_rho": 0.5003406734095815,
+        "p_value": 4.683908294351989e-05,
+        "mean_abs_difference": 0.07364444444444444
+      },
+      "q2_vs_q8": {
+        "n": 60,
+        "spearman_rho": 0.21378230098522924,
+        "p_value": 0.10097636535830952,
+        "mean_abs_difference": 0.08346666666666666
+      },
+      "q4_vs_q8": {
+        "n": 60,
+        "spearman_rho": 0.5460138889270887,
+        "p_value": 6.410713607807988e-06,
+        "mean_abs_difference": 0.04644444444444445
+      }
+    },
+    "mean_nll": {
+      "q2_vs_q4": {
+        "n": 52,
+        "spearman_rho": 0.6095791001451378,
+        "p_value": 1.6151988477117236e-06,
+        "mean_abs_difference": 0.03357340140096506
+      },
+      "q2_vs_q8": {
+        "n": 54,
+        "spearman_rho": 0.6424623594434915,
+        "p_value": 1.631002193794944e-07,
+        "mean_abs_difference": 0.03696412590614015
+      },
+      "q4_vs_q8": {
+        "n": 58,
+        "spearman_rho": 0.7619736073087454,
+        "p_value": 3.734204584614136e-12,
+        "mean_abs_difference": 0.013504669224071012
+      }
+    }
+  },
+  "paired_auc_contrasts": {
+    "q2_minus_q4": {
+      "dsde": {
+        "n": 60,
+        "difference": -0.011153198653198637,
+        "ci95": [
+          -0.1663260048379113,
+          0.1504633555633555
+        ],
+        "valid_repeats": 4000
+      },
+      "sde": {
+        "n": 60,
+        "difference": -0.01278409090909094,
+        "ci95": [
+          -0.1711441242161518,
+          0.14913863550423603
+        ],
+        "valid_repeats": 4000
+      },
+      "exact_dsde": {
+        "n": 60,
+        "difference": -0.022885101010101105,
+        "ci95": [
+          -0.18340670952366236,
+          0.14174255715045195
+        ],
+        "valid_repeats": 4000
+      },
+      "exact_sde": {
+        "n": 60,
+        "difference": -0.02337612233445563,
+        "ci95": [
+          -0.1866603197150073,
+          0.14332556874910843
+        ],
+        "valid_repeats": 4000
+      },
+      "mean_nll": {
+        "n": 52,
+        "difference": -0.06642743221690595,
+        "ci95": [
+          -0.2363310293637903,
+          0.09519635275888397
+        ],
+        "valid_repeats": 4000
+      }
+    },
+    "q2_minus_q8": {
+      "dsde": {
+        "n": 60,
+        "difference": 0.14153481544785884,
+        "ci95": [
+          -0.021174992368742356,
+          0.30629584111331554
+        ],
+        "valid_repeats": 4000
+      },
+      "sde": {
+        "n": 60,
+        "difference": 0.1346425476860259,
+        "ci95": [
+          -0.03030278812994067,
+          0.30062249960630677
+        ],
+        "valid_repeats": 4000
+      },
+      "exact_dsde": {
+        "n": 60,
+        "difference": 0.11572837659794166,
+        "ci95": [
+          -0.0453547539019506,
+          0.2802354356898923
+        ],
+        "valid_repeats": 4000
+      },
+      "exact_sde": {
+        "n": 60,
+        "difference": 0.11233499639296729,
+        "ci95": [
+          -0.04911127645502661,
+          0.2754674145299145
+        ],
+        "valid_repeats": 4000
+      },
+      "mean_nll": {
+        "n": 54,
+        "difference": -0.06111111111111123,
+        "ci95": [
+          -0.20178450964330596,
+          0.08500379737221835
+        ],
+        "valid_repeats": 4000
+      }
+    },
+    "q4_minus_q8": {
+      "dsde": {
+        "n": 60,
+        "difference": 0.15268801410105748,
+        "ci95": [
+          0.011922464538047087,
+          0.29227412528851227
+        ],
+        "valid_repeats": 4000
+      },
+      "sde": {
+        "n": 60,
+        "difference": 0.14742663859511684,
+        "ci95": [
+          0.007708669802122728,
+          0.28527926322043967
+        ],
+        "valid_repeats": 4000
+      },
+      "exact_dsde": {
+        "n": 60,
+        "difference": 0.13861347760804277,
+        "ci95": [
+          0.0013396599043655557,
+          0.27542145728743256
+        ],
+        "valid_repeats": 4000
+      },
+      "exact_sde": {
+        "n": 60,
+        "difference": 0.13571111872742292,
+        "ci95": [
+          -0.0028394661923757444,
+          0.2743356375242405
+        ],
+        "valid_repeats": 4000
+      },
+      "mean_nll": {
+        "n": 58,
+        "difference": -0.002973752973753019,
+        "ci95": [
+          -0.11019787382958735,
+          0.10918716087397023
+        ],
+        "valid_repeats": 4000
+      }
+    }
+  },
+  "label_disagreement": {
+    "q2_vs_q4": 0.18333333333333332,
+    "q2_vs_q8": 0.2,
+    "q4_vs_q8": 0.11666666666666667
+  },
+  "static_audit": {
+    "status": "STATIC_ONLY",
+    "run_dir": "runs/rapid_qwen3_confirm60",
+    "precisions": [
+      "q2",
+      "q4",
+      "q8"
+    ],
+    "results": {
+      "q2": {
+        "rows": 300,
+        "expected_rows": null,
+        "syntax_pass": 276,
+        "syntax_error": 24,
+        "syntax_error_examples": [
+          {
+            "task_id": "Mbpp/160",
+            "kind": "alternative",
+            "message": "invalid syntax"
+          },
+          {
+            "task_id": "Mbpp/160",
+            "kind": "alternative",
+            "message": "invalid syntax"
+          },
+          {
+            "task_id": "Mbpp/92",
+            "kind": "alternative",
+            "message": "invalid syntax"
+          },
+          {
+            "task_id": "Mbpp/92",
+            "kind": "alternative",
+            "message": "invalid syntax"
+          },
+          {
+            "task_id": "Mbpp/92",
+            "kind": "alternative",
+            "message": "invalid syntax"
+          },
+          {
+            "task_id": "Mbpp/603",
+            "kind": "greedy",
+            "message": "invalid syntax"
+          },
+          {
+            "task_id": "Mbpp/603",
+            "kind": "alternative",
+            "message": "invalid syntax"
+          },
+          {
+            "task_id": "Mbpp/603",
+            "kind": "alternative",
+            "message": "invalid syntax"
+          },
+          {
+            "task_id": "Mbpp/603",
+            "kind": "alternative",
+            "message": "invalid syntax"
+          },
+          {
+            "task_id": "Mbpp/603",
+            "kind": "alternative",
+            "message": "invalid syntax"
+          }
+        ],
+        "mean_source_chars": 409.58666666666664,
+        "median_source_chars": 239.0,
+        "mean_completion_tokens": 121.78666666666666,
+        "median_completion_tokens": 66.0,
+        "mean_elapsed_seconds": 1.277022726666631,
+        "median_elapsed_seconds": 0.6971241500014003,
+        "finish_reasons": {
+          "stop": 273,
+          "length": 27
+        }
+      },
+      "q4": {
+        "rows": 300,
+        "expected_rows": null,
+        "syntax_pass": 287,
+        "syntax_error": 13,
+        "syntax_error_examples": [
+          {
+            "task_id": "Mbpp/92",
+            "kind": "alternative",
+            "message": "invalid syntax"
+          },
+          {
+            "task_id": "Mbpp/603",
+            "kind": "alternative",
+            "message": "unterminated triple-quoted string literal (detected at line 34)"
+          },
+          {
+            "task_id": "Mbpp/603",
+            "kind": "alternative",
+            "message": "invalid syntax"
+          },
+          {
+            "task_id": "Mbpp/603",
+            "kind": "alternative",
+            "message": "invalid syntax"
+          },
+          {
+            "task_id": "Mbpp/757",
+            "kind": "alternative",
+            "message": "invalid syntax"
+          },
+          {
+            "task_id": "Mbpp/311",
+            "kind": "greedy",
+            "message": "invalid syntax"
+          },
+          {
+            "task_id": "Mbpp/311",
+            "kind": "alternative",
+            "message": "invalid syntax"
+          },
+          {
+            "task_id": "Mbpp/311",
+            "kind": "alternative",
+            "message": "invalid syntax"
+          },
+          {
+            "task_id": "Mbpp/759",
+            "kind": "alternative",
+            "message": "invalid syntax"
+          },
+          {
+            "task_id": "Mbpp/759",
+            "kind": "alternative",
+            "message": "invalid syntax"
+          }
+        ],
+        "mean_source_chars": 646.6666666666666,
+        "median_source_chars": 502.5,
+        "mean_completion_tokens": 168.98,
+        "median_completion_tokens": 125.5,
+        "mean_elapsed_seconds": 2.3742796176667493,
+        "median_elapsed_seconds": 1.8496484999977838,
+        "finish_reasons": {
+          "stop": 287,
+          "length": 13
+        }
+      },
+      "q8": {
+        "rows": 300,
+        "expected_rows": null,
+        "syntax_pass": 293,
+        "syntax_error": 7,
+        "syntax_error_examples": [
+          {
+            "task_id": "Mbpp/603",
+            "kind": "alternative",
+            "message": "invalid syntax"
+          },
+          {
+            "task_id": "Mbpp/603",
+            "kind": "alternative",
+            "message": "invalid syntax"
+          },
+          {
+            "task_id": "Mbpp/735",
+            "kind": "alternative",
+            "message": "invalid syntax"
+          },
+          {
+            "task_id": "Mbpp/311",
+            "kind": "greedy",
+            "message": "invalid syntax"
+          },
+          {
+            "task_id": "Mbpp/311",
+            "kind": "alternative",
+            "message": "invalid syntax"
+          },
+          {
+            "task_id": "Mbpp/311",
+            "kind": "alternative",
+            "message": "invalid syntax"
+          },
+          {
+            "task_id": "Mbpp/311",
+            "kind": "alternative",
+            "message": "invalid syntax"
+          }
+        ],
+        "mean_source_chars": 591.4266666666666,
+        "median_source_chars": 496.5,
+        "mean_completion_tokens": 155.64333333333335,
+        "median_completion_tokens": 127.5,
+        "mean_elapsed_seconds": 3.2071147656666894,
+        "median_elapsed_seconds": 2.6480262000022776,
+        "finish_reasons": {
+          "stop": 293,
+          "length": 7
+        }
+      }
+    },
+    "note": "Syntax parsing and generation metadata do not establish functional correctness."
+  },
+  "token_confidence_coverage": {
+    "q2": 54,
+    "q4": 58,
+    "q8": 60
+  },
+  "interpretation_boundary": "This run is a confirmation panel; claims remain bounded to the frozen benchmark, model, and probe protocol."
+}

@@ -1,0 +1,190 @@
+{
+  "created_at": "2026-08-12T10:31:53.201169+00:00",
+  "run_dir": "runs/quartz_deepseek_humaneval",
+  "config": "configs/quartz_deepseek_humaneval.yaml",
+  "tasks": 164,
+  "generations": {
+    "q4": {
+      "rows": 820,
+      "expected_rows": 820,
+      "duplicate_keys": 0,
+      "missing_keys": 0,
+      "unexpected_keys": 0,
+      "solution_hash_mismatches": 0,
+      "complete": true
+    },
+    "q8": {
+      "rows": 820,
+      "expected_rows": 820,
+      "duplicate_keys": 0,
+      "missing_keys": 0,
+      "unexpected_keys": 0,
+      "solution_hash_mismatches": 0,
+      "complete": true
+    }
+  },
+  "scores": {
+    "rows": 164,
+    "expected_rows": 164,
+    "duplicate_task_ids": 0,
+    "missing_task_ids": 0,
+    "unexpected_task_ids": 0,
+    "complete": true
+  },
+  "evaluation": {
+    "rows": 328,
+    "expected_rows": 328,
+    "duplicate_sample_ids": 0,
+    "missing_sample_ids": 0,
+    "unexpected_sample_ids": 0,
+    "complete": true
+  },
+  "manifest_hashes": {
+    "config": {
+      "recorded_sha256": "2f196a3bcf58ff5437bf62c1c46828f74a9832f7138d35b90f99c7b7223bb1ea",
+      "actual_sha256": "2f196a3bcf58ff5437bf62c1c46828f74a9832f7138d35b90f99c7b7223bb1ea",
+      "valid": true
+    },
+    "code": {
+      "run_quartz_cell.py": {
+        "recorded_sha256": "9ca61e58408c008b9b42cf9f763aef53d674cd47ac486336054f20d6ca17da94",
+        "actual_sha256": "9ca61e58408c008b9b42cf9f763aef53d674cd47ac486336054f20d6ca17da94",
+        "valid": true
+      },
+      "execution.py": {
+        "recorded_sha256": "32ca7057d11f435d60da46c50603c6bd74aef7c6f2cc625fd652355bce7879ab",
+        "actual_sha256": "32ca7057d11f435d60da46c50603c6bd74aef7c6f2cc625fd652355bce7879ab",
+        "valid": true
+      },
+      "inference.py": {
+        "recorded_sha256": "23c7b7299061e13240997c9c45d5f17166269818911344928f97b78cf927c644",
+        "actual_sha256": "23c7b7299061e13240997c9c45d5f17166269818911344928f97b78cf927c644",
+        "valid": true
+      },
+      "scoring.py": {
+        "recorded_sha256": "a1aaae895f8cda934465d072f0baa88c0c3cd681193eea4a0881625018b7db63",
+        "actual_sha256": "a1aaae895f8cda934465d072f0baa88c0c3cd681193eea4a0881625018b7db63",
+        "valid": true
+      },
+      "data.py": {
+        "recorded_sha256": "d7315f7268825cf010f7be05353ab2b601d713a2a1043223c0864c3e4ecb6fe5",
+        "actual_sha256": "d7315f7268825cf010f7be05353ab2b601d713a2a1043223c0864c3e4ecb6fe5",
+        "valid": true
+      }
+    },
+    "generations": {
+      "q4": {
+        "expected_path": "runs/quartz_deepseek_humaneval/generations/q4.jsonl",
+        "recorded": true,
+        "exists": true,
+        "path_matches": true,
+        "bytes_match": true,
+        "sha256_match": true,
+        "recorded_path": "runs/quartz_deepseek_humaneval/generations/q4.jsonl",
+        "recorded_bytes": 1382714,
+        "actual_bytes": 1382714,
+        "recorded_sha256": "deb7ab93b7ca7741bad0e66355f2b7f42f3067f4d8fd266c133921b3184260e6",
+        "actual_sha256": "deb7ab93b7ca7741bad0e66355f2b7f42f3067f4d8fd266c133921b3184260e6",
+        "valid": true
+      },
+      "q8": {
+        "expected_path": "runs/quartz_deepseek_humaneval/generations/q8.jsonl",
+        "recorded": true,
+        "exists": true,
+        "path_matches": true,
+        "bytes_match": true,
+        "sha256_match": true,
+        "recorded_path": "runs/quartz_deepseek_humaneval/generations/q8.jsonl",
+        "recorded_bytes": 1437414,
+        "actual_bytes": 1437414,
+        "recorded_sha256": "4094c86c98f21a98e19c8b7eedc9c87df611598277a1f99a0238a49d7f2a62f7",
+        "actual_sha256": "4094c86c98f21a98e19c8b7eedc9c87df611598277a1f99a0238a49d7f2a62f7",
+        "valid": true
+      }
+    },
+    "scoring": {
+      "scores": {
+        "expected_path": "runs/quartz_deepseek_humaneval/scores.jsonl",
+        "recorded": true,
+        "exists": true,
+        "path_matches": true,
+        "bytes_match": true,
+        "sha256_match": true,
+        "recorded_path": "runs/quartz_deepseek_humaneval/scores.jsonl",
+        "recorded_bytes": 548724,
+        "actual_bytes": 548724,
+        "recorded_sha256": "3eb7520ff16fac0ee96d71f767a230a079f13bcc6c79a52825e02556e6f08aa7",
+        "actual_sha256": "3eb7520ff16fac0ee96d71f767a230a079f13bcc6c79a52825e02556e6f08aa7",
+        "valid": true
+      },
+      "evalplus_samples": {
+        "expected_path": "runs/quartz_deepseek_humaneval/evalplus_samples.jsonl",
+        "recorded": true,
+        "exists": true,
+        "path_matches": true,
+        "bytes_match": true,
+        "sha256_match": true,
+        "recorded_path": "runs/quartz_deepseek_humaneval/evalplus_samples.jsonl",
+        "recorded_bytes": 128819,
+        "actual_bytes": 128819,
+        "recorded_sha256": "2855809fb9aeb2717c7b85517f537609654c8695348cb1269769b231b55c1411",
+        "actual_sha256": "2855809fb9aeb2717c7b85517f537609654c8695348cb1269769b231b55c1411",
+        "valid": true
+      }
+    },
+    "scoring_generation_links": {
+      "q4": true,
+      "q8": true
+    },
+    "phase_links": {
+      "generation_config": true,
+      "generation_expected_tasks": true,
+      "scoring_config": true,
+      "scoring_expected_tasks": true,
+      "scoring_code": true,
+      "evaluation_config": true
+    },
+    "evaluation": {
+      "expected_path": "runs/quartz_deepseek_humaneval/evalplus_results.json",
+      "recorded": true,
+      "exists": true,
+      "path_matches": true,
+      "bytes_match": true,
+      "sha256_match": true,
+      "recorded_path": "runs/quartz_deepseek_humaneval/evalplus_results.json",
+      "recorded_bytes": 2087365,
+      "actual_bytes": 2087365,
+      "recorded_sha256": "148cc6f5f22651aad78e1298da11b72e9741e56d66aa587857f7cc6cea138410",
+      "actual_sha256": "148cc6f5f22651aad78e1298da11b72e9741e56d66aa587857f7cc6cea138410",
+      "valid": true
+    },
+    "evaluation_generation_links": {
+      "q4": true,
+      "q8": true
+    }
+  },
+  "stability": {
+    "expected_tasks": 164,
+    "status": "PASS",
+    "failures": [],
+    "score_history": {
+      "status": "PASS",
+      "recorded_score_sha256": [
+        "45698d2ada45ed3a689e65a19ea26c9ab3e0a2d2f5c0014cd3b8849f41b67e11",
+        "3eb7520ff16fac0ee96d71f767a230a079f13bcc6c79a52825e02556e6f08aa7"
+      ],
+      "reported_score_sha256": [
+        "45698d2ada45ed3a689e65a19ea26c9ab3e0a2d2f5c0014cd3b8849f41b67e11",
+        "3eb7520ff16fac0ee96d71f767a230a079f13bcc6c79a52825e02556e6f08aa7"
+      ]
+    }
+  },
+  "failures": [],
+  "status": "PASS",
+  "eligible": true,
+  "eligibility": {
+    "eligible": true,
+    "failures": [],
+    "rule": "integrity PASS + complete evaluation + stability PASS"
+  }
+}

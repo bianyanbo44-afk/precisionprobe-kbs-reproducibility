@@ -1,0 +1,33 @@
+{
+  "captured_at": "2026-08-11T13:08:55.789674+00:00",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "logical_cpu_count": 32,
+  "computer_system": {
+    "TotalPhysicalMemory": 34141495296,
+    "Manufacturer": "LENOVO",
+    "Model": "83DF"
+  },
+  "cpu": {
+    "Name": "Intel(R) Core(TM) i9-14900HX",
+    "NumberOfCores": 24,
+    "NumberOfLogicalProcessors": 32
+  },
+  "gpu_query_name_driver_mib": "NVIDIA GeForce RTX 4060 Laptop GPU, 560.94, 8188",
+  "packages": {
+    "evalplus": "0.3.1",
+    "huggingface-hub": "1.27.0",
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "PyYAML": "6.0.3",
+    "requests": "2.34.2",
+    "scikit-learn": "1.9.0",
+    "scipy": "1.18.0"
+  },
+  "llama_server": {
+    "path": ".tools/llama.cpp-b9637/llama-server.exe",
+    "bytes": 9216,
+    "sha256": "06444801bb1dc38a848bb5a527728c4ea14ad2aa45ce7e81a29a5fb5d2560eaf",
+    "version": "version: 9637 (aedb2a5e9)\nbuilt with Clang 20.1.8 for Windows x86_64"
+  }
+}

@@ -1,0 +1,26 @@
+project: PrecisionProbe
+dataset: humaneval
+mini: true
+task_limit: 30
+task_seed: 20260811
+generation_seeds: [11, 29]
+temperature: 0.20
+top_p: 0.95
+max_tokens: 512
+probe_max_inputs: 8
+probe_min_prompt_inputs: 3
+allow_base_input_fallback: true
+execution_timeout_seconds: 4.0
+target_precision: q4
+models:
+  q4:
+    repo_id: Qwen/Qwen2.5-Coder-1.5B-Instruct-GGUF
+    filename: qwen2.5-coder-1.5b-instruct-q4_k_m.gguf
+  q8:
+    repo_id: Qwen/Qwen2.5-Coder-1.5B-Instruct-GGUF
+    filename: qwen2.5-coder-1.5b-instruct-q8_0.gguf
+kill_gates:
+  minimum_any_variation_fraction: 0.15
+  minimum_auc_gain: 0.03
+  minimum_relative_coverage_gain: 0.10
+

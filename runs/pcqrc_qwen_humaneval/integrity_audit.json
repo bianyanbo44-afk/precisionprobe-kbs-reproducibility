@@ -1,7 +1,7 @@
 {
   "created_at": "2026-08-26T10:14:32.341484+00:00",
-  "run_dir": "runs\\pcqrc_qwen_humaneval",
-  "config": "configs\\pcqrc_qwen_humaneval.yaml",
+  "run_dir": "runs/pcqrc_qwen_humaneval",
+  "config": "configs/pcqrc_qwen_humaneval.yaml",
   "tasks": 164,
   "generations": {
     "q4": {
@@ -74,13 +74,13 @@
     },
     "generations": {
       "q4": {
-        "expected_path": "runs\\pcqrc_qwen_humaneval\\generations\\q4.jsonl",
+        "expected_path": "runs/pcqrc_qwen_humaneval/generations/q4.jsonl",
         "recorded": true,
         "exists": true,
         "path_matches": true,
         "bytes_match": true,
         "sha256_match": true,
-        "recorded_path": "runs\\pcqrc_qwen_humaneval\\generations\\q4.jsonl",
+        "recorded_path": "runs/pcqrc_qwen_humaneval/generations/q4.jsonl",
         "recorded_bytes": 979666,
         "actual_bytes": 979666,
         "recorded_sha256": "974fe704c44761b8765ce7a3ff995237553341aa875780ddce5b29a4762ac30d",
@@ -88,13 +88,13 @@
         "valid": true
       },
       "q8": {
-        "expected_path": "runs\\pcqrc_qwen_humaneval\\generations\\q8.jsonl",
+        "expected_path": "runs/pcqrc_qwen_humaneval/generations/q8.jsonl",
         "recorded": true,
         "exists": true,
         "path_matches": true,
         "bytes_match": true,
         "sha256_match": true,
-        "recorded_path": "runs\\pcqrc_qwen_humaneval\\generations\\q8.jsonl",
+        "recorded_path": "runs/pcqrc_qwen_humaneval/generations/q8.jsonl",
         "recorded_bytes": 1004055,
         "actual_bytes": 1004055,
         "recorded_sha256": "e18b52443bc7c196fa39d528aa84a8d85805af1cd2ff6012a765bb4493d8da7e",
@@ -104,13 +104,13 @@
     },
     "scoring": {
       "scores": {
-        "expected_path": "runs\\pcqrc_qwen_humaneval\\scores.jsonl",
+        "expected_path": "runs/pcqrc_qwen_humaneval/scores.jsonl",
         "recorded": true,
         "exists": true,
         "path_matches": true,
         "bytes_match": true,
         "sha256_match": true,
-        "recorded_path": "runs\\pcqrc_qwen_humaneval\\scores.jsonl",
+        "recorded_path": "runs/pcqrc_qwen_humaneval/scores.jsonl",
         "recorded_bytes": 531030,
         "actual_bytes": 531030,
         "recorded_sha256": "1b8ef06956d5ed11c012125c5db4a80c373e5bb0b69d738d3604d23756026ab4",
@@ -118,13 +118,13 @@
         "valid": true
       },
       "evalplus_samples": {
-        "expected_path": "runs\\pcqrc_qwen_humaneval\\evalplus_samples.jsonl",
+        "expected_path": "runs/pcqrc_qwen_humaneval/evalplus_samples.jsonl",
         "recorded": true,
         "exists": true,
         "path_matches": true,
         "bytes_match": true,
         "sha256_match": true,
-        "recorded_path": "runs\\pcqrc_qwen_humaneval\\evalplus_samples.jsonl",
+        "recorded_path": "runs/pcqrc_qwen_humaneval/evalplus_samples.jsonl",
         "recorded_bytes": 101550,
         "actual_bytes": 101550,
         "recorded_sha256": "89473e05d3186dd57a40f984894025a6138a517e2728a3f830eb75d1b37e1a79",
@@ -145,13 +145,13 @@
       "evaluation_config": true
     },
     "evaluation": {
-      "expected_path": "runs\\pcqrc_qwen_humaneval\\evalplus_results.json",
+      "expected_path": "runs/pcqrc_qwen_humaneval/evalplus_results.json",
       "recorded": true,
       "exists": true,
       "path_matches": true,
       "bytes_match": true,
       "sha256_match": true,
-      "recorded_path": "runs\\pcqrc_qwen_humaneval\\evalplus_results.json",
+      "recorded_path": "runs/pcqrc_qwen_humaneval/evalplus_results.json",
       "recorded_bytes": 2025964,
       "actual_bytes": 2025964,
       "recorded_sha256": "38e157f4992643abe097b51ea3e99d91e620d20efb6309295c71f86e2895c3c4",

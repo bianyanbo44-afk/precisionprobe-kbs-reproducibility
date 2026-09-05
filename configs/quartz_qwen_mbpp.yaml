@@ -1,0 +1,17 @@
+study: quartz_qwen_mbpp
+dataset: mbpp
+mini: false
+task_limit: null
+task_seed: 20260811
+precisions: [q4, q8]
+alternative_seeds: [11, 29, 47, 71]
+temperature: 0.60
+top_p: 0.95
+max_tokens: 512
+probe_max_inputs: 8
+probe_min_prompt_inputs: 3
+allow_base_input_fallback: true
+execution_timeout_seconds: 4.0
+models:
+  q4: q4
+  q8: q8

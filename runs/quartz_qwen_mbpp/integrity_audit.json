@@ -1,0 +1,190 @@
+{
+  "created_at": "2026-08-12T09:33:21.044267+00:00",
+  "run_dir": "runs/quartz_qwen_mbpp",
+  "config": "configs/quartz_qwen_mbpp.yaml",
+  "tasks": 378,
+  "generations": {
+    "q4": {
+      "rows": 1890,
+      "expected_rows": 1890,
+      "duplicate_keys": 0,
+      "missing_keys": 0,
+      "unexpected_keys": 0,
+      "solution_hash_mismatches": 0,
+      "complete": true
+    },
+    "q8": {
+      "rows": 1890,
+      "expected_rows": 1890,
+      "duplicate_keys": 0,
+      "missing_keys": 0,
+      "unexpected_keys": 0,
+      "solution_hash_mismatches": 0,
+      "complete": true
+    }
+  },
+  "scores": {
+    "rows": 378,
+    "expected_rows": 378,
+    "duplicate_task_ids": 0,
+    "missing_task_ids": 0,
+    "unexpected_task_ids": 0,
+    "complete": true
+  },
+  "evaluation": {
+    "rows": 756,
+    "expected_rows": 756,
+    "duplicate_sample_ids": 0,
+    "missing_sample_ids": 0,
+    "unexpected_sample_ids": 0,
+    "complete": true
+  },
+  "manifest_hashes": {
+    "config": {
+      "recorded_sha256": "129c92b8df95cc9d0ed699fce8c0e06812ebf7eb75c23e13dcc62c630eb4d67e",
+      "actual_sha256": "129c92b8df95cc9d0ed699fce8c0e06812ebf7eb75c23e13dcc62c630eb4d67e",
+      "valid": true
+    },
+    "code": {
+      "run_quartz_cell.py": {
+        "recorded_sha256": "9ca61e58408c008b9b42cf9f763aef53d674cd47ac486336054f20d6ca17da94",
+        "actual_sha256": "9ca61e58408c008b9b42cf9f763aef53d674cd47ac486336054f20d6ca17da94",
+        "valid": true
+      },
+      "execution.py": {
+        "recorded_sha256": "32ca7057d11f435d60da46c50603c6bd74aef7c6f2cc625fd652355bce7879ab",
+        "actual_sha256": "32ca7057d11f435d60da46c50603c6bd74aef7c6f2cc625fd652355bce7879ab",
+        "valid": true
+      },
+      "inference.py": {
+        "recorded_sha256": "23c7b7299061e13240997c9c45d5f17166269818911344928f97b78cf927c644",
+        "actual_sha256": "23c7b7299061e13240997c9c45d5f17166269818911344928f97b78cf927c644",
+        "valid": true
+      },
+      "scoring.py": {
+        "recorded_sha256": "a1aaae895f8cda934465d072f0baa88c0c3cd681193eea4a0881625018b7db63",
+        "actual_sha256": "a1aaae895f8cda934465d072f0baa88c0c3cd681193eea4a0881625018b7db63",
+        "valid": true
+      },
+      "data.py": {
+        "recorded_sha256": "d7315f7268825cf010f7be05353ab2b601d713a2a1043223c0864c3e4ecb6fe5",
+        "actual_sha256": "d7315f7268825cf010f7be05353ab2b601d713a2a1043223c0864c3e4ecb6fe5",
+        "valid": true
+      }
+    },
+    "generations": {
+      "q4": {
+        "expected_path": "runs/quartz_qwen_mbpp/generations/q4.jsonl",
+        "recorded": true,
+        "exists": true,
+        "path_matches": true,
+        "bytes_match": true,
+        "sha256_match": true,
+        "recorded_path": "runs/quartz_qwen_mbpp/generations/q4.jsonl",
+        "recorded_bytes": 1858679,
+        "actual_bytes": 1858679,
+        "recorded_sha256": "b482f6cb56502967d29141ce75ec04b62eb16a293794411a5d6758c41ae3163e",
+        "actual_sha256": "b482f6cb56502967d29141ce75ec04b62eb16a293794411a5d6758c41ae3163e",
+        "valid": true
+      },
+      "q8": {
+        "expected_path": "runs/quartz_qwen_mbpp/generations/q8.jsonl",
+        "recorded": true,
+        "exists": true,
+        "path_matches": true,
+        "bytes_match": true,
+        "sha256_match": true,
+        "recorded_path": "runs/quartz_qwen_mbpp/generations/q8.jsonl",
+        "recorded_bytes": 1851715,
+        "actual_bytes": 1851715,
+        "recorded_sha256": "2c8965eef4cfbe3137d628aa3aa724e3dec8bd8221c31a0ee3ba62ddc22d2401",
+        "actual_sha256": "2c8965eef4cfbe3137d628aa3aa724e3dec8bd8221c31a0ee3ba62ddc22d2401",
+        "valid": true
+      }
+    },
+    "scoring": {
+      "scores": {
+        "expected_path": "runs/quartz_qwen_mbpp/scores.jsonl",
+        "recorded": true,
+        "exists": true,
+        "path_matches": true,
+        "bytes_match": true,
+        "sha256_match": true,
+        "recorded_path": "runs/quartz_qwen_mbpp/scores.jsonl",
+        "recorded_bytes": 863746,
+        "actual_bytes": 863746,
+        "recorded_sha256": "aed6e75bd232424bfd0731455a5a10aaa6892a32e31e070c4427ad08ab395d78",
+        "actual_sha256": "aed6e75bd232424bfd0731455a5a10aaa6892a32e31e070c4427ad08ab395d78",
+        "valid": true
+      },
+      "evalplus_samples": {
+        "expected_path": "runs/quartz_qwen_mbpp/evalplus_samples.jsonl",
+        "recorded": true,
+        "exists": true,
+        "path_matches": true,
+        "bytes_match": true,
+        "sha256_match": true,
+        "recorded_path": "runs/quartz_qwen_mbpp/evalplus_samples.jsonl",
+        "recorded_bytes": 151463,
+        "actual_bytes": 151463,
+        "recorded_sha256": "da5694cfb526a652d3d813a0a6e97b4d4604d82a77d0e4cc247de6ff39e2cff2",
+        "actual_sha256": "da5694cfb526a652d3d813a0a6e97b4d4604d82a77d0e4cc247de6ff39e2cff2",
+        "valid": true
+      }
+    },
+    "scoring_generation_links": {
+      "q4": true,
+      "q8": true
+    },
+    "phase_links": {
+      "generation_config": true,
+      "generation_expected_tasks": true,
+      "scoring_config": true,
+      "scoring_expected_tasks": true,
+      "scoring_code": true,
+      "evaluation_config": true
+    },
+    "evaluation": {
+      "expected_path": "runs/quartz_qwen_mbpp/evalplus_results.json",
+      "recorded": true,
+      "exists": true,
+      "path_matches": true,
+      "bytes_match": true,
+      "sha256_match": true,
+      "recorded_path": "runs/quartz_qwen_mbpp/evalplus_results.json",
+      "recorded_bytes": 883148,
+      "actual_bytes": 883148,
+      "recorded_sha256": "1f08dda8cc80722795413db119e831f197b95e602e49ac09214182e851fb0d63",
+      "actual_sha256": "1f08dda8cc80722795413db119e831f197b95e602e49ac09214182e851fb0d63",
+      "valid": true
+    },
+    "evaluation_generation_links": {
+      "q4": true,
+      "q8": true
+    }
+  },
+  "stability": {
+    "expected_tasks": 378,
+    "status": "PASS",
+    "failures": [],
+    "score_history": {
+      "status": "PASS",
+      "recorded_score_sha256": [
+        "a2744efbfdd392f3eb5138d5dce9c30493b40396043b6ecd32fe21637ad904bb",
+        "aed6e75bd232424bfd0731455a5a10aaa6892a32e31e070c4427ad08ab395d78"
+      ],
+      "reported_score_sha256": [
+        "a2744efbfdd392f3eb5138d5dce9c30493b40396043b6ecd32fe21637ad904bb",
+        "aed6e75bd232424bfd0731455a5a10aaa6892a32e31e070c4427ad08ab395d78"
+      ]
+    }
+  },
+  "failures": [],
+  "status": "PASS",
+  "eligible": true,
+  "eligibility": {
+    "eligible": true,
+    "failures": [],
+    "rule": "integrity PASS + complete evaluation + stability PASS"
+  }
+}

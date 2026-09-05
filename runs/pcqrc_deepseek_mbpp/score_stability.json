@@ -11,8 +11,8 @@
   "left_semantic_sha256": "e56aea3ee42b695e8e5cd51c0f3998938c2ceb78e9cef0bdbb8cb27467f94ca5",
   "right_semantic_sha256": "e56aea3ee42b695e8e5cd51c0f3998938c2ceb78e9cef0bdbb8cb27467f94ca5",
   "status": "PASS",
-  "left_file": "runs\\pcqrc_deepseek_mbpp\\scores_stability_left.jsonl",
-  "right_file": "runs\\pcqrc_deepseek_mbpp\\scores_stability_right.jsonl",
+  "left_file": "runs/pcqrc_deepseek_mbpp/scores_stability_left.jsonl",
+  "right_file": "runs/pcqrc_deepseek_mbpp/scores_stability_right.jsonl",
   "left_file_sha256": "ba6381c9fccf55c95fb55536ce157edc246fc10e31df02776bf4a25b7ac797c0",
   "right_file_sha256": "4b9671b672fd0f26c972af50fa6ccab64401c835fb35ff51d126051b91811411"
 }

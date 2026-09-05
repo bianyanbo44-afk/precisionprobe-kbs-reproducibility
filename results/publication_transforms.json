@@ -1,0 +1,137 @@
+{
+  "note": "Local paths are replaced by portable paths; original run/protocol timestamps and historical hashes are retained. No experimental numeric values or JSONL records are changed. source_manifest.json describes public bytes; the source hashes below identify original private-path versions.",
+  "files": {
+    "phase4_extension/exploratory_strengthening_protocol_lock.json": {
+      "source_sha256": "46da2520a0a3071c59c6276cb73a5667916bf385a9b167fd3ad92ac88c85385e",
+      "public_sha256": "2daeb5285907bb3f9a3b9abfd5a37ce8457567f1409233e278221e30e26e0843"
+    },
+    "phase4_extension/protocol_lock.json": {
+      "source_sha256": "0d766dbc0d1371f126c8563dbbf625dea269f54a5c6e84a2d6539721fde8f122",
+      "public_sha256": "40a6ccfe30bf2cd82fcf44680640398bd10471643a39b3a722b760ddbd1857a4"
+    },
+    "phase4_extension/sequential_strengthening_protocol_lock.json": {
+      "source_sha256": "9173f3fa54f949e1296055a6d9e50376a94f3ba9e4c0ec7761c2327bebfa1f5c",
+      "public_sha256": "9bfd225470b25a42bba2877f3cc2b06eefc778d82c62fc5e2b1607c01db47f83"
+    },
+    "runs/deepseek_model_manifest.json": {
+      "source_sha256": "3f2924c235a7d14001acf0bd0d34e9edd901f7a2d713f03167bb6f0de3080feb",
+      "public_sha256": "f36dc4b50898b51c183774ea04f4caea17a8eddc5340a8b1454c5355ba91973b"
+    },
+    "runs/environment_manifest.json": {
+      "source_sha256": "14ce26122cb9df00f47e2fcc6ecc9bb52f85eb874ddb4099a8bfb4fad6e67125",
+      "public_sha256": "cdbb3d13766aac9a83f94c1453215c13b88cefa5c01a648521f63ec189149578"
+    },
+    "runs/model_manifest.json": {
+      "source_sha256": "b573eb9b22e1dd2fcb10f7c82ad8881eb8090fd33360a4b48a9b968fb332b2b2",
+      "public_sha256": "046fcd8febe326c855378a2880b1cb434268ac63f1297da40f679f06e5365eaf"
+    },
+    "runs/rapid_qwen3_model_manifest.json": {
+      "source_sha256": "858d4ac5191e40c294fb3225cd72f21ba420a4191ce551e18242dafbcc1569cd",
+      "public_sha256": "436290f769e21d8fca6e02e8cc61a5d31a31486932c257a466aa33fe9cd0ed94"
+    },
+    "runs/pcqrc_deepseek_mbpp/candidate_validation_audit.json": {
+      "source_sha256": "09edaa29d8f34c36e2c6ed83eaa334e76cac35866fd47cae2ab952c71133112b",
+      "public_sha256": "7e5b7cf39ebc4f0799f174f69dbf9aeff01247d05ea9bfb6cbed941baceeddd9"
+    },
+    "runs/pcqrc_deepseek_mbpp/evalplus_results.json": {
+      "source_sha256": "63bc4d95e20895ebf33192145c3c1ad5bfd87576048b93fd98e862774bcaae5f",
+      "public_sha256": "2d5589731f4efc2bf174436bed4528295b14885c0ee4878e41bb8dc8d2c9d1db"
+    },
+    "runs/pcqrc_deepseek_mbpp/integrity_audit.json": {
+      "source_sha256": "dbee2fa8461901f112c870e05e98a419b7013bc8dd939aedb73c4f895d4245c5",
+      "public_sha256": "6086046ff5a8c2577f5a2b60efdcb39faf4d55bfb17d23a444a0588c07936a0f"
+    },
+    "runs/pcqrc_deepseek_mbpp/run_manifest.json": {
+      "source_sha256": "1785651b11bcb8dd8c3497bdf4f0bd46406c5f2b60f964d192c931e32ffd7191",
+      "public_sha256": "953e19fda9dcc8a2860c5b640455e1691b8b88e192656b8983c4448ad8ff6e0e"
+    },
+    "runs/pcqrc_deepseek_mbpp/score_stability.json": {
+      "source_sha256": "e0b08515e5451f13d88f81ce58705812155d6fda4a8ea0b1e044d49efe544726",
+      "public_sha256": "d1f3f86392150a8b6bf517ceabf4748d4e6d727dee2d4801f6146830b0daf50f"
+    },
+    "runs/pcqrc_deepseek_mbpp/token_confidence_manifest.json": {
+      "source_sha256": "4f7873440fa0ca04164cc6db2dee171ce3ed75616b754b2c9bee0d93929a23c6",
+      "public_sha256": "6d641bf6d33c203a73d038dc737c579525082e87e30cb87f606e5c6221a5294b"
+    },
+    "runs/pcqrc_qwen_humaneval/candidate_validation_audit.json": {
+      "source_sha256": "7c85d6b79e08053db70da7f02b17109f38c02c3a7f8f85d40138855236c21300",
+      "public_sha256": "d845e5e68728fbebb2480be37816490b9c9965f0fa2f09cba5f976a304575568"
+    },
+    "runs/pcqrc_qwen_humaneval/evalplus_results.json": {
+      "source_sha256": "38e157f4992643abe097b51ea3e99d91e620d20efb6309295c71f86e2895c3c4",
+      "public_sha256": "db944b0b2c4d82de05be14881824abd2a92be1ba7b27f19f43050a6639f4fe8d"
+    },
+    "runs/pcqrc_qwen_humaneval/integrity_audit.json": {
+      "source_sha256": "4f9a49521f314e120c9d11a5aae8b6e77715eb5fab1e951c58fad6b51ba1492e",
+      "public_sha256": "b8863b82e9e0d7f49aa53096994d95601908ad310cab57d2735e269e1fcbc5b4"
+    },
+    "runs/pcqrc_qwen_humaneval/run_manifest.json": {
+      "source_sha256": "832bcc63b439bce87fdb8be7ee9e5888f586699845a4a11645d083c4f6e5194d",
+      "public_sha256": "c6947ad154269faedd6d55d639ab55438a064cdb3808d71cc83a44d3f3cb1ee0"
+    },
+    "runs/pcqrc_qwen_humaneval/score_stability.json": {
+      "source_sha256": "6cc50e0d396838abd4bd0d15135d222e90c1b558404ea14388d30e2dd6a65f07",
+      "public_sha256": "d1474e60f4edfccc2e7fbfac82c15ff61e0afe5e73c6e0a3810cde74df47f0bf"
+    },
+    "runs/pcqrc_qwen_humaneval/token_confidence_manifest.json": {
+      "source_sha256": "31b1ac4f9048a6630851bb3548f9863b90da6de585cd47d12a8dbe95b3746bfe",
+      "public_sha256": "49a66c08748e80e331eefe1e6b99d281811b1be08d0b5271f2afac581ff14984"
+    },
+    "runs/quartz_deepseek_humaneval/evalplus_results.json": {
+      "source_sha256": "148cc6f5f22651aad78e1298da11b72e9741e56d66aa587857f7cc6cea138410",
+      "public_sha256": "424f59a89152875b201e8c2288e7cebf432b4d19ccb29294d3fe313c4c3e903d"
+    },
+    "runs/quartz_deepseek_humaneval/integrity_audit.json": {
+      "source_sha256": "5c721ad8ad772411f91fb97ef000a54e455e7a4dff43828e6c11dcd1e712b50a",
+      "public_sha256": "66d16abcb681ecd19a5f23bbbf0a6d41eff3d39b277ac155e80f9279a614f144"
+    },
+    "runs/quartz_deepseek_humaneval/run_manifest.json": {
+      "source_sha256": "6282954fc1611a5740d11227dfd38eb625db26596090339897fb7e3a04590ab7",
+      "public_sha256": "5f83b5b6ae8cbc6572db619e418cfe96fd4c8726daffaa55aa523a62eec7fd80"
+    },
+    "runs/quartz_deepseek_humaneval/score_stability_a1_b1.json": {
+      "source_sha256": "5535aa7073453c071d1f18767243cf991f62a20d467d9337e4278b029702729c",
+      "public_sha256": "834794e55693e6dcf90fc9b20f8dc73906a265607b8d046c67fed32fffb02d6f"
+    },
+    "runs/quartz_deepseek_humaneval/token_confidence_manifest.json": {
+      "source_sha256": "ea54530f03a2a7219af5f04c0f8c76c877dbd8d55e14d6d3d3f565cc6389fad9",
+      "public_sha256": "7213915e2fa11019f1fd60ec5a1fad52535af38ea54c698b1f297736518d142f"
+    },
+    "runs/quartz_qwen_mbpp/evalplus_results.json": {
+      "source_sha256": "1f08dda8cc80722795413db119e831f197b95e602e49ac09214182e851fb0d63",
+      "public_sha256": "3625ef8051495197de53b841472869c3d7372dfce13a51dbe486f665826fdeed"
+    },
+    "runs/quartz_qwen_mbpp/integrity_audit.json": {
+      "source_sha256": "396c25ed63d26125bd75804e171c9963a95d517043c4e576c9f23323ac52ca22",
+      "public_sha256": "dcdeb4a1a444a3ccbd606cd7ab75b38875fb225fa7af1b523911365ddfe5a536"
+    },
+    "runs/quartz_qwen_mbpp/run_manifest.json": {
+      "source_sha256": "6e30de06f13956060dfb4369c4e150a9e061a019ecfa713f6d90a6d94781f36c",
+      "public_sha256": "8947a3b5a224d9809e31e74d199f7cf66056132173799beb331b0c8155fb9890"
+    },
+    "runs/quartz_qwen_mbpp/score_stability_a3_b3.json": {
+      "source_sha256": "93d0dfbb500793dc72f1be71ce14966cc326a95537565e7bad21e939deb23c5b",
+      "public_sha256": "e8a07d5e9e9ff11bc06127f5507f6f38b40788700c9c6f118de6eb3e0c0a3ff8"
+    },
+    "runs/quartz_qwen_mbpp/token_confidence_manifest.json": {
+      "source_sha256": "050f708b53bab24bcedb2c9bd69db8e9489720ce2df3af561ba60385bd6a057d",
+      "public_sha256": "6a5107483064756c65a4203c1bcf3a5dd6b2c5ac34a45b8b1b3b36ebe85b297d"
+    },
+    "runs/rapid_qwen3_confirm60/evalplus_results.json": {
+      "source_sha256": "49a49bef940b94dab7aec29af604dfd8eae257cf769911d33c7d93674a7ad4b4",
+      "public_sha256": "728d8f4c31c138fcd93710d59dfe07749f5e74464f300552dfefd9253c08b36d"
+    },
+    "runs/rapid_qwen3_confirm60/generation_static_audit.json": {
+      "source_sha256": "d06d30423a3ca91134ddaa36921f358a7052dfb5df3f119a5933a3ea7781218a",
+      "public_sha256": "76c4f055a66fde47077b756e2042a6b83178c362c930fc6cc99cb5bbe1f4a801"
+    },
+    "runs/rapid_qwen3_confirm60/run_manifest.json": {
+      "source_sha256": "47b46e9737acdd21e4e6416e7a4e2fcce5af0387565a2fada4f47cd41c1627f8",
+      "public_sha256": "5b8185a35e936471ce9f66a569d8c4dc592c1a279e25fdaf8c90746c42991203"
+    },
+    "runs/rapid_qwen3_confirm60/analysis/analysis.json": {
+      "source_sha256": "ba9a7749c73832301e40fad2c69726f3957d5c20c82054b5224367fe5004746b",
+      "public_sha256": "7b04f04c73f9c3da3112de08a4e905fffeef149b813668f2f5eadf90b44d8808"
+    }
+  }
+}

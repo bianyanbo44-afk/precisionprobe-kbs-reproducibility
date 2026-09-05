@@ -1,7 +1,7 @@
 {
   "created_at": "2026-08-26T10:14:32.325613+00:00",
-  "run_dir": "runs\\pcqrc_deepseek_mbpp",
-  "config": "configs\\pcqrc_deepseek_mbpp.yaml",
+  "run_dir": "runs/pcqrc_deepseek_mbpp",
+  "config": "configs/pcqrc_deepseek_mbpp.yaml",
   "tasks": 378,
   "generations": {
     "q4": {
@@ -74,13 +74,13 @@
     },
     "generations": {
       "q4": {
-        "expected_path": "runs\\pcqrc_deepseek_mbpp\\generations\\q4.jsonl",
+        "expected_path": "runs/pcqrc_deepseek_mbpp/generations/q4.jsonl",
         "recorded": true,
         "exists": true,
         "path_matches": true,
         "bytes_match": true,
         "sha256_match": true,
-        "recorded_path": "runs\\pcqrc_deepseek_mbpp\\generations\\q4.jsonl",
+        "recorded_path": "runs/pcqrc_deepseek_mbpp/generations/q4.jsonl",
         "recorded_bytes": 2893454,
         "actual_bytes": 2893454,
         "recorded_sha256": "e780a5586f4671f1fb738c680330514df8800b2f8186acd2488ba8afd5bbb73f",
@@ -88,13 +88,13 @@
         "valid": true
       },
       "q8": {
-        "expected_path": "runs\\pcqrc_deepseek_mbpp\\generations\\q8.jsonl",
+        "expected_path": "runs/pcqrc_deepseek_mbpp/generations/q8.jsonl",
         "recorded": true,
         "exists": true,
         "path_matches": true,
         "bytes_match": true,
         "sha256_match": true,
-        "recorded_path": "runs\\pcqrc_deepseek_mbpp\\generations\\q8.jsonl",
+        "recorded_path": "runs/pcqrc_deepseek_mbpp/generations/q8.jsonl",
         "recorded_bytes": 2888374,
         "actual_bytes": 2888374,
         "recorded_sha256": "c1da30950b862d2375273e866667e766597f9fd3865db10f2532a48df992ac34",
@@ -104,13 +104,13 @@
     },
     "scoring": {
       "scores": {
-        "expected_path": "runs\\pcqrc_deepseek_mbpp\\scores.jsonl",
+        "expected_path": "runs/pcqrc_deepseek_mbpp/scores.jsonl",
         "recorded": true,
         "exists": true,
         "path_matches": true,
         "bytes_match": true,
         "sha256_match": true,
-        "recorded_path": "runs\\pcqrc_deepseek_mbpp\\scores.jsonl",
+        "recorded_path": "runs/pcqrc_deepseek_mbpp/scores.jsonl",
         "recorded_bytes": 901484,
         "actual_bytes": 901484,
         "recorded_sha256": "4b9671b672fd0f26c972af50fa6ccab64401c835fb35ff51d126051b91811411",
@@ -118,13 +118,13 @@
         "valid": true
       },
       "evalplus_samples": {
-        "expected_path": "runs\\pcqrc_deepseek_mbpp\\evalplus_samples.jsonl",
+        "expected_path": "runs/pcqrc_deepseek_mbpp/evalplus_samples.jsonl",
         "recorded": true,
         "exists": true,
         "path_matches": true,
         "bytes_match": true,
         "sha256_match": true,
-        "recorded_path": "runs\\pcqrc_deepseek_mbpp\\evalplus_samples.jsonl",
+        "recorded_path": "runs/pcqrc_deepseek_mbpp/evalplus_samples.jsonl",
         "recorded_bytes": 206133,
         "actual_bytes": 206133,
         "recorded_sha256": "72284cb16eea4b21912743bbe4fb51c28da73c48ee03b312a8b206a77ca6a74a",
@@ -145,13 +145,13 @@
       "evaluation_config": true
     },
     "evaluation": {
-      "expected_path": "runs\\pcqrc_deepseek_mbpp\\evalplus_results.json",
+      "expected_path": "runs/pcqrc_deepseek_mbpp/evalplus_results.json",
       "recorded": true,
       "exists": true,
       "path_matches": true,
       "bytes_match": true,
       "sha256_match": true,
-      "recorded_path": "runs\\pcqrc_deepseek_mbpp\\evalplus_results.json",
+      "recorded_path": "runs/pcqrc_deepseek_mbpp/evalplus_results.json",
       "recorded_bytes": 752675,
       "actual_bytes": 752675,
       "recorded_sha256": "63bc4d95e20895ebf33192145c3c1ad5bfd87576048b93fd98e862774bcaae5f",
