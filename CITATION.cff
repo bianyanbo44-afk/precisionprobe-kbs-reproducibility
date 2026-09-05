@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+title: "PrecisionProbe: reproducibility release for precision-conditioned risk control"
+message: "If you use this repository, please cite the accompanying manuscript and this release."
+type: software
+version: 0.1.0
+date-released: 2026-09-05
+repository-code: "https://github.com/bianyanbo44-afk/precisionprobe-kbs-reproducibility"
+license: MIT
+authors:
+  - family-names: Bian
+    given-names: Yanbo
+    affiliation: Beijing Jiaotong University Weihai International College
+  - family-names: Wang
+    given-names: Zhihai
+    affiliation: Beijing Jiaotong University
+keywords:
+  - code generation
+  - quantization
+  - uncertainty estimation
+  - selective prediction
+  - risk control
+  - reproducibility

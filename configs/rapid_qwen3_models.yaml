@@ -1,0 +1,10 @@
+models:
+  q2:
+    repo_id: unsloth/Qwen3-4B-Instruct-2507-GGUF
+    filename: Qwen3-4B-Instruct-2507-Q2_K.gguf
+  q4:
+    repo_id: unsloth/Qwen3-4B-Instruct-2507-GGUF
+    filename: Qwen3-4B-Instruct-2507-Q4_K_M.gguf
+  q8:
+    repo_id: unsloth/Qwen3-4B-Instruct-2507-GGUF
+    filename: Qwen3-4B-Instruct-2507-Q8_0.gguf

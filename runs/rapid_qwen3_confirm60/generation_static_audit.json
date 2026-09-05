@@ -1,0 +1,201 @@
+{
+  "status": "STATIC_ONLY",
+  "run_dir": "runs\\rapid_qwen3_confirm60",
+  "precisions": [
+    "q2",
+    "q4",
+    "q8"
+  ],
+  "results": {
+    "q2": {
+      "rows": 300,
+      "expected_rows": null,
+      "syntax_pass": 276,
+      "syntax_error": 24,
+      "syntax_error_examples": [
+        {
+          "task_id": "Mbpp/160",
+          "kind": "alternative",
+          "message": "invalid syntax"
+        },
+        {
+          "task_id": "Mbpp/160",
+          "kind": "alternative",
+          "message": "invalid syntax"
+        },
+        {
+          "task_id": "Mbpp/92",
+          "kind": "alternative",
+          "message": "invalid syntax"
+        },
+        {
+          "task_id": "Mbpp/92",
+          "kind": "alternative",
+          "message": "invalid syntax"
+        },
+        {
+          "task_id": "Mbpp/92",
+          "kind": "alternative",
+          "message": "invalid syntax"
+        },
+        {
+          "task_id": "Mbpp/603",
+          "kind": "greedy",
+          "message": "invalid syntax"
+        },
+        {
+          "task_id": "Mbpp/603",
+          "kind": "alternative",
+          "message": "invalid syntax"
+        },
+        {
+          "task_id": "Mbpp/603",
+          "kind": "alternative",
+          "message": "invalid syntax"
+        },
+        {
+          "task_id": "Mbpp/603",
+          "kind": "alternative",
+          "message": "invalid syntax"
+        },
+        {
+          "task_id": "Mbpp/603",
+          "kind": "alternative",
+          "message": "invalid syntax"
+        }
+      ],
+      "mean_source_chars": 409.58666666666664,
+      "median_source_chars": 239.0,
+      "mean_completion_tokens": 121.78666666666666,
+      "median_completion_tokens": 66.0,
+      "mean_elapsed_seconds": 1.277022726666631,
+      "median_elapsed_seconds": 0.6971241500014003,
+      "finish_reasons": {
+        "stop": 273,
+        "length": 27
+      }
+    },
+    "q4": {
+      "rows": 300,
+      "expected_rows": null,
+      "syntax_pass": 287,
+      "syntax_error": 13,
+      "syntax_error_examples": [
+        {
+          "task_id": "Mbpp/92",
+          "kind": "alternative",
+          "message": "invalid syntax"
+        },
+        {
+          "task_id": "Mbpp/603",
+          "kind": "alternative",
+          "message": "unterminated triple-quoted string literal (detected at line 34)"
+        },
+        {
+          "task_id": "Mbpp/603",
+          "kind": "alternative",
+          "message": "invalid syntax"
+        },
+        {
+          "task_id": "Mbpp/603",
+          "kind": "alternative",
+          "message": "invalid syntax"
+        },
+        {
+          "task_id": "Mbpp/757",
+          "kind": "alternative",
+          "message": "invalid syntax"
+        },
+        {
+          "task_id": "Mbpp/311",
+          "kind": "greedy",
+          "message": "invalid syntax"
+        },
+        {
+          "task_id": "Mbpp/311",
+          "kind": "alternative",
+          "message": "invalid syntax"
+        },
+        {
+          "task_id": "Mbpp/311",
+          "kind": "alternative",
+          "message": "invalid syntax"
+        },
+        {
+          "task_id": "Mbpp/759",
+          "kind": "alternative",
+          "message": "invalid syntax"
+        },
+        {
+          "task_id": "Mbpp/759",
+          "kind": "alternative",
+          "message": "invalid syntax"
+        }
+      ],
+      "mean_source_chars": 646.6666666666666,
+      "median_source_chars": 502.5,
+      "mean_completion_tokens": 168.98,
+      "median_completion_tokens": 125.5,
+      "mean_elapsed_seconds": 2.3742796176667493,
+      "median_elapsed_seconds": 1.8496484999977838,
+      "finish_reasons": {
+        "stop": 287,
+        "length": 13
+      }
+    },
+    "q8": {
+      "rows": 300,
+      "expected_rows": null,
+      "syntax_pass": 293,
+      "syntax_error": 7,
+      "syntax_error_examples": [
+        {
+          "task_id": "Mbpp/603",
+          "kind": "alternative",
+          "message": "invalid syntax"
+        },
+        {
+          "task_id": "Mbpp/603",
+          "kind": "alternative",
+          "message": "invalid syntax"
+        },
+        {
+          "task_id": "Mbpp/735",
+          "kind": "alternative",
+          "message": "invalid syntax"
+        },
+        {
+          "task_id": "Mbpp/311",
+          "kind": "greedy",
+          "message": "invalid syntax"
+        },
+        {
+          "task_id": "Mbpp/311",
+          "kind": "alternative",
+          "message": "invalid syntax"
+        },
+        {
+          "task_id": "Mbpp/311",
+          "kind": "alternative",
+          "message": "invalid syntax"
+        },
+        {
+          "task_id": "Mbpp/311",
+          "kind": "alternative",
+          "message": "invalid syntax"
+        }
+      ],
+      "mean_source_chars": 591.4266666666666,
+      "median_source_chars": 496.5,
+      "mean_completion_tokens": 155.64333333333335,
+      "median_completion_tokens": 127.5,
+      "mean_elapsed_seconds": 3.2071147656666894,
+      "median_elapsed_seconds": 2.6480262000022776,
+      "finish_reasons": {
+        "stop": 293,
+        "length": 7
+      }
+    }
+  },
+  "note": "Syntax parsing and generation metadata do not establish functional correctness."
+}

@@ -1,0 +1,14 @@
+{
+  "validation_panels": [
+    "runs/pcqrc_qwen_humaneval",
+    "runs/pcqrc_deepseek_mbpp"
+  ],
+  "independent_replication": "runs/rapid_qwen3_confirm60",
+  "source_hashes": {
+    "phase4_extension/results/extension_analysis.json": "31a0ba7c7fc05b2ff344c89af785f0a5251c7ea0b53193ebd6699124559c757a",
+    "phase4_extension/results/metric_summary.csv": "b7968e13a5724a359e61c5a5b17184b17b4c94b64fc6d4e95ffd195d3422eecd",
+    "runs/rapid_qwen3_confirm60/analysis/analysis.json": "ba9a7749c73832301e40fad2c69726f3957d5c20c82054b5224367fe5004746b",
+    "runs/rapid_qwen3_confirm60/run_manifest.json": "47b46e9737acdd21e4e6416e7a4e2fcce5af0387565a2fada4f47cd41c1627f8",
+    "phase4_extension/results/pcqrc_sensitivity_robustness.json": "c287fae7f831690725fa53a538512fe9328540252c5df90b5b3597f91b31ddd3"
+  }
+}

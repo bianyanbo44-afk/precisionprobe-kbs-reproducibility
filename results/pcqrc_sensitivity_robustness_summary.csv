@@ -1,0 +1,9 @@
+panel,role,alpha,repeats,selected_count,selection_rate,qualification_rate,contradiction_rate,selected_split_qualification_rate
+qwen_mbpp,development,0.2,100,0,0.0,0.0,0.0,
+qwen_mbpp,development,0.4,100,100,1.0,0.99,0.01,0.99
+deepseek_humaneval,development,0.2,100,0,0.0,0.0,0.0,
+deepseek_humaneval,development,0.4,100,64,0.64,0.64,0.0,1.0
+qwen_humaneval,validation,0.2,100,0,0.0,0.0,0.0,
+qwen_humaneval,validation,0.4,100,51,0.51,0.5,0.01,0.9803921568627451
+deepseek_mbpp,validation,0.2,100,0,0.0,0.0,0.0,
+deepseek_mbpp,validation,0.4,100,98,0.98,0.97,0.01,0.9897959183673469

@@ -1,0 +1,27 @@
+protocol: phase4_extension/locked_protocol.md
+protocol_lock: phase4_extension/protocol_lock.json
+exploratory_protocol: phase4_extension/exploratory_strengthening_protocol.md
+exploratory_protocol_lock: phase4_extension/exploratory_strengthening_protocol_lock.json
+sequential_protocol: phase4_extension/sequential_strengthening_protocol.md
+sequential_protocol_lock: phase4_extension/sequential_strengthening_protocol_lock.json
+panels:
+  qwen_mbpp:
+    role: development
+    model: Qwen2.5-Coder-1.5B-Instruct
+    dataset: MBPP+
+    run_dir: runs/quartz_qwen_mbpp
+  deepseek_humaneval:
+    role: development
+    model: DeepSeek-Coder-1.3B-Instruct
+    dataset: HumanEval+
+    run_dir: runs/quartz_deepseek_humaneval
+  qwen_humaneval:
+    role: validation
+    model: Qwen2.5-Coder-1.5B-Instruct
+    dataset: HumanEval+
+    run_dir: runs/pcqrc_qwen_humaneval
+  deepseek_mbpp:
+    role: validation
+    model: DeepSeek-Coder-1.3B-Instruct
+    dataset: MBPP+
+    run_dir: runs/pcqrc_deepseek_mbpp

@@ -1,0 +1,18 @@
+{
+  "expected_tasks": 164,
+  "left_tasks": 164,
+  "right_tasks": 164,
+  "left_complete": true,
+  "right_complete": true,
+  "missing_from_left": [],
+  "missing_from_right": [],
+  "semantic_mismatch_count": 0,
+  "semantic_mismatch_task_ids": [],
+  "left_semantic_sha256": "747b6b1cf182cb097e7ccefaae6ed203910177bee74066e0889fd87b26c8cfcc",
+  "right_semantic_sha256": "747b6b1cf182cb097e7ccefaae6ed203910177bee74066e0889fd87b26c8cfcc",
+  "status": "PASS",
+  "left_file": "runs\\pcqrc_qwen_humaneval\\scores_stability_left.jsonl",
+  "right_file": "runs\\pcqrc_qwen_humaneval\\scores_stability_right.jsonl",
+  "left_file_sha256": "5d056c91c83cdb918c836098fc9661d6b7cef2cea92887ab508a5173b28179d8",
+  "right_file_sha256": "1b8ef06956d5ed11c012125c5db4a80c373e5bb0b69d738d3604d23756026ab4"
+}

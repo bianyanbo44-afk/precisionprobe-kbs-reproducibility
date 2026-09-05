@@ -1,0 +1,3 @@
+panel,repeats,selection_rate,qualification_rate,selected_split_qualification_rate,q4_median_coverage,q8_median_coverage
+Qwen2.5 / HumanEval+,100,0.51,0.5,0.9803921568627451,0.5,0.5
+DeepSeek / MBPP+,100,0.98,0.97,0.9897959183673469,0.5978835978835979,0.6216931216931216

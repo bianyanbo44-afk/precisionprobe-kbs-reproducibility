@@ -1,0 +1,27 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+.env
+
+# Local notebooks, editors, and OS metadata
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local model weights and generated runtime artifacts
+*.safetensors
+*.bin
+*.gguf
+*.pt
+*.pth
+*.onnx
+*.lock
+*.tmp

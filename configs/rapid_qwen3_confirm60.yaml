@@ -1,0 +1,18 @@
+study: rapid_qwen3_confirm60
+dataset: mbpp
+mini: false
+task_limit: 60
+task_seed: 20260905
+precisions: [q2, q4, q8]
+alternative_seeds: [1103, 2909, 4703, 7109]
+temperature: 0.60
+top_p: 0.95
+max_tokens: 512
+probe_max_inputs: 8
+probe_min_prompt_inputs: 3
+allow_base_input_fallback: true
+execution_timeout_seconds: 4.0
+models:
+  q2: q2
+  q4: q4
+  q8: q8
