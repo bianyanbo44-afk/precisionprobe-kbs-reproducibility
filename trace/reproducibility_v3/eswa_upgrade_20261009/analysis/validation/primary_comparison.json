@@ -1,0 +1,92 @@
+{
+  "left": "dsde_4",
+  "right": "public_then_nll",
+  "endpoint": "residual functional errors per incoming task at 25% review capacity",
+  "direction": "negative favors DSDE4",
+  "bootstrap_replicates": 4000,
+  "seed": 20261009,
+  "sampling_unit": "same resampled task indices in all six conditions",
+  "macro": {
+    "difference": 0.0028571428571428823,
+    "left_residual_error_per_task": 0.6000000000000001,
+    "right_residual_error_per_task": 0.5971428571428572,
+    "ci95": [
+      0.0,
+      0.010000000000000009
+    ]
+  },
+  "cells": [
+    {
+      "condition": "deepseek_q4",
+      "paired_tasks": 175,
+      "left_residual_error_per_task": 0.6571428571428571,
+      "right_residual_error_per_task": 0.6571428571428571,
+      "difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "inference_scope": "prespecified cell estimate, no across-cell multiplicity adjustment"
+    },
+    {
+      "condition": "deepseek_q8",
+      "paired_tasks": 175,
+      "left_residual_error_per_task": 0.6457142857142857,
+      "right_residual_error_per_task": 0.6457142857142857,
+      "difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "inference_scope": "prespecified cell estimate, no across-cell multiplicity adjustment"
+    },
+    {
+      "condition": "qwen25_q4",
+      "paired_tasks": 175,
+      "left_residual_error_per_task": 0.6514285714285715,
+      "right_residual_error_per_task": 0.6457142857142857,
+      "difference": 0.005714285714285783,
+      "ci95": [
+        0.0,
+        0.017142857142857126
+      ],
+      "inference_scope": "prespecified cell estimate, no across-cell multiplicity adjustment"
+    },
+    {
+      "condition": "qwen25_q8",
+      "paired_tasks": 175,
+      "left_residual_error_per_task": 0.6514285714285715,
+      "right_residual_error_per_task": 0.6457142857142857,
+      "difference": 0.005714285714285783,
+      "ci95": [
+        0.0,
+        0.017142857142857237
+      ],
+      "inference_scope": "prespecified cell estimate, no across-cell multiplicity adjustment"
+    },
+    {
+      "condition": "qwen3_q4",
+      "paired_tasks": 175,
+      "left_residual_error_per_task": 0.49714285714285716,
+      "right_residual_error_per_task": 0.49714285714285716,
+      "difference": 0.0,
+      "ci95": [
+        0.0,
+        0.017142857142857126
+      ],
+      "inference_scope": "prespecified cell estimate, no across-cell multiplicity adjustment"
+    },
+    {
+      "condition": "qwen3_q8",
+      "paired_tasks": 175,
+      "left_residual_error_per_task": 0.49714285714285716,
+      "right_residual_error_per_task": 0.49142857142857144,
+      "difference": 0.005714285714285727,
+      "ci95": [
+        0.0,
+        0.02857142857142858
+      ],
+      "inference_scope": "prespecified cell estimate, no across-cell multiplicity adjustment"
+    }
+  ]
+}

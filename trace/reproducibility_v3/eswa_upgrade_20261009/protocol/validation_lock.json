@@ -1,0 +1,17 @@
+{
+  "locked_at_utc": "2026-10-08T17:44:52.200344+00:00",
+  "local_date": "2026-10-09 Asia/Shanghai",
+  "status": "locked_before_any_validation_model_generation",
+  "files": {
+    "eswa_upgrade_20261009\\protocol\\validation_protocol.md": "f1f9c0aa42235e8f28aa308367cb9fa7dd80c13a1bceb398deb27274f0a69a0b",
+    "eswa_upgrade_20261009\\protocol\\validation_config.json": "c23616729c004bc99124d1137eef6de54200a7ac8c402d748d9d611e550f50d9",
+    "eswa_upgrade_20261009\\data\\livecodebench\\questions.jsonl": "9b5ea5ca30647b58ef3adf7ddcf3951211db78b3a94fc718361cf80f2cb266b8",
+    "eswa_upgrade_20261009\\data\\livecodebench\\tests.jsonl": "5e4ea23425418d86f2b3188693a9422207ce7430e5e2b95ffbd439fc63643e57",
+    "eswa_upgrade_20261009\\scripts\\generate_validation.py": "ddcda7414553227a88160c653b2253f51f052c6706d8991f1b7b6f64053c5c73",
+    "eswa_upgrade_20261009\\scripts\\evaluate_validation.py": "f16c71745d9288072334e09938ab677bca583b9ad6cd193316224c18747a57e6",
+    "eswa_upgrade_20261009\\scripts\\sandbox_function.py": "1ae887cb380d2353bc2ab706ad9834fc13c4160b8a9fbc801749fcdf374e601e",
+    "src\\precisionprobe\\inference.py": "64f64f00faea5f117db059c424bbff889d7d10a22a25908199d9ae863ce03a4e",
+    "src\\precisionprobe\\scoring.py": "a1aaae895f8cda934465d072f0baa88c0c3cd681193eea4a0881625018b7db63"
+  },
+  "generation_records_at_lock": 0
+}

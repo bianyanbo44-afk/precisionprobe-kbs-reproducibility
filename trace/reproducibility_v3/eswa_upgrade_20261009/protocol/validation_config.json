@@ -1,0 +1,70 @@
+{
+  "dataset": "LiveCodeBench-v6-increment",
+  "n_tasks": 175,
+  "models": [
+    {
+      "condition": "qwen3_q4",
+      "model": "qwen3",
+      "precision": "q4",
+      "path": "F:\\CCFA\\precisionprobe\\.models_qwen3\\unsloth--Qwen3-4B-Instruct-2507-GGUF\\Qwen3-4B-Instruct-2507-Q4_K_M.gguf",
+      "sha256": "3605803b982cb64aead44f6c1b2ae36e3acdb41d8e46c8a94c6533bc4c67e597",
+      "completion_prompt_style": null
+    },
+    {
+      "condition": "qwen3_q8",
+      "model": "qwen3",
+      "precision": "q8",
+      "path": "F:\\CCFA\\precisionprobe\\.models_qwen3\\unsloth--Qwen3-4B-Instruct-2507-GGUF\\Qwen3-4B-Instruct-2507-Q8_0.gguf",
+      "sha256": "391c1e410fd9f4cf2de2b510273b56a84c19ce18f4fa3bfb3774031dac4ef068",
+      "completion_prompt_style": null
+    },
+    {
+      "condition": "qwen25_q4",
+      "model": "qwen25",
+      "precision": "q4",
+      "path": "F:\\CCFA\\precisionprobe\\.models\\Qwen--Qwen2.5-Coder-1.5B-Instruct-GGUF\\qwen2.5-coder-1.5b-instruct-q4_k_m.gguf",
+      "sha256": "cc324af070c2ecbfd324a30884d2f951a7ff756aba85cb811a6ec436933bb046",
+      "completion_prompt_style": null
+    },
+    {
+      "condition": "qwen25_q8",
+      "model": "qwen25",
+      "precision": "q8",
+      "path": "F:\\CCFA\\precisionprobe\\.models\\Qwen--Qwen2.5-Coder-1.5B-Instruct-GGUF\\qwen2.5-coder-1.5b-instruct-q8_0.gguf",
+      "sha256": "507de59046601282ba768a9789900e6ccf60ed93ddf346730b7c68eb0715bc47",
+      "completion_prompt_style": null
+    },
+    {
+      "condition": "deepseek_q4",
+      "model": "deepseek",
+      "precision": "q4",
+      "path": "F:\\CCFA\\precisionprobe\\.models\\TheBloke--deepseek-coder-1.3b-instruct-GGUF\\deepseek-coder-1.3b-instruct.Q4_K_M.gguf",
+      "sha256": "04cebb6fafa40ae628cf6bfeb76032ec792852f54020c559ad0a56b9f2839118",
+      "completion_prompt_style": "deepseek_coder"
+    },
+    {
+      "condition": "deepseek_q8",
+      "model": "deepseek",
+      "precision": "q8",
+      "path": "F:\\CCFA\\precisionprobe\\.models\\TheBloke--deepseek-coder-1.3b-instruct-GGUF\\deepseek-coder-1.3b-instruct.Q8_0.gguf",
+      "sha256": "36eb025121a50ee6d37fe900659393ff8fb5ea34adc0e3c11fc635e07624dcdb",
+      "completion_prompt_style": "deepseek_coder"
+    }
+  ],
+  "server": "F:\\CCFA\\precisionprobe\\.tools\\llama.cpp-b9637\\llama-server.exe",
+  "server_sha256": "06444801bb1dc38a848bb5a527728c4ea14ad2aa45ce7e81a29a5fb5d2560eaf",
+  "port": 18171,
+  "context_size": 6144,
+  "max_tokens": 1024,
+  "alternative_seeds": [
+    11,
+    29,
+    47,
+    71
+  ],
+  "temperature": 0.6,
+  "top_p": 0.95,
+  "task_order_salt": "eswa-20261009-generation-order",
+  "execution_timeout_seconds": 4.0,
+  "run_dir": "runs/livecodebench_v6_increment"
+}

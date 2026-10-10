@@ -1,0 +1,701 @@
+{
+  "scope": "Pinned statements and expected JSON types for 63 functional tasks; no private test payloads included.",
+  "questions_sha256": "9b5ea5ca30647b58ef3adf7ddcf3951211db78b3a94fc718361cf80f2cb266b8",
+  "tests_sha256": "5e4ea23425418d86f2b3188693a9422207ce7430e5e2b95ffbd439fc63643e57",
+  "tasks": [
+    {
+      "task_id": "leetcode/3708",
+      "title": "zigzag-grid-traversal-with-skip",
+      "function": "zigzagTraversal",
+      "expected_json_types": {
+        "list[int]": 34
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3677",
+      "title": "maximum-amount-of-money-robot-can-earn",
+      "function": "maximumAmount",
+      "expected_json_types": {
+        "int": 42
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3720",
+      "title": "minimize-the-maximum-edge-weight-of-graph",
+      "function": "minMaxWeight",
+      "expected_json_types": {
+        "int": 44
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3674",
+      "title": "count-non-decreasing-subarrays-after-k-operations",
+      "function": "countNonDecreasingSubarrays",
+      "expected_json_types": {
+        "int": 42
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3731",
+      "title": "sum-of-variable-length-subarrays",
+      "function": "subarraySum",
+      "expected_json_types": {
+        "int": 33
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3714",
+      "title": "maximum-and-minimum-sums-of-at-most-size-k-subsequences",
+      "function": "minMaxSums",
+      "expected_json_types": {
+        "int": 43
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3737",
+      "title": "paint-house-iv",
+      "function": "minCost",
+      "expected_json_types": {
+        "int": 42
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3725",
+      "title": "maximum-and-minimum-sums-of-at-most-size-k-subarrays",
+      "function": "minMaxSubarraySum",
+      "expected_json_types": {
+        "int": 42
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3704",
+      "title": "count-partitions-with-even-sum-difference",
+      "function": "countPartitions",
+      "expected_json_types": {
+        "int": 34
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3721",
+      "title": "count-mentions-per-user",
+      "function": "countMentions",
+      "expected_json_types": {
+        "list[int]": 43
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3751",
+      "title": "maximum-frequency-after-subarray-operation",
+      "function": "maxFrequency",
+      "expected_json_types": {
+        "int": 42
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3753",
+      "title": "maximum-difference-between-even-and-odd-frequency-i",
+      "function": "maxDifference",
+      "expected_json_types": {
+        "int": 33
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3754",
+      "title": "maximum-manhattan-distance-after-k-changes",
+      "function": "maxDistance",
+      "expected_json_types": {
+        "int": 42
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3697",
+      "title": "minimum-increments-for-target-multiples-in-an-array",
+      "function": "minimumIncrements",
+      "expected_json_types": {
+        "int": 43
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3748",
+      "title": "sort-matrix-by-diagonals",
+      "function": "sortMatrix",
+      "expected_json_types": {
+        "list[list[int]]": 43
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3760",
+      "title": "assign-elements-to-groups-with-constraints",
+      "function": "assignElements",
+      "expected_json_types": {
+        "list[int]": 43
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3696",
+      "title": "count-substrings-divisible-by-last-digit",
+      "function": "countSubstrings",
+      "expected_json_types": {
+        "int": 43
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3762",
+      "title": "maximize-the-minimum-game-score",
+      "function": "maxScore",
+      "expected_json_types": {
+        "int": 42
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3709",
+      "title": "find-special-substring-of-length-k",
+      "function": "hasSpecialSubstring",
+      "expected_json_types": {
+        "bool": 33
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3779",
+      "title": "eat-pizzas",
+      "function": "maxWeight",
+      "expected_json_types": {
+        "int": 42
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3771",
+      "title": "select-k-disjoint-special-substrings",
+      "function": "maxSubstringLength",
+      "expected_json_types": {
+        "bool": 43
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3733",
+      "title": "length-of-longest-v-shaped-diagonal-segment",
+      "function": "lenOfVDiagonal",
+      "expected_json_types": {
+        "int": 44
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3768",
+      "title": "check-if-digits-are-equal-in-string-after-operations-i",
+      "function": "hasSameDigits",
+      "expected_json_types": {
+        "bool": 33
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3764",
+      "title": "maximum-sum-with-at-most-k-elements",
+      "function": "maxSum",
+      "expected_json_types": {
+        "int": 42
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3781",
+      "title": "maximize-the-distance-between-points-on-a-square",
+      "function": "maxDistance",
+      "expected_json_types": {
+        "int": 43
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3705",
+      "title": "find-the-largest-almost-missing-integer",
+      "function": "largestInteger",
+      "expected_json_types": {
+        "int": 34
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3786",
+      "title": "longest-palindromic-subsequence-after-at-most-k-operations",
+      "function": "longestPalindromicSubsequence",
+      "expected_json_types": {
+        "int": 42
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3722",
+      "title": "sum-of-k-subarrays-with-length-at-least-m",
+      "function": "maxSum",
+      "expected_json_types": {
+        "int": 42
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3770",
+      "title": "lexicographically-smallest-generated-string",
+      "function": "generateString",
+      "expected_json_types": {
+        "str": 43
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3759",
+      "title": "choose-k-elements-with-maximum-sum",
+      "function": "findMaxSum",
+      "expected_json_types": {
+        "list[int]": 42
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3791",
+      "title": "fruits-into-baskets-iii",
+      "function": "numOfUnplacedFruits",
+      "expected_json_types": {
+        "int": 42
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3789",
+      "title": "maximize-subarrays-after-removing-one-conflicting-pair",
+      "function": "maxSubarrays",
+      "expected_json_types": {
+        "int": 42
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3788",
+      "title": "maximum-unique-subarray-sum-after-deletion",
+      "function": "maxSum",
+      "expected_json_types": {
+        "int": 34
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3750",
+      "title": "closest-equal-element-queries",
+      "function": "solveQueries",
+      "expected_json_types": {
+        "list[int]": 42
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3795",
+      "title": "zero-array-transformation-iv",
+      "function": "minZeroArray",
+      "expected_json_types": {
+        "int": 44
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3801",
+      "title": "count-beautiful-numbers",
+      "function": "beautifulNumbers",
+      "expected_json_types": {
+        "int": 42
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3817",
+      "title": "maximum-containers-on-a-ship",
+      "function": "maxContainers",
+      "expected_json_types": {
+        "int": 33
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3809",
+      "title": "properties-graph",
+      "function": "numberOfComponents",
+      "expected_json_types": {
+        "int": 43
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3794",
+      "title": "find-the-minimum-amount-of-time-to-brew-potions",
+      "function": "minTime",
+      "expected_json_types": {
+        "int": 43
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3744",
+      "title": "minimum-operations-to-make-array-elements-zero",
+      "function": "minOperations",
+      "expected_json_types": {
+        "int": 42
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3832",
+      "title": "minimum-cost-to-reach-every-position",
+      "function": "minCosts",
+      "expected_json_types": {
+        "list[int]": 33
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3793",
+      "title": "longest-palindrome-after-substring-concatenation-i",
+      "function": "longestPalindrome",
+      "expected_json_types": {
+        "int": 44
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3717",
+      "title": "minimum-operations-to-make-elements-within-k-subarrays-equal",
+      "function": "minOperations",
+      "expected_json_types": {
+        "int": 42
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3773",
+      "title": "minimum-pair-removal-to-sort-array-i",
+      "function": "minimumPairRemoval",
+      "expected_json_types": {
+        "int": 33
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3777",
+      "title": "maximum-product-of-subsequences-with-an-alternating-sum-equal-to-k",
+      "function": "maxProduct",
+      "expected_json_types": {
+        "int": 43
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3747",
+      "title": "maximum-difference-between-adjacent-elements-in-a-circular-array",
+      "function": "maxAdjacentDistance",
+      "expected_json_types": {
+        "int": 33
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3687",
+      "title": "longest-special-path",
+      "function": "longestSpecialPath",
+      "expected_json_types": {
+        "list[int]": 42
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3739",
+      "title": "manhattan-distances-of-all-arrangements-of-pieces",
+      "function": "distanceSum",
+      "expected_json_types": {
+        "int": 42
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3736",
+      "title": "find-valid-pair-of-adjacent-digits-in-string",
+      "function": "findValidPair",
+      "expected_json_types": {
+        "str": 34
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3743",
+      "title": "reschedule-meetings-for-maximum-free-time-i",
+      "function": "maxFreeTime",
+      "expected_json_types": {
+        "int": 43
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3701",
+      "title": "minimum-cost-good-caption",
+      "function": "minCostGoodCaption",
+      "expected_json_types": {
+        "str": 43
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3723",
+      "title": "sum-of-good-numbers",
+      "function": "sumOfGoodNumbers",
+      "expected_json_types": {
+        "int": 33
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3763",
+      "title": "separate-squares-i",
+      "function": "separateSquares",
+      "expected_json_types": {
+        "float": 42
+      },
+      "explicit_numeric_tolerance": true,
+      "explicit_alternative_output_clause": false,
+      "rule": "finite numeric absolute tolerance 1e-5"
+    },
+    {
+      "task_id": "leetcode/3692",
+      "title": "shortest-matching-substring",
+      "function": "shortestMatchingSubstring",
+      "expected_json_types": {
+        "int": 44
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3778",
+      "title": "transform-array-by-parity",
+      "function": "transformArray",
+      "expected_json_types": {
+        "list[int]": 33
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3785",
+      "title": "find-the-number-of-copy-arrays",
+      "function": "countArrays",
+      "expected_json_types": {
+        "int": 43
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3776",
+      "title": "find-minimum-cost-to-remove-array-elements",
+      "function": "minCost",
+      "expected_json_types": {
+        "int": 42
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3783",
+      "title": "permutations-iv",
+      "function": "permute",
+      "expected_json_types": {
+        "list[int]": 39,
+        "list[]": 4
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3799",
+      "title": "unique-3-digit-even-numbers",
+      "function": "totalNumbers",
+      "expected_json_types": {
+        "int": 35
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3784",
+      "title": "longest-common-prefix-of-k-strings-after-removal",
+      "function": "longestCommonPrefix",
+      "expected_json_types": {
+        "list[int]": 42
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3811",
+      "title": "reverse-degree-of-a-string",
+      "function": "reverseDegree",
+      "expected_json_types": {
+        "int": 33
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3805",
+      "title": "maximize-active-section-with-trade-i",
+      "function": "maxActiveSectionsAfterTrade",
+      "expected_json_types": {
+        "int": 44
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": false,
+      "rule": "literal/JSON equality"
+    },
+    {
+      "task_id": "leetcode/3765",
+      "title": "minimum-cost-to-divide-array-into-subarrays",
+      "function": "minimumCost",
+      "expected_json_types": {
+        "int": 42
+      },
+      "explicit_numeric_tolerance": false,
+      "explicit_alternative_output_clause": true,
+      "rule": "literal/JSON equality"
+    }
+  ]
+}

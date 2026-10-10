@@ -1,0 +1,19 @@
+\begin{table}[htbp]
+\centering
+\caption{Validation score-family comparison (token and guarded scores).}
+\label{tab:scores-validation-2}
+\footnotesize
+\begin{tabular}{lrrrrrr}
+\toprule
+Artifact / benchmark & NLL & Token ent. & Exec/NLL & Public fail. & Public/NLL & Public/DSDE4 \\
+\midrule
+DeepSeek Q4 & 65.7 & 65.7 & 65.7 & 65.7 & 65.7 & 65.7 \\
+DeepSeek Q8 & 65.7 & 66.9 & 64.6 & 64.6 & 64.6 & 64.6 \\
+Qwen2.5 Q4 & 66.3 & 66.3 & 64.6 & 64.6 & 64.6 & 64.6 \\
+Qwen2.5 Q8 & 65.1 & 65.7 & 64.6 & 64.6 & 64.6 & 64.6 \\
+Qwen3 Q4 & 49.7 & 49.7 & 49.7 & 49.7 & 49.7 & 49.7 \\
+Qwen3 Q8 & 49.1 & 49.1 & 49.1 & 49.1 & 49.1 & 49.1 \\
+\bottomrule
+\end{tabular}
+\par\vspace{4pt}\begin{minipage}{0.98\linewidth}\footnotesize Values are expected residual errors per 100 incoming tasks at nominal 25\% review. All score families and queue fractions are retained in the source CSV. Every cell contains the same 175 tasks. NLL is mean token negative log-likelihood; Token ent. is top-five entropy with a residual-mass category. Exec/NLL prioritizes probe execution failures, then ranks by NLL. Public fail. ranks by the fraction of public examples with an incorrect target output or execution failure. Public/NLL uses expected public outputs to prioritize any public-example failure, then ranks by NLL. Public/DSDE4 uses the same public-example guard, then ranks by DSDE4.\end{minipage}
+\end{table}

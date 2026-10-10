@@ -1,0 +1,20 @@
+\begin{table}[htbp]
+\centering
+\caption{Prospective primary comparison on the 175-task LiveCodeBench v6 increment at nominal 25\% review capacity.}
+\label{tab:validation}
+\small
+\begin{tabular}{lrrrr}
+\toprule
+Artifact & $n$ & DSDE4 & Public/NLL & $\Delta$ [95\% interval] \\
+\midrule
+DeepSeek Q4 & 175 & 65.7 & 65.7 & $0.0\;[0.0, 0.0]$ \\
+DeepSeek Q8 & 175 & 64.6 & 64.6 & $0.0\;[0.0, 0.0]$ \\
+Qwen2.5 Q4 & 175 & 65.1 & 64.6 & $0.6\;[0.0, 1.7]$ \\
+Qwen2.5 Q8 & 175 & 65.1 & 64.6 & $0.6\;[0.0, 1.7]$ \\
+Qwen3 Q4 & 175 & 49.7 & 49.7 & $0.0\;[0.0, 1.7]$ \\
+Qwen3 Q8 & 175 & 49.7 & 49.1 & $0.6\;[0.0, 2.9]$ \\
+Equal-weight macro & 175 paired & 60.0 & 59.7 & $0.3\;[0.0, 1.0]$ \\
+\bottomrule
+\end{tabular}
+\par\vspace{4pt}\begin{minipage}{0.98\linewidth}\footnotesize Residual errors outside review are per 100 incoming tasks. $\Delta$ is DSDE4 minus Public/NLL; negative values favor DSDE4. Public/NLL uses expected public outputs to prioritize any public-example failure, then ranks by mean token negative log-likelihood (NLL). All six conditions use the same task indices in each of the 4000 bootstrap replicates; 1050 targets are not 1050 independent tasks. Cell intervals are unadjusted descriptive estimates; the equal-weight macro is the primary aggregate.\end{minipage}
+\end{table}

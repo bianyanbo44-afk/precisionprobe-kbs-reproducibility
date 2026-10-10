@@ -1,0 +1,14 @@
+{
+  "source": "Windows System event",
+  "provider": "Microsoft-Windows-Power-Troubleshooter",
+  "event_id": 1,
+  "record_id": 293541,
+  "intervals": [
+    {
+      "start_utc": "2026-10-09T04:00:56.2978938Z",
+      "end_utc": "2026-10-09T04:31:19.9010899Z",
+      "reason": "The associated Kernel-Power event reports Button or Lid",
+      "scope": "Machine suspend; all completed candidate records retained"
+    }
+  ]
+}

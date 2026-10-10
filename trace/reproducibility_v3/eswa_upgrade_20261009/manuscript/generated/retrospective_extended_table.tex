@@ -1,0 +1,23 @@
+\begin{table}[htbp]
+\centering
+\caption{Retrospective residual-error comparisons at nominal 25\% review capacity.}
+\label{tab:retro-extended}
+\footnotesize
+\begin{tabular}{lrrrr}
+\toprule
+Artifact / benchmark & $n$ & DSDE4 & Exec/NLL & $\Delta$ [95\% interval] \\
+\midrule
+DeepSeek / HumanEval+ Q4 & 164 & 20.1 & 29.3 & $-9.1\;[-13.4, -4.9]$ \\
+DeepSeek / HumanEval+ Q8 & 164 & 19.9 & 27.4 & $-7.5\;[-11.0, -3.7]$ \\
+DeepSeek / MBPP+ Q4 & 378 & 23.5 & 29.9 & $-6.3\;[-8.7, -2.6]$ \\
+DeepSeek / MBPP+ Q8 & 378 & 24.1 & 29.4 & $-5.3\;[-8.2, -2.4]$ \\
+Qwen2.5 / HumanEval+ Q4 & 164 & 20.7 & 22.0 & $-1.2\;[-5.5, 1.8]$ \\
+Qwen2.5 / HumanEval+ Q8 & 164 & 22.0 & 23.8 & $-1.8\;[-5.5, 2.4]$ \\
+Qwen2.5 / MBPP+ Q4 & 378 & 17.7 & 19.3 & $-1.6\;[-3.7, 0.7]$ \\
+Qwen2.5 / MBPP+ Q8 & 378 & 19.0 & 19.8 & $-0.8\;[-3.2, 2.0]$ \\
+Qwen3 / MBPP+ Q4 (n=58) & 58 & 13.8 & 17.2 & $-3.4\;[-8.6, 3.9]$ \\
+Qwen3 / MBPP+ Q8 (n=60) & 60 & 21.2 & 20.0 & $1.2\;[-3.7, 10.0]$ \\
+\bottomrule
+\end{tabular}
+\par\vspace{4pt}\begin{minipage}{0.98\linewidth}\footnotesize Residual errors are expected errors outside review per 100 incoming tasks. Exec/NLL prioritizes probe execution failures, then ranks by mean token negative log-likelihood (NLL). Successful but incorrect outputs do not trigger this execution-failure guard. $\Delta$ is DSDE4 minus Exec/NLL; negative values favor DSDE4. Intervals use 2000 paired task-bootstrap replicates and are descriptive. The Qwen3 Q4 token comparison includes only 58 hash-matched targets; its two unmatched targets remain in execution-only summaries.\end{minipage}
+\end{table}

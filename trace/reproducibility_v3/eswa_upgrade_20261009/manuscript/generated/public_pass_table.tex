@@ -1,0 +1,19 @@
+\begin{table}[htbp]
+\centering
+\caption{Secondary diagnostic among targets passing all public examples.}
+\label{tab:public-pass}
+\small
+\begin{tabular}{lrrr}
+\toprule
+Artifact & Public pass $n$ & Hidden errors & $\Delta$ [95\% interval] \\
+\midrule
+DeepSeek Q4 & 19 & 3 & $-5.3\;[-15.8, 5.3]$ \\
+DeepSeek Q8 & 22 & 4 & $0.0\;[-13.6, 9.1]$ \\
+Qwen2.5 Q4 & 26 & 8 & $3.8\;[-11.5, 15.4]$ \\
+Qwen2.5 Q8 & 27 & 9 & $7.4\;[-7.4, 18.5]$ \\
+Qwen3 Q4 & 62 & 18 & $-1.6\;[-8.1, 3.0]$ \\
+Qwen3 Q8 & 64 & 19 & $0.0\;[-6.2, 6.4]$ \\
+\bottomrule
+\end{tabular}
+\par\vspace{4pt}\begin{minipage}{0.98\linewidth}\footnotesize $\Delta$ is DSDE4 minus NLL residual errors per 100 public-passing tasks at nominal 25\% within-subset review; negative values favor DSDE4. NLL is mean token negative log-likelihood. Hidden errors are private-test failures among targets that passed all public examples. Intervals use 2000 paired task-bootstrap replicates and are descriptive. Subsets differ by condition and are not combined into a confirmatory macro estimate.\end{minipage}
+\end{table}

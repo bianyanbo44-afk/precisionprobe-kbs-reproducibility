@@ -1,0 +1,15 @@
+{
+  "scope": "TRACE v6 presentation revision; empirical data, statistics, bibliography and deposited statement-aware-v3 artifact are unchanged.",
+  "backend": "Python/Matplotlib; editable PDF and SVG; PNG 600 dpi; TIFF 1000 dpi; white background and embedded TrueType fonts.",
+  "dimensions": "180 mm wide; workflow 88 mm high, cost 112 mm, capacity 110 mm, forest 96 mm. Body 9 pt, labels 9.5 pt, panel letters 11 pt; verify at manuscript inclusion size.",
+  "archetypes": {
+    "trace_workflow": "Decision-process schematic: target checks, capacity boundary, value of ordering passing targets, separate risk calibration. No empirical or simulated diagram data.",
+    "validation_cost_frontier": "Six stratified comparisons answering whether alternative sampling improves a 44-position queue at its acquisition cost. Display y = 100 * (method residual error minus Public/NLL residual error). No shifts or jitter. Use all six previously displayed methods in all six conditions; absolute errors remain Table 2.",
+    "guarded_capacity_curve": "Six stratified retained-record capacity curves. All 1050 queue-size observations, shared axes, no smoothing. The grey region is the known-failure queue regime and the vertical boundary is f/n. Q4 blue and Q8 orange.",
+    "retrospective_differences": "Five paired benchmark groups, showing the ten original estimates and original 95% paired task-bootstrap intervals. Q4 blue/circle and Q8 orange/square. Preserve the 58 versus 60 task difference for Qwen3."
+  },
+  "integrity": "Source CSVs copied byte-for-byte. Cost display transformation checked against source. Counts, intervals and table numeric cells must match v5. No new inferential analysis; no decorative icons, gradients, shadows, gridlines or p-value stars.",
+  "tables": "Booktabs, grouped method headers, clear model/benchmark labels, paired condition spacing and primary aggregate emphasis. Preserve every original numeric body cell.",
+  "layout": "ESWA preprint template retained. Align float-only pages at top and standardize table and float spacing. Recompile main, supplement and both editable source structures; render all final pages.",
+  "qa": "Source validator, embedded font/glyph minimum 5 pt, final rendered multi-panel alignment at 1.5 pt, collision audit and manual panel-by-panel inspection. Inspect intentional data-mark overlays individually."
+}

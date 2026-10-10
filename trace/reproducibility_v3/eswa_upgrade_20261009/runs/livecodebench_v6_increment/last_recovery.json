@@ -1,0 +1,21 @@
+{
+  "recovered_at_utc": "2026-10-09T01:36:59.341396+00:00",
+  "reason": "Windows system restart; stale processes absent; all-zero trailing generation extent",
+  "original_backup_directory": "runs\\livecodebench_v6_increment\\recovery\\20261009T013659Z",
+  "script_sha256": "9cc63e5b7a1970bc167d8bf19681bab6b578f5a698771e82568216ad426238d4",
+  "conditions": [
+    {
+      "condition": "qwen3_q4",
+      "original_bytes": 5120680,
+      "original_sha256": "80834767664261d9c5fff5a3fca895648944594347069eb1c0c03bd3a4a62e92",
+      "retained_bytes": 5118819,
+      "unrecoverable_zero_bytes": 1861,
+      "retained_sha256": "b909e211c456711fa76e90fac986c8039ffc6aeef56c40f8f0b215b97d502592",
+      "retained_records": 359,
+      "complete_tasks": 71,
+      "last_retained_created_at_utc": "2026-10-08T18:56:43.677165+00:00"
+    }
+  ],
+  "protocol_unchanged": true,
+  "correctness_outcomes_read": false
+}

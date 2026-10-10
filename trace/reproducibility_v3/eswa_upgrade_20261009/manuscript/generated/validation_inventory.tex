@@ -1,0 +1,19 @@
+\begin{table}[htbp]
+\centering
+\caption{Complete prospective target and failure inventory.}
+\label{tab:validation-inventory}
+\small
+\begin{tabular}{lrrrr}
+\toprule
+Artifact & Targets & Errors & Public failures & Length-limited \\
+\midrule
+DeepSeek Q4 & 175 & 159 & 156 & 3 \\
+DeepSeek Q8 & 175 & 157 & 153 & 1 \\
+Qwen2.5 Q4 & 175 & 157 & 149 & 9 \\
+Qwen2.5 Q8 & 175 & 157 & 148 & 6 \\
+Qwen3 Q4 & 175 & 131 & 113 & 71 \\
+Qwen3 Q8 & 175 & 130 & 111 & 73 \\
+\bottomrule
+\end{tabular}
+\par\vspace{4pt}\begin{minipage}{0.98\linewidth}\footnotesize Errors include public or private functional-test failure. A length-limited response remains in the evaluation, whether its extracted code ultimately passes or fails. No program is repaired or excluded on these grounds.\end{minipage}
+\end{table}

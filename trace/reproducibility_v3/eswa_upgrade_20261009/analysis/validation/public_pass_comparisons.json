@@ -1,0 +1,116 @@
+[
+  {
+    "condition": "deepseek_q4",
+    "public_passing_tasks": 19,
+    "errors_among_public_passing": 3,
+    "public_failing_tasks": 156,
+    "public_failures_fill_primary_queue": true,
+    "status": "secondary diagnostic specified in Amendment 02",
+    "auc_difference": 0.2500000000000001,
+    "residual_difference": -0.05263157894736842,
+    "auc_difference_ci95": [
+      -0.11111111111111105,
+      0.8755514705882357
+    ],
+    "residual_difference_ci95": [
+      -0.15789473684210525,
+      0.05263157894736842
+    ],
+    "repeats": 2000
+  },
+  {
+    "condition": "deepseek_q8",
+    "public_passing_tasks": 22,
+    "errors_among_public_passing": 4,
+    "public_failing_tasks": 153,
+    "public_failures_fill_primary_queue": true,
+    "status": "secondary diagnostic specified in Amendment 02",
+    "auc_difference": 0.2361111111111111,
+    "residual_difference": 0.0,
+    "auc_difference_ci95": [
+      -0.1666666666666666,
+      0.619047619047619
+    ],
+    "residual_difference_ci95": [
+      -0.13636363636363635,
+      0.09090909090909091
+    ],
+    "repeats": 2000
+  },
+  {
+    "condition": "qwen25_q4",
+    "public_passing_tasks": 26,
+    "errors_among_public_passing": 8,
+    "public_failing_tasks": 149,
+    "public_failures_fill_primary_queue": true,
+    "status": "secondary diagnostic specified in Amendment 02",
+    "auc_difference": -0.10416666666666674,
+    "residual_difference": 0.038461538461538464,
+    "auc_difference_ci95": [
+      -0.4,
+      0.17599747474747454
+    ],
+    "residual_difference_ci95": [
+      -0.11538461538461536,
+      0.15384615384615385
+    ],
+    "repeats": 2000
+  },
+  {
+    "condition": "qwen25_q8",
+    "public_passing_tasks": 27,
+    "errors_among_public_passing": 9,
+    "public_failing_tasks": 148,
+    "public_failures_fill_primary_queue": true,
+    "status": "secondary diagnostic specified in Amendment 02",
+    "auc_difference": -0.05555555555555558,
+    "residual_difference": 0.07407407407407407,
+    "auc_difference_ci95": [
+      -0.31430900621118013,
+      0.204570707070707
+    ],
+    "residual_difference_ci95": [
+      -0.07407407407407407,
+      0.18518518518518517
+    ],
+    "repeats": 2000
+  },
+  {
+    "condition": "qwen3_q4",
+    "public_passing_tasks": 62,
+    "errors_among_public_passing": 18,
+    "public_failing_tasks": 113,
+    "public_failures_fill_primary_queue": true,
+    "status": "secondary diagnostic specified in Amendment 02",
+    "auc_difference": -0.03409090909090906,
+    "residual_difference": -0.016129032258064502,
+    "auc_difference_ci95": [
+      -0.1592488036881419,
+      0.08508667883834187
+    ],
+    "residual_difference_ci95": [
+      -0.08064516129032256,
+      0.030207618393960148
+    ],
+    "repeats": 2000
+  },
+  {
+    "condition": "qwen3_q8",
+    "public_passing_tasks": 64,
+    "errors_among_public_passing": 19,
+    "public_failing_tasks": 111,
+    "public_failures_fill_primary_queue": true,
+    "status": "secondary diagnostic specified in Amendment 02",
+    "auc_difference": -0.04678362573099404,
+    "residual_difference": 0.0,
+    "auc_difference_ci95": [
+      -0.19271113782051275,
+      0.09766582414215692
+    ],
+    "residual_difference_ci95": [
+      -0.0625,
+      0.06436121323529398
+    ],
+    "repeats": 2000
+  }
+]

@@ -1,0 +1,19 @@
+\begin{table}[htbp]
+\centering
+\caption{Target-check information and error capture in the same validation panel.}
+\label{tab:same-stage-capacity}
+\small
+\begin{tabular}{lrrrr}
+\toprule
+Artifact & Exec. fail. & Public fail. & 25\% E/P & 50\% E/P \\
+\midrule
+DeepSeek Q4 & 48 & 156 & 44/44 & 88/88 \\
+DeepSeek Q8 & 50 & 153 & 44/44 & 86/88 \\
+Qwen2.5 Q4 & 42 & 149 & 44/44 & 85/88 \\
+Qwen2.5 Q8 & 48 & 148 & 44/44 & 87/88 \\
+Qwen3 Q4 & 73 & 113 & 44/44 & 87/88 \\
+Qwen3 Q8 & 80 & 111 & 44/44 & 86/88 \\
+\bottomrule
+\end{tabular}
+\par\vspace{4pt}\begin{minipage}{0.98\linewidth}\footnotesize Every condition contains 175 targets. Exec. fail. counts targets failing to execute on a public input; Public fail. also counts incorrect successful outputs. E/P reports errors captured by Exec/NLL and Public/NLL, respectively. The 25\% queue has 44 positions and the 50\% queue 88. At 10\% (18 positions), both methods capture 18 errors in every condition. Capacity comparisons other than 25\% are descriptive secondary results.\end{minipage}
+\end{table}

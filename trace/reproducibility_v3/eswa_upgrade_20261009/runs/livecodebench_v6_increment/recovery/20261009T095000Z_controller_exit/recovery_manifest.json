@@ -1,0 +1,45 @@
+{
+  "recorded_at_utc": "2026-10-09T09:56:22.749862+00:00",
+  "evidence": "No generation or watcher process visible; both exclusive locks were available. The stale progress indicated DeepSeek Q8 task 132. No new error was recorded in the prior stderr. Exact termination cause is unconfirmed.",
+  "retained_record_counts": {
+    "deepseek_q4": 875,
+    "deepseek_q8": 661,
+    "qwen25_q4": 875,
+    "qwen25_q8": 875,
+    "qwen3_q4": 875,
+    "qwen3_q8": 875
+  },
+  "generation_prefixes": [
+    {
+      "condition": "deepseek_q4",
+      "retained_bytes": 6518392,
+      "sha256": "a8d315f1c4210247939996e17ef72d29967d485d3e0744641e6869d468daeed9"
+    },
+    {
+      "condition": "deepseek_q8",
+      "retained_bytes": 5022139,
+      "sha256": "db04126589c5e3abfe539df6291bc87a00fb55811951e57e167fdead24e0625a"
+    },
+    {
+      "condition": "qwen25_q4",
+      "retained_bytes": 3932072,
+      "sha256": "4a1834cd0428d3141e7a22722e6dd237708a329fdf358a9608ec8c39102f6adc"
+    },
+    {
+      "condition": "qwen25_q8",
+      "retained_bytes": 3795418,
+      "sha256": "ca082453b07ec745531c191c6f14c64f5bed7866967d50159f98844dfa2b186c"
+    },
+    {
+      "condition": "qwen3_q4",
+      "retained_bytes": 11827449,
+      "sha256": "f9ed029781ecf33ef094da9ff66f4ebfae4abe2a4687f358c478c7cce7139477"
+    },
+    {
+      "condition": "qwen3_q8",
+      "retained_bytes": 11756196,
+      "sha256": "f83a031202c4aaf1b6c7fd101570951e5263ff4704d9f965529c26206cc61ecb"
+    }
+  ],
+  "settings_changed": false
+}

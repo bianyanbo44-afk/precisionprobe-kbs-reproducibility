@@ -1,0 +1,176 @@
+task_id,question_title,difficulty,platform,contest_date,interface
+atcoder/abc387_b,9x9 Sum,easy,atcoder,2025-01-04T00:00:00,stdin
+atcoder/abc387_f,Count Arrays,hard,atcoder,2025-01-04T00:00:00,stdin
+atcoder/abc387_a,Happy New Year 2025,easy,atcoder,2025-01-04T00:00:00,stdin
+atcoder/abc387_c,Snake Numbers,medium,atcoder,2025-01-04T00:00:00,stdin
+atcoder/abc388_d,Coming of Age Celebration,medium,atcoder,2025-01-11T00:00:00,stdin
+atcoder/abc388_b,Heavy Snake,easy,atcoder,2025-01-11T00:00:00,stdin
+atcoder/abc388_g,Simultaneous Kagamimochi 2,hard,atcoder,2025-01-11T00:00:00,stdin
+atcoder/abc388_c,Various Kagamimochi,medium,atcoder,2025-01-11T00:00:00,stdin
+atcoder/abc388_a,?UPC,easy,atcoder,2025-01-11T00:00:00,stdin
+atcoder/abc388_f,Dangerous Sugoroku,hard,atcoder,2025-01-11T00:00:00,stdin
+atcoder/abc388_e,Simultaneous Kagamimochi,hard,atcoder,2025-01-11T00:00:00,stdin
+atcoder/abc389_d,Squares in Circle,medium,atcoder,2025-01-18T00:00:00,stdin
+atcoder/abc389_b,tcaF,easy,atcoder,2025-01-18T00:00:00,stdin
+atcoder/abc389_a,9x9,easy,atcoder,2025-01-18T00:00:00,stdin
+atcoder/abc389_g,Odd Even Graph,hard,atcoder,2025-01-18T00:00:00,stdin
+atcoder/abc389_f,Rated Range,hard,atcoder,2025-01-18T00:00:00,stdin
+atcoder/abc389_e,Square Price,hard,atcoder,2025-01-18T00:00:00,stdin
+atcoder/abc390_e,Vitamin Balance,hard,atcoder,2025-01-25T00:00:00,stdin
+atcoder/abc390_g,Permutation Concatenation,hard,atcoder,2025-01-25T00:00:00,stdin
+atcoder/abc390_a,12435,easy,atcoder,2025-01-25T00:00:00,stdin
+atcoder/abc390_b,Geometric Sequence,easy,atcoder,2025-01-25T00:00:00,stdin
+atcoder/abc390_d,Stone XOR,medium,atcoder,2025-01-25T00:00:00,stdin
+atcoder/abc390_f,Double Sum 3,hard,atcoder,2025-01-25T00:00:00,stdin
+atcoder/abc390_c,Paint to make a rectangle,medium,atcoder,2025-01-25T00:00:00,stdin
+atcoder/abc391_d,Gravity,medium,atcoder,2025-02-01T00:00:00,stdin
+atcoder/abc391_f,K,hard,atcoder,2025-02-01T00:00:00,stdin
+atcoder/abc391_a,Lucky Direction,easy,atcoder,2025-02-01T00:00:00,stdin
+atcoder/abc391_e,Hierarchical Majority Vote,hard,atcoder,2025-02-01T00:00:00,stdin
+atcoder/abc391_g,Many LCS,hard,atcoder,2025-02-01T00:00:00,stdin
+atcoder/abc391_b,Seek Grid,easy,atcoder,2025-02-01T00:00:00,stdin
+atcoder/abc392_a,Shuffled Equation,easy,atcoder,2025-02-08T00:00:00,stdin
+atcoder/abc392_g,Fine Triplets,hard,atcoder,2025-02-08T00:00:00,stdin
+atcoder/abc392_b,Who is Missing?,easy,atcoder,2025-02-08T00:00:00,stdin
+atcoder/abc392_d,Doubles,medium,atcoder,2025-02-08T00:00:00,stdin
+atcoder/abc392_f,Insert,hard,atcoder,2025-02-08T00:00:00,stdin
+atcoder/abc392_c,Bib,medium,atcoder,2025-02-08T00:00:00,stdin
+atcoder/abc393_a,Poisonous Oyster,easy,atcoder,2025-02-15T00:00:00,stdin
+atcoder/abc393_f,Prefix LIS Query,hard,atcoder,2025-02-15T00:00:00,stdin
+atcoder/abc393_e,GCD of Subset,hard,atcoder,2025-02-15T00:00:00,stdin
+atcoder/abc393_d,Swap to Gather,hard,atcoder,2025-02-15T00:00:00,stdin
+atcoder/abc393_b,A..B..C,easy,atcoder,2025-02-15T00:00:00,stdin
+atcoder/abc394_c,Debug,medium,atcoder,2025-02-22T00:00:00,stdin
+atcoder/abc394_b,cat,easy,atcoder,2025-02-22T00:00:00,stdin
+atcoder/abc394_f,Alkane,hard,atcoder,2025-02-22T00:00:00,stdin
+atcoder/abc394_a,22222,easy,atcoder,2025-02-22T00:00:00,stdin
+atcoder/abc394_g,Dense Buildings,hard,atcoder,2025-02-22T00:00:00,stdin
+atcoder/abc394_d,Colorful Bracket Sequence,medium,atcoder,2025-02-22T00:00:00,stdin
+atcoder/abc394_e,Palindromic Shortest Path,hard,atcoder,2025-02-22T00:00:00,stdin
+atcoder/abc395_c,Shortest Duplicate Subarray,medium,atcoder,2025-03-01T00:00:00,stdin
+atcoder/abc395_f,Smooth Occlusion,hard,atcoder,2025-03-01T00:00:00,stdin
+atcoder/abc395_b,Make Target,easy,atcoder,2025-03-01T00:00:00,stdin
+atcoder/abc395_a,Strictly Increasing?,easy,atcoder,2025-03-01T00:00:00,stdin
+atcoder/abc395_e,Flip Edge,hard,atcoder,2025-03-01T00:00:00,stdin
+atcoder/abc396_g,Flip Row or Col,hard,atcoder,2025-03-08T00:00:00,stdin
+atcoder/abc396_c,Buy Balls,medium,atcoder,2025-03-08T00:00:00,stdin
+atcoder/abc396_f,Rotated Inversions,hard,atcoder,2025-03-08T00:00:00,stdin
+atcoder/abc396_b,Card Pile,easy,atcoder,2025-03-08T00:00:00,stdin
+atcoder/abc396_e,Min of Restricted Sum,hard,atcoder,2025-03-08T00:00:00,stdin
+atcoder/abc396_d,Minimum XOR Path,medium,atcoder,2025-03-08T00:00:00,stdin
+atcoder/abc396_a,Triple Four,easy,atcoder,2025-03-08T00:00:00,stdin
+atcoder/abc397_d,Cubes,hard,atcoder,2025-03-15T00:00:00,stdin
+atcoder/abc397_f,Variety Split Hard,hard,atcoder,2025-03-15T00:00:00,stdin
+atcoder/abc397_c,Variety Split Easy,medium,atcoder,2025-03-15T00:00:00,stdin
+atcoder/abc397_g,Maximize Distance,hard,atcoder,2025-03-15T00:00:00,stdin
+atcoder/abc397_e,Path Decomposition of a Tree,hard,atcoder,2025-03-15T00:00:00,stdin
+atcoder/abc397_a,Thermometer,easy,atcoder,2025-03-15T00:00:00,stdin
+atcoder/abc397_b,Ticket Gate Log,medium,atcoder,2025-03-15T00:00:00,stdin
+atcoder/abc398_f,ABCBA,hard,atcoder,2025-03-22T00:00:00,stdin
+atcoder/abc398_b,Full House 3,medium,atcoder,2025-03-22T00:00:00,stdin
+atcoder/abc398_d,Bonfire,hard,atcoder,2025-03-22T00:00:00,stdin
+atcoder/abc398_a,Doors in the Center,easy,atcoder,2025-03-22T00:00:00,stdin
+atcoder/abc398_c,Uniqueness,medium,atcoder,2025-03-22T00:00:00,stdin
+atcoder/abc398_g,Not Only Tree Game,hard,atcoder,2025-03-22T00:00:00,stdin
+atcoder/abc399_e,Replace,hard,atcoder,2025-03-29T00:00:00,stdin
+atcoder/abc399_d,Switch Seats,medium,atcoder,2025-03-29T00:00:00,stdin
+atcoder/abc399_a,Hamming Distance,easy,atcoder,2025-03-29T00:00:00,stdin
+atcoder/abc399_c,Make it Forest,medium,atcoder,2025-03-29T00:00:00,stdin
+atcoder/abc399_f,Range Power Sum,hard,atcoder,2025-03-29T00:00:00,stdin
+atcoder/abc399_b,Ranking with Ties,easy,atcoder,2025-03-29T00:00:00,stdin
+atcoder/abc400_c,2^a b^2,medium,atcoder,2025-04-05T00:00:00,stdin
+atcoder/abc400_d,Takahashi the Wall Breaker,medium,atcoder,2025-04-05T00:00:00,stdin
+atcoder/abc400_a,ABC400 Party,easy,atcoder,2025-04-05T00:00:00,stdin
+atcoder/abc400_b,Sum of Geometric Series,easy,atcoder,2025-04-05T00:00:00,stdin
+atcoder/abc400_e,Ringo's Favorite Numbers 3,hard,atcoder,2025-04-05T00:00:00,stdin
+atcoder/abc400_g,Patisserie ABC 3,hard,atcoder,2025-04-05T00:00:00,stdin
+atcoder/arc190_c,Basic Grid Problem with Updates,hard,atcoder,2025-01-12T00:00:00,stdin
+atcoder/arc190_a,Inside or Outside,hard,atcoder,2025-01-12T00:00:00,stdin
+atcoder/arc190_d,Matrix Pow Sum,hard,atcoder,2025-01-12T00:00:00,stdin
+atcoder/arc191_d,Moving Pieces on Graph,hard,atcoder,2025-01-26T00:00:00,stdin
+atcoder/arc191_c,A^n,hard,atcoder,2025-01-26T00:00:00,stdin
+atcoder/arc191_a,Replace Digits,medium,atcoder,2025-01-26T00:00:00,stdin
+atcoder/arc192_e,Snuke's Kyoto Trip,hard,atcoder,2025-02-09T00:00:00,stdin
+atcoder/arc192_b,Fennec VS. Snuke 2,hard,atcoder,2025-02-09T00:00:00,stdin
+atcoder/arc192_d,Fraction Line,hard,atcoder,2025-02-09T00:00:00,stdin
+atcoder/arc192_a,ARC Arc,medium,atcoder,2025-02-09T00:00:00,stdin
+atcoder/arc193_b,Broken Wheel,hard,atcoder,2025-02-23T00:00:00,stdin
+atcoder/arc193_a,Complement Interval Graph,hard,atcoder,2025-02-23T00:00:00,stdin
+atcoder/arc193_d,Magnets,hard,atcoder,2025-02-23T00:00:00,stdin
+atcoder/arc194_c,Cost to Flip,hard,atcoder,2025-03-09T00:00:00,stdin
+atcoder/arc194_b,Minimum Cost Sort,hard,atcoder,2025-03-09T00:00:00,stdin
+atcoder/arc194_e,Swap 0^X and 1^Y,hard,atcoder,2025-03-09T00:00:00,stdin
+atcoder/arc194_a,Operations on a Stack,medium,atcoder,2025-03-09T00:00:00,stdin
+atcoder/arc194_d,Reverse Brackets,hard,atcoder,2025-03-09T00:00:00,stdin
+atcoder/arc195_e,Random Tree Distance,hard,atcoder,2025-03-23T00:00:00,stdin
+atcoder/arc195_b,Uniform Sum,hard,atcoder,2025-03-23T00:00:00,stdin
+atcoder/arc195_c,Hamiltonian Pieces,hard,atcoder,2025-03-23T00:00:00,stdin
+atcoder/arc195_d,Swap and Erase,hard,atcoder,2025-03-23T00:00:00,stdin
+atcoder/arc195_a,Twice Subsequence,medium,atcoder,2025-03-23T00:00:00,stdin
+atcoder/arc196_b,Torus Loop,hard,atcoder,2025-04-06T00:00:00,stdin
+atcoder/arc196_c,Strongly Connected,hard,atcoder,2025-04-06T00:00:00,stdin
+atcoder/arc196_a,Adjacent Delete,hard,atcoder,2025-04-06T00:00:00,stdin
+atcoder/arc196_d,Roadway,hard,atcoder,2025-04-06T00:00:00,stdin
+leetcode/3708,zigzag-grid-traversal-with-skip,easy,leetcode,2025-01-11T18:30:00,functional
+leetcode/3677,maximum-amount-of-money-robot-can-earn,medium,leetcode,2025-01-11T18:30:00,functional
+leetcode/3720,minimize-the-maximum-edge-weight-of-graph,medium,leetcode,2025-01-11T18:30:00,functional
+leetcode/3674,count-non-decreasing-subarrays-after-k-operations,hard,leetcode,2025-01-11T18:30:00,functional
+leetcode/3731,sum-of-variable-length-subarrays,easy,leetcode,2025-01-18T18:30:00,functional
+leetcode/3714,maximum-and-minimum-sums-of-at-most-size-k-subsequences,medium,leetcode,2025-01-18T18:30:00,functional
+leetcode/3737,paint-house-iv,medium,leetcode,2025-01-18T18:30:00,functional
+leetcode/3725,maximum-and-minimum-sums-of-at-most-size-k-subarrays,hard,leetcode,2025-01-18T18:30:00,functional
+leetcode/3704,count-partitions-with-even-sum-difference,easy,leetcode,2025-01-25T18:30:00,functional
+leetcode/3721,count-mentions-per-user,medium,leetcode,2025-01-25T18:30:00,functional
+leetcode/3751,maximum-frequency-after-subarray-operation,medium,leetcode,2025-01-25T18:30:00,functional
+leetcode/3753,maximum-difference-between-even-and-odd-frequency-i,easy,leetcode,2025-02-01T18:30:00,functional
+leetcode/3754,maximum-manhattan-distance-after-k-changes,medium,leetcode,2025-02-01T18:30:00,functional
+leetcode/3697,minimum-increments-for-target-multiples-in-an-array,hard,leetcode,2025-02-01T18:30:00,functional
+leetcode/3748,sort-matrix-by-diagonals,medium,leetcode,2025-02-08T18:30:00,functional
+leetcode/3760,assign-elements-to-groups-with-constraints,medium,leetcode,2025-02-08T18:30:00,functional
+leetcode/3696,count-substrings-divisible-by-last-digit,hard,leetcode,2025-02-08T18:30:00,functional
+leetcode/3762,maximize-the-minimum-game-score,hard,leetcode,2025-02-08T18:30:00,functional
+leetcode/3709,find-special-substring-of-length-k,easy,leetcode,2025-02-15T18:30:00,functional
+leetcode/3779,eat-pizzas,medium,leetcode,2025-02-15T18:30:00,functional
+leetcode/3771,select-k-disjoint-special-substrings,medium,leetcode,2025-02-15T18:30:00,functional
+leetcode/3733,length-of-longest-v-shaped-diagonal-segment,hard,leetcode,2025-02-15T18:30:00,functional
+leetcode/3768,check-if-digits-are-equal-in-string-after-operations-i,easy,leetcode,2025-02-22T18:30:00,functional
+leetcode/3764,maximum-sum-with-at-most-k-elements,medium,leetcode,2025-02-22T18:30:00,functional
+leetcode/3781,maximize-the-distance-between-points-on-a-square,hard,leetcode,2025-02-22T18:30:00,functional
+leetcode/3705,find-the-largest-almost-missing-integer,easy,leetcode,2025-03-01T18:30:00,functional
+leetcode/3786,longest-palindromic-subsequence-after-at-most-k-operations,medium,leetcode,2025-03-01T18:30:00,functional
+leetcode/3722,sum-of-k-subarrays-with-length-at-least-m,medium,leetcode,2025-03-01T18:30:00,functional
+leetcode/3770,lexicographically-smallest-generated-string,hard,leetcode,2025-03-01T18:30:00,functional
+leetcode/3759,choose-k-elements-with-maximum-sum,medium,leetcode,2025-03-08T18:30:00,functional
+leetcode/3791,fruits-into-baskets-iii,medium,leetcode,2025-03-08T18:30:00,functional
+leetcode/3789,maximize-subarrays-after-removing-one-conflicting-pair,hard,leetcode,2025-03-08T18:30:00,functional
+leetcode/3788,maximum-unique-subarray-sum-after-deletion,easy,leetcode,2025-03-15T19:30:00,functional
+leetcode/3750,closest-equal-element-queries,medium,leetcode,2025-03-15T19:30:00,functional
+leetcode/3795,zero-array-transformation-iv,medium,leetcode,2025-03-15T19:30:00,functional
+leetcode/3801,count-beautiful-numbers,hard,leetcode,2025-03-15T19:30:00,functional
+leetcode/3817,maximum-containers-on-a-ship,easy,leetcode,2025-03-22T19:30:00,functional
+leetcode/3809,properties-graph,medium,leetcode,2025-03-22T19:30:00,functional
+leetcode/3794,find-the-minimum-amount-of-time-to-brew-potions,medium,leetcode,2025-03-22T19:30:00,functional
+leetcode/3744,minimum-operations-to-make-array-elements-zero,hard,leetcode,2025-03-22T19:30:00,functional
+leetcode/3832,minimum-cost-to-reach-every-position,easy,leetcode,2025-03-29T19:30:00,functional
+leetcode/3793,longest-palindrome-after-substring-concatenation-i,medium,leetcode,2025-03-29T19:30:00,functional
+leetcode/3717,minimum-operations-to-make-elements-within-k-subarrays-equal,hard,leetcode,2025-03-29T19:30:00,functional
+leetcode/3773,minimum-pair-removal-to-sort-array-i,easy,leetcode,2025-04-05T19:30:00,functional
+leetcode/3777,maximum-product-of-subsequences-with-an-alternating-sum-equal-to-k,hard,leetcode,2025-04-05T19:30:00,functional
+leetcode/3747,maximum-difference-between-adjacent-elements-in-a-circular-array,easy,leetcode,2025-01-18T06:30:00,functional
+leetcode/3687,longest-special-path,hard,leetcode,2025-01-18T06:30:00,functional
+leetcode/3739,manhattan-distances-of-all-arrangements-of-pieces,hard,leetcode,2025-01-18T06:30:00,functional
+leetcode/3736,find-valid-pair-of-adjacent-digits-in-string,easy,leetcode,2025-02-01T06:30:00,functional
+leetcode/3743,reschedule-meetings-for-maximum-free-time-i,medium,leetcode,2025-02-01T06:30:00,functional
+leetcode/3701,minimum-cost-good-caption,hard,leetcode,2025-02-01T06:30:00,functional
+leetcode/3723,sum-of-good-numbers,easy,leetcode,2025-02-15T06:30:00,functional
+leetcode/3763,separate-squares-i,medium,leetcode,2025-02-15T06:30:00,functional
+leetcode/3692,shortest-matching-substring,hard,leetcode,2025-02-15T06:30:00,functional
+leetcode/3778,transform-array-by-parity,easy,leetcode,2025-03-01T06:30:00,functional
+leetcode/3785,find-the-number-of-copy-arrays,medium,leetcode,2025-03-01T06:30:00,functional
+leetcode/3776,find-minimum-cost-to-remove-array-elements,medium,leetcode,2025-03-01T06:30:00,functional
+leetcode/3783,permutations-iv,hard,leetcode,2025-03-01T06:30:00,functional
+leetcode/3799,unique-3-digit-even-numbers,easy,leetcode,2025-03-15T07:30:00,functional
+leetcode/3784,longest-common-prefix-of-k-strings-after-removal,hard,leetcode,2025-03-15T07:30:00,functional
+leetcode/3811,reverse-degree-of-a-string,easy,leetcode,2025-03-29T07:30:00,functional
+leetcode/3805,maximize-active-section-with-trade-i,medium,leetcode,2025-03-29T07:30:00,functional
+leetcode/3765,minimum-cost-to-divide-array-into-subarrays,hard,leetcode,2025-03-29T07:30:00,functional

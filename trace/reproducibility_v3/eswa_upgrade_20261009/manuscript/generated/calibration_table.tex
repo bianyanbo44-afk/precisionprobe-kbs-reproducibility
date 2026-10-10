@@ -1,0 +1,27 @@
+\begin{table}[htbp]
+\centering
+\caption{Shared DSDE calibration feasibility with disjoint reference tasks and Bonferroni bounds.}
+\label{tab:calibration}
+\footnotesize
+\begin{tabular}{llrrrr}
+\toprule
+Panel & $\alpha$ & Cond. sel. & Cov. (\%) & Pool. sel. & Cov. (\%) \\
+\midrule
+DeepSeek / HumanEval+ & 0.30 & 0/30 & 0.0 & 0/30 & 0.0 \\
+DeepSeek / HumanEval+ & 0.40 & 2/30 & 4.7 & 2/30 & 4.5 \\
+DeepSeek / MBPP+ & 0.30 & 1/30 & 1.4 & 1/30 & 1.4 \\
+DeepSeek / MBPP+ & 0.40 & 12/30 & 23.1 & 12/30 & 22.9 \\
+Qwen2.5 / HumanEval+ & 0.30 & 1/30 & 1.8 & 1/30 & 1.9 \\
+Qwen2.5 / HumanEval+ & 0.40 & 3/30 & 7.3 & 3/30 & 7.3 \\
+Qwen2.5 / MBPP+ & 0.30 & 3/30 & 5.7 & 3/30 & 5.6 \\
+Qwen2.5 / MBPP+ & 0.40 & 18/30 & 40.5 & 20/30 & 43.2 \\
+DeepSeek / LCB increment & 0.30 & 0/30 & 0.0 & 0/30 & 0.0 \\
+DeepSeek / LCB increment & 0.40 & 0/30 & 0.0 & 0/30 & 0.0 \\
+Qwen2.5 / LCB increment & 0.30 & 0/30 & 0.0 & 0/30 & 0.0 \\
+Qwen2.5 / LCB increment & 0.40 & 0/30 & 0.0 & 0/30 & 0.0 \\
+Qwen3 / LCB increment & 0.30 & 0/30 & 0.0 & 0/30 & 0.0 \\
+Qwen3 / LCB increment & 0.40 & 0/30 & 0.0 & 0/30 & 0.0 \\
+\bottomrule
+\end{tabular}
+\par\vspace{4pt}\begin{minipage}{0.98\linewidth}\footnotesize Cond. and Pool. denote precision-conditioned and pooled reference cumulative distribution functions, respectively. $\alpha$ is the selective-error budget. Sel. counts partitions with an eligible shared threshold among the 30 specified partitions. Cov. is unconditional mean held-out coverage over partitions and both precisions, including zero for infeasible rules. The partitions reuse the same tasks. All four risk budgets and independent-threshold results are in the source data.\end{minipage}
+\end{table}

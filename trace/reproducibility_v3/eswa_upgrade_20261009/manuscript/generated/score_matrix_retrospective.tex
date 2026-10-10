@@ -1,0 +1,47 @@
+\begin{table}[htbp]
+\centering
+\caption{Retrospective score-family comparison (execution scores).}
+\label{tab:scores-retrospective-1}
+\footnotesize
+\begin{tabular}{lrrrrrr}
+\toprule
+Artifact / benchmark & DSDE1 & DSDE2 & DSDE4 & Exact4 & Entropy & Exec. fail. \\
+\midrule
+DeepSeek / HumanEval+ Q4 & 20.7 & 19.5 & 20.1 & 19.5 & 19.9 & 29.2 \\
+DeepSeek / HumanEval+ Q8 & 19.5 & 20.1 & 19.9 & 18.5 & 19.8 & 28.1 \\
+DeepSeek / MBPP+ Q4 & 25.7 & 25.9 & 23.5 & 24.9 & 25.2 & 31.1 \\
+DeepSeek / MBPP+ Q8 & 24.6 & 24.5 & 24.1 & 24.1 & 24.2 & 29.3 \\
+Qwen3 / MBPP+ Q4 & 23.5 & 17.9 & 16.7 & 17.5 & 17.8 & 26.8 \\
+Qwen3 / MBPP+ Q8 & 25.5 & 22.3 & 21.2 & 21.2 & 20.0 & 27.2 \\
+Qwen2.5 / HumanEval+ Q4 & 22.6 & 21.0 & 20.7 & 21.3 & 20.8 & 26.2 \\
+Qwen2.5 / HumanEval+ Q8 & 23.8 & 22.0 & 22.0 & 20.7 & 20.9 & 26.4 \\
+Qwen2.5 / MBPP+ Q4 & 18.8 & 20.4 & 17.7 & 19.3 & 18.9 & 27.2 \\
+Qwen2.5 / MBPP+ Q8 & 19.8 & 20.9 & 19.0 & 19.2 & 19.6 & 25.9 \\
+\bottomrule
+\end{tabular}
+\par\vspace{4pt}\begin{minipage}{0.98\linewidth}\footnotesize Values are expected residual errors per 100 incoming tasks at nominal 25\% review. All score families and queue fractions are retained in the source CSV. Each HumanEval+ cell has 164 targets and each full MBPP+ cell 378; Qwen3 has 60 execution-evaluated targets. Qwen3 Q4 token-dependent entries use 58 matched targets, so their direct paired contrasts must be taken from the matched comparison table. DSDE1/2/4 use one/two/four alternatives. Exact4 is exact target disagreement with four alternatives. Entropy is execution-cluster entropy. Exec. fail. ranks by the target's probe execution-failure fraction.\end{minipage}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Retrospective score-family comparison (token and guarded scores).}
+\label{tab:scores-retrospective-2}
+\footnotesize
+\begin{tabular}{lrrr}
+\toprule
+Artifact / benchmark & NLL & Token ent. & Exec/NLL \\
+\midrule
+DeepSeek / HumanEval+ Q4 & 29.9 & 29.3 & 29.3 \\
+DeepSeek / HumanEval+ Q8 & 28.7 & 28.0 & 27.4 \\
+DeepSeek / MBPP+ Q4 & 33.1 & 33.3 & 29.9 \\
+DeepSeek / MBPP+ Q8 & 33.9 & 33.3 & 29.4 \\
+Qwen3 / MBPP+ Q4 & 17.2 & 15.5 & 17.2 \\
+Qwen3 / MBPP+ Q8 & 20.0 & 18.3 & 20.0 \\
+Qwen2.5 / HumanEval+ Q4 & 22.0 & 22.6 & 22.0 \\
+Qwen2.5 / HumanEval+ Q8 & 22.0 & 22.0 & 23.8 \\
+Qwen2.5 / MBPP+ Q4 & 21.2 & 22.8 & 19.3 \\
+Qwen2.5 / MBPP+ Q8 & 20.9 & 22.8 & 19.8 \\
+\bottomrule
+\end{tabular}
+\par\vspace{4pt}\begin{minipage}{0.98\linewidth}\footnotesize Values are expected residual errors per 100 incoming tasks at nominal 25\% review. All score families and queue fractions are retained in the source CSV. Each HumanEval+ cell has 164 targets and each full MBPP+ cell 378; Qwen3 has 60 execution-evaluated targets. Qwen3 Q4 token-dependent entries use 58 matched targets, so their direct paired contrasts must be taken from the matched comparison table. NLL is mean token negative log-likelihood; Token ent. is top-five entropy with a residual-mass category. Exec/NLL prioritizes probe execution failures, then ranks by NLL.\end{minipage}
+\end{table}

@@ -1,0 +1,11 @@
+{
+  "updated_at_utc": "2026-10-10T11:46:26.058394+00:00",
+  "manuscript_presentation": "v6",
+  "evaluation_version": "statement-aware-v3",
+  "data_release": "https://github.com/bianyanbo44-afk/precisionprobe-kbs-reproducibility/releases/tag/eswa-trace-v3-20261010",
+  "data_archive_sha256": "392861dbfe7767e768f9202c688020906607cdfd66f27c799ed764a542ef596a",
+  "data_tree_exact_archive_files": 189,
+  "figure_release": "https://github.com/bianyanbo44-afk/precisionprobe-kbs-reproducibility/releases/tag/eswa-trace-figures-v6-20261010",
+  "figure_archive_sha256": "2f07150f71614ecf7892a9575cab84d1c7ca446684ae585d74dafefd5ac891a9",
+  "empirical_records_and_statistics_changed": false
+}

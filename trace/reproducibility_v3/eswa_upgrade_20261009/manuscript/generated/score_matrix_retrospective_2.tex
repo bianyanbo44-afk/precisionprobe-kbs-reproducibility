@@ -1,0 +1,23 @@
+\begin{table}[htbp]
+\centering
+\caption{Retrospective score-family comparison (token and guarded scores).}
+\label{tab:scores-retrospective-2}
+\footnotesize
+\begin{tabular}{lrrr}
+\toprule
+Artifact / benchmark & NLL & Token ent. & Exec/NLL \\
+\midrule
+DeepSeek / HumanEval+ Q4 & 29.9 & 29.3 & 29.3 \\
+DeepSeek / HumanEval+ Q8 & 28.7 & 28.0 & 27.4 \\
+DeepSeek / MBPP+ Q4 & 33.1 & 33.3 & 29.9 \\
+DeepSeek / MBPP+ Q8 & 33.9 & 33.3 & 29.4 \\
+Qwen3 / MBPP+ Q4 & 17.2 & 15.5 & 17.2 \\
+Qwen3 / MBPP+ Q8 & 20.0 & 18.3 & 20.0 \\
+Qwen2.5 / HumanEval+ Q4 & 22.0 & 22.6 & 22.0 \\
+Qwen2.5 / HumanEval+ Q8 & 22.0 & 22.0 & 23.8 \\
+Qwen2.5 / MBPP+ Q4 & 21.2 & 22.8 & 19.3 \\
+Qwen2.5 / MBPP+ Q8 & 20.9 & 22.8 & 19.8 \\
+\bottomrule
+\end{tabular}
+\par\vspace{4pt}\begin{minipage}{0.98\linewidth}\footnotesize Values are expected residual errors per 100 incoming tasks at nominal 25\% review. All score families and queue fractions are retained in the source CSV. Each HumanEval+ cell has 164 targets and each full MBPP+ cell 378; Qwen3 has 60 execution-evaluated targets. Qwen3 Q4 token-dependent entries use 58 matched targets, so their direct paired contrasts must be taken from the matched comparison table. NLL is mean token negative log-likelihood; Token ent. is top-five entropy with a residual-mass category. Exec/NLL prioritizes probe execution failures, then ranks by NLL.\end{minipage}
+\end{table}

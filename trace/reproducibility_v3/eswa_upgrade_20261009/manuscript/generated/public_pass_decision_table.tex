@@ -1,0 +1,19 @@
+\begin{table}[htbp]
+\centering
+\caption{Public-passing targets: actual review positions, expected hidden errors captured and recorded incremental sampling cost.}
+\label{tab:public-pass-decision}
+\footnotesize
+\begin{tabular}{lrrrrrr}
+\toprule
+Artifact & $n$ & $q$ & Errors & DSDE4 & NLL & Extra s \\
+\midrule
+DeepSeek Q4 & 19 & 5 & 3 & 3.0 & 2.0 & 6.41 \\
+DeepSeek Q8 & 22 & 6 & 4 & 2.0 & 2.0 & 9.25 \\
+Qwen2.5 Q4 & 26 & 7 & 8 & 3.0 & 4.0 & 3.60 \\
+Qwen2.5 Q8 & 27 & 7 & 9 & 3.0 & 5.0 & 4.01 \\
+Qwen3 Q4 & 62 & 16 & 18 & 9.0 & 8.0 & 16.27 \\
+Qwen3 Q8 & 64 & 16 & 19 & 9.0 & 9.0 & 22.70 \\
+\bottomrule
+\end{tabular}
+\par\vspace{4pt}\begin{minipage}{0.98\linewidth}\footnotesize Review is 25\% of each public-passing subset. DSDE4 and NLL columns are expected hidden-error counts captured, including fractional boundary ties. Extra s is the subset mean of four alternative-generation requests plus their public executions after target generation and checks. The cost is a descriptive subset summary of the recorded schedule, excluding comparator, score and ranking overhead. The paired intervals in Table~\ref{tab:public-pass} remain the inferential summary.\end{minipage}
+\end{table}

@@ -1,0 +1,4 @@
+# Additional imports used by original inference scripts; local paths must be configured separately.
+requests==2.34.2
+PyYAML
+evalplus==0.3.1

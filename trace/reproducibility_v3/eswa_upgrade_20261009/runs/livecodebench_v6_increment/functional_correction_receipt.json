@@ -1,0 +1,149 @@
+{
+  "version": "statement-aware-v3",
+  "created_at_utc": "2026-10-10T04:17:42.944651+00:00",
+  "applied": true,
+  "method": "Comparator-only rejudgement of retained public observations; no program or model execution.",
+  "previous_statement_receipt_sha256": "a5f44141efd9351038f5b3085f307ea876cc064db3620dcb4c8ce2ecc760a41e",
+  "previous_comparator_script_sha256": "265da4618b173138f9925777502e558ec0cf443a656e1fb7e405bbb909eb381f",
+  "comparator_script_sha256": "30b0da60759debe51fb7b9fab1d1448fac0d10558f9dd93efe2c3589322aa872",
+  "rejudgement_script_sha256": "79a53c51cce13e1ce08a5baecaabb3b07993a711a016124809220f048f05e648",
+  "functional_inventory_sha256": "53fb972925bc906bde0079c89738d901177de164d9dd91dbbc5afbf95254db4e",
+  "amendment_07_sha256": "c296173853dc49c0cbb158e32f6f429a0af4eb66fb0414dd563b601400522818",
+  "initial_lock_sha256": "21879e115cbf82b8fe39cccb82cae3a058151e0955e5a4b042365c1d4416a801",
+  "policies": {
+    "leetcode/3763": {
+      "kind": "finite_functional_numeric_tolerance",
+      "source": "https://leetcode.com/problems/separate-squares-i/description/",
+      "absolute_tolerance": "1e-5",
+      "finite_only": true,
+      "output_values": 1
+    }
+  },
+  "assessed_condition_task_pairs": 6,
+  "changed_error_labels": 0,
+  "changed_public_failure_statuses": 0,
+  "unchanged_generation_score_inputs_and_acquisition_times": true,
+  "evaluation_files_unchanged": true,
+  "details": [
+    {
+      "condition": "qwen3_q4",
+      "task_id": "leetcode/3763",
+      "solution_sha256": "b127d4b9ecc4440b28fce05fe42815677b2767b0f4e747092b5744af72140729",
+      "evaluation_sha256": "99a319a4efc11d523d9e175f55065bf0b41b6fc1985173ee3a74688a22458b4f",
+      "before_public_passes": [
+        false,
+        false
+      ],
+      "after_public_passes": [
+        false,
+        false
+      ],
+      "before_error": 1,
+      "after_error": 1,
+      "private_tests_required_after_correction": false,
+      "private_tests_executed": 0,
+      "observations_reused": true,
+      "evaluation_record_unchanged": true
+    },
+    {
+      "condition": "qwen3_q8",
+      "task_id": "leetcode/3763",
+      "solution_sha256": "1dcaff42bed615c6122edb7dd8c5be42c98f31e19058d5866ebd086b13f2b5e9",
+      "evaluation_sha256": "de5e16c9d9106c5d670d54969f87ff0fdf783cf2e85c2092a988d7d81aa6e268",
+      "before_public_passes": [
+        false,
+        false
+      ],
+      "after_public_passes": [
+        false,
+        false
+      ],
+      "before_error": 1,
+      "after_error": 1,
+      "private_tests_required_after_correction": false,
+      "private_tests_executed": 0,
+      "observations_reused": true,
+      "evaluation_record_unchanged": true
+    },
+    {
+      "condition": "qwen25_q4",
+      "task_id": "leetcode/3763",
+      "solution_sha256": "b88e0326e1a48672a06f879879df439146534ef04bdcc08f613251cbeaa6faf5",
+      "evaluation_sha256": "cb260283af0aaa94dcbc961fc2b29c5a0fe046fafe199014028cd032468d0160",
+      "before_public_passes": [
+        false,
+        false
+      ],
+      "after_public_passes": [
+        false,
+        false
+      ],
+      "before_error": 1,
+      "after_error": 1,
+      "private_tests_required_after_correction": false,
+      "private_tests_executed": 0,
+      "observations_reused": true,
+      "evaluation_record_unchanged": true
+    },
+    {
+      "condition": "qwen25_q8",
+      "task_id": "leetcode/3763",
+      "solution_sha256": "12e2c876ab40e9bb3dd4a7d509820302d48f4da1a42fb2d49c7686159dd267e5",
+      "evaluation_sha256": "3c420f24e16a7f0446f7fb68e177fc33fdc621484ca383d9c91708a1f79a8f46",
+      "before_public_passes": [
+        false,
+        false
+      ],
+      "after_public_passes": [
+        false,
+        false
+      ],
+      "before_error": 1,
+      "after_error": 1,
+      "private_tests_required_after_correction": false,
+      "private_tests_executed": 0,
+      "observations_reused": true,
+      "evaluation_record_unchanged": true
+    },
+    {
+      "condition": "deepseek_q4",
+      "task_id": "leetcode/3763",
+      "solution_sha256": "d69c944011661ceec19ce18d788da0064bd6bac2b8adff6e5c2a3f5ddab776ce",
+      "evaluation_sha256": "1fdd84b7c24ee3361aaf71bed29b68216c97991b8261912425aa7e5460427d1c",
+      "before_public_passes": [
+        false,
+        false
+      ],
+      "after_public_passes": [
+        false,
+        false
+      ],
+      "before_error": 1,
+      "after_error": 1,
+      "private_tests_required_after_correction": false,
+      "private_tests_executed": 0,
+      "observations_reused": true,
+      "evaluation_record_unchanged": true
+    },
+    {
+      "condition": "deepseek_q8",
+      "task_id": "leetcode/3763",
+      "solution_sha256": "858dab8e53d7688b87f64be04760c3e9b8c16c0e73bf242d58a22e6ee390de8f",
+      "evaluation_sha256": "9566f397b278af21e369a17c2ed700ce81dc18776624e6ff85a3a70bf6ddf892",
+      "before_public_passes": [
+        false,
+        false
+      ],
+      "after_public_passes": [
+        false,
+        false
+      ],
+      "before_error": 1,
+      "after_error": 1,
+      "private_tests_required_after_correction": false,
+      "private_tests_executed": 0,
+      "observations_reused": true,
+      "evaluation_record_unchanged": true
+    }
+  ]
+}

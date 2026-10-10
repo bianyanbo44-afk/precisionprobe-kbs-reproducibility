@@ -1,0 +1,122 @@
+{
+  "created_at_utc": "2026-10-09T15:44:51.553274+00:00",
+  "script_sha256": "9a2f5535692d04519c9ee5aa227d8ea6d0ae60d27f2502bd34ce893ab9f25403",
+  "calibration_script_sha256": "c05c56fc15e9b307868eec87e81dbd93184264429fda282965fc7abc03ef785f",
+  "lock_sha256": "21879e115cbf82b8fe39cccb82cae3a058151e0955e5a4b042365c1d4416a801",
+  "amendment_01_sha256": "80762063759242bf1e78ab09b33a796406d307d46a938bb02b68f85e813759f5",
+  "amendment_02_sha256": "6b3405dee220904aecb13d7ce44aad0ec2432ccd3e4cc5d9baa610cf2ea71ed1",
+  "amendment_03_sha256": "2f7d78f91e893eb5a3f076f51ed30170d3845fdfb9b692581ee846c7b639df49",
+  "amendment_04_sha256": "e7de228ac1ba47c945ceb25fb1208483847aee58c58ce0b5d0b34251acfff196",
+  "amendment_05_sha256": "01ea22c414d44d11af8542c76ee008a88feef65512287cbd56fc17f10f0a73ed",
+  "statement_correction": {
+    "version": "statement-aware-v3",
+    "receipt_sha256": "a5f44141efd9351038f5b3085f307ea876cc064db3620dcb4c8ce2ecc760a41e",
+    "amendment_06_sha256": "d2c8414ffac021d65ee835110e0a94a654b80a82280c05b90f4973e5701dcba2",
+    "comparator_script_sha256": "265da4618b173138f9925777502e558ec0cf443a656e1fb7e405bbb909eb381f",
+    "changed_error_labels": 0,
+    "changed_public_failure_statuses": 1,
+    "functional_receipt_sha256": "a2e3eef4c2a13e128eaf7e1c350b9a9b323ba9c4e6bc8e6d17a10864cdf0e10c",
+    "amendment_07_sha256": "c296173853dc49c0cbb158e32f6f429a0af4eb66fb0414dd563b601400522818",
+    "functional_labels_changed": 0
+  },
+  "input_files": [
+    {
+      "condition": "qwen3_q4",
+      "kind": "generation",
+      "relative_path": "runs\\livecodebench_v6_increment\\generations\\qwen3_q4.jsonl",
+      "sha256": "f9ed029781ecf33ef094da9ff66f4ebfae4abe2a4687f358c478c7cce7139477",
+      "records": 875
+    },
+    {
+      "condition": "qwen3_q4",
+      "kind": "evaluation",
+      "relative_path": "runs\\livecodebench_v6_increment\\evaluations\\qwen3_q4.jsonl",
+      "sha256": "99a319a4efc11d523d9e175f55065bf0b41b6fc1985173ee3a74688a22458b4f",
+      "records": 175
+    },
+    {
+      "condition": "qwen3_q8",
+      "kind": "generation",
+      "relative_path": "runs\\livecodebench_v6_increment\\generations\\qwen3_q8.jsonl",
+      "sha256": "f83a031202c4aaf1b6c7fd101570951e5263ff4704d9f965529c26206cc61ecb",
+      "records": 875
+    },
+    {
+      "condition": "qwen3_q8",
+      "kind": "evaluation",
+      "relative_path": "runs\\livecodebench_v6_increment\\evaluations\\qwen3_q8.jsonl",
+      "sha256": "de5e16c9d9106c5d670d54969f87ff0fdf783cf2e85c2092a988d7d81aa6e268",
+      "records": 175
+    },
+    {
+      "condition": "qwen25_q4",
+      "kind": "generation",
+      "relative_path": "runs\\livecodebench_v6_increment\\generations\\qwen25_q4.jsonl",
+      "sha256": "4a1834cd0428d3141e7a22722e6dd237708a329fdf358a9608ec8c39102f6adc",
+      "records": 875
+    },
+    {
+      "condition": "qwen25_q4",
+      "kind": "evaluation",
+      "relative_path": "runs\\livecodebench_v6_increment\\evaluations\\qwen25_q4.jsonl",
+      "sha256": "cb260283af0aaa94dcbc961fc2b29c5a0fe046fafe199014028cd032468d0160",
+      "records": 175
+    },
+    {
+      "condition": "qwen25_q8",
+      "kind": "generation",
+      "relative_path": "runs\\livecodebench_v6_increment\\generations\\qwen25_q8.jsonl",
+      "sha256": "ca082453b07ec745531c191c6f14c64f5bed7866967d50159f98844dfa2b186c",
+      "records": 875
+    },
+    {
+      "condition": "qwen25_q8",
+      "kind": "evaluation",
+      "relative_path": "runs\\livecodebench_v6_increment\\evaluations\\qwen25_q8.jsonl",
+      "sha256": "3c420f24e16a7f0446f7fb68e177fc33fdc621484ca383d9c91708a1f79a8f46",
+      "records": 175
+    },
+    {
+      "condition": "deepseek_q4",
+      "kind": "generation",
+      "relative_path": "runs\\livecodebench_v6_increment\\generations\\deepseek_q4.jsonl",
+      "sha256": "a8d315f1c4210247939996e17ef72d29967d485d3e0744641e6869d468daeed9",
+      "records": 875
+    },
+    {
+      "condition": "deepseek_q4",
+      "kind": "evaluation",
+      "relative_path": "runs\\livecodebench_v6_increment\\evaluations\\deepseek_q4.jsonl",
+      "sha256": "1fdd84b7c24ee3361aaf71bed29b68216c97991b8261912425aa7e5460427d1c",
+      "records": 175
+    },
+    {
+      "condition": "deepseek_q8",
+      "kind": "generation",
+      "relative_path": "runs\\livecodebench_v6_increment\\generations\\deepseek_q8.jsonl",
+      "sha256": "e8e82318e3c51ac3d4f60f639cf38573098802d6aa13372971204d905398e2e7",
+      "records": 875
+    },
+    {
+      "condition": "deepseek_q8",
+      "kind": "evaluation",
+      "relative_path": "runs\\livecodebench_v6_increment\\evaluations\\deepseek_q8.jsonl",
+      "sha256": "9566f397b278af21e369a17c2ed700ce81dc18776624e6ff85a3a70bf6ddf892",
+      "records": 175
+    }
+  ],
+  "conditions": 6,
+  "tasks_per_condition": 175,
+  "calibration_complete": true,
+  "evaluation_version": "statement-aware-v3",
+  "prior_manifest_sha256": "da128ed2592f0299fb2612c71b5c8ea6d2a492b6616a950acd93269cadfc25bb",
+  "prior_analysis_source": "scripts/analyze_validation_v2.py",
+  "verification_script_sha256": "3da646d58c9f6045549546868c16683d9e5b5a3f14eec7a5df3ef8ee9ccfab03",
+  "v3_statistical_inputs_unchanged": true,
+  "v3_reporting_added_at_utc": "2026-10-10T04:34:55.735373+00:00",
+  "decision_reporting_files": [
+    "same_stage_capacity_metrics.csv",
+    "public_pass_decision_counts_and_costs.csv",
+    "guarded_capacity_curve.csv"
+  ]
+}

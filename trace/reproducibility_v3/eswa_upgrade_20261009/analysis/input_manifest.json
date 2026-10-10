@@ -1,0 +1,77 @@
+[
+  {
+    "panel": "qwen_mbpp",
+    "path": "runs\\quartz_qwen_mbpp\\joined.csv",
+    "sha256": "d8a7a91c76b77b7caef869ea78c183d42176bd5d921dbd6d21cb6196ac1d11f6"
+  },
+  {
+    "panel": "qwen_mbpp",
+    "path": "runs\\quartz_qwen_mbpp\\scores.jsonl",
+    "sha256": "aed6e75bd232424bfd0731455a5a10aaa6892a32e31e070c4427ad08ab395d78"
+  },
+  {
+    "panel": "qwen_mbpp",
+    "path": "runs\\quartz_qwen_mbpp\\token_confidence.jsonl",
+    "sha256": "fe19cfbdce8c07d2d7c6b2e776fde7f3543d75dd3c252029a97bbea18770a08c"
+  },
+  {
+    "panel": "qwen_humaneval",
+    "path": "runs\\pcqrc_qwen_humaneval\\joined.csv",
+    "sha256": "8db842006eddfb80f806ccfc300dd41e2a752d2bb15c06ec6ee18a7b04d3deb9"
+  },
+  {
+    "panel": "qwen_humaneval",
+    "path": "runs\\pcqrc_qwen_humaneval\\scores.jsonl",
+    "sha256": "1b8ef06956d5ed11c012125c5db4a80c373e5bb0b69d738d3604d23756026ab4"
+  },
+  {
+    "panel": "qwen_humaneval",
+    "path": "runs\\pcqrc_qwen_humaneval\\token_confidence.jsonl",
+    "sha256": "3103c95f898591f87d1ff5e457091a08c9021df28c5a07446ab53de5c3610105"
+  },
+  {
+    "panel": "deepseek_mbpp",
+    "path": "runs\\pcqrc_deepseek_mbpp\\joined.csv",
+    "sha256": "9406b17e1aedd2f5cb257ef72a4e855e1f12bb35c92bc2c22e9d287bc9c9941c"
+  },
+  {
+    "panel": "deepseek_mbpp",
+    "path": "runs\\pcqrc_deepseek_mbpp\\scores.jsonl",
+    "sha256": "4b9671b672fd0f26c972af50fa6ccab64401c835fb35ff51d126051b91811411"
+  },
+  {
+    "panel": "deepseek_mbpp",
+    "path": "runs\\pcqrc_deepseek_mbpp\\token_confidence.jsonl",
+    "sha256": "add12657f5c6dbc2f8ec3266e19b8e635d3dd3c44981174a5850227c4b38c24c"
+  },
+  {
+    "panel": "deepseek_humaneval",
+    "path": "runs\\quartz_deepseek_humaneval\\joined.csv",
+    "sha256": "8e19d0cb5b6c4170da29dd3f78b561b9d5dbf56cebd9abbd8a923c38667122d2"
+  },
+  {
+    "panel": "deepseek_humaneval",
+    "path": "runs\\quartz_deepseek_humaneval\\scores.jsonl",
+    "sha256": "3eb7520ff16fac0ee96d71f767a230a079f13bcc6c79a52825e02556e6f08aa7"
+  },
+  {
+    "panel": "deepseek_humaneval",
+    "path": "runs\\quartz_deepseek_humaneval\\token_confidence.jsonl",
+    "sha256": "cc1bbf1b5562ae62084b2b65f3abff5076102852532650f18b72b076b9d78acd"
+  },
+  {
+    "panel": "qwen3_mbpp60",
+    "path": "runs\\rapid_qwen3_confirm60\\analysis\\joined_metrics.csv",
+    "sha256": "17368b9ecb4a1f8783b0379a3fff384e60879f1bebf34b13a2b4122a0174362a"
+  },
+  {
+    "panel": "qwen3_mbpp60",
+    "path": "runs\\rapid_qwen3_confirm60\\scores.jsonl",
+    "sha256": "4564389900a9f3bb417d6227cfa6a882bd4d1a30f1db753066ca0d3e8e8f48bd"
+  },
+  {
+    "panel": "qwen3_mbpp60",
+    "path": "runs\\rapid_qwen3_confirm60\\token_confidence.jsonl",
+    "sha256": "fe172dded660c9617a7519a462fbe26141736567ebbe30b49c4c6350edc2c3eb"
+  }
+]

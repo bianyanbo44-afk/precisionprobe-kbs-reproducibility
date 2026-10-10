@@ -1,0 +1,12 @@
+{
+  "recorded_at_utc": "2026-10-09T03:20:26.351895+00:00",
+  "cause_evidence": "Windows Application events: llama-server failure and NVIDIA LiveKernelEvent 117; no completed sixth response",
+  "intact_records": 5,
+  "original_generation_sha256": "8617d6abc72864b72af1a41fecdc3b37c6961d99415be329b40af29052ce9d4f",
+  "source_logs": [
+    "qwen3_q8.log",
+    "generation_stderr.log",
+    "generation_stdout.log"
+  ],
+  "prior_wrapper_sha256": "f442a5ad8c9bc9552221a50b57a9a3038c1dd10a6831627d8067eb1e7ed96de6"
+}

@@ -1,0 +1,143 @@
+{
+  "created_at_utc": "2026-10-09T15:49:33.229535+00:00",
+  "script_sha256": "cdf0f692298aeb79f1b85b9eb44e36cc9ca18abd0fc566e4e1031c1e091dd643",
+  "amendment_05_sha256": "01ea22c414d44d11af8542c76ee008a88feef65512287cbd56fc17f10f0a73ed",
+  "sleep_event_source_sha256": "8191bc45d48ec50c0f5991586359db77b16c0eebb7724fe82d02505e081d6fb6",
+  "original_cost_frontier_sha256": "95ba1a5c46ef45fc65e9738ecec6350684dfabbe4ce8b3ed08005f34a1ca2d52",
+  "input_manifest": [
+    {
+      "condition": "qwen3_q4",
+      "kind": "generation",
+      "relative_path": "runs\\livecodebench_v6_increment\\generations\\qwen3_q4.jsonl",
+      "sha256": "f9ed029781ecf33ef094da9ff66f4ebfae4abe2a4687f358c478c7cce7139477",
+      "records": 875
+    },
+    {
+      "condition": "qwen3_q4",
+      "kind": "evaluation",
+      "relative_path": "runs\\livecodebench_v6_increment\\evaluations\\qwen3_q4.jsonl",
+      "sha256": "99a319a4efc11d523d9e175f55065bf0b41b6fc1985173ee3a74688a22458b4f",
+      "records": 175
+    },
+    {
+      "condition": "qwen3_q8",
+      "kind": "generation",
+      "relative_path": "runs\\livecodebench_v6_increment\\generations\\qwen3_q8.jsonl",
+      "sha256": "f83a031202c4aaf1b6c7fd101570951e5263ff4704d9f965529c26206cc61ecb",
+      "records": 875
+    },
+    {
+      "condition": "qwen3_q8",
+      "kind": "evaluation",
+      "relative_path": "runs\\livecodebench_v6_increment\\evaluations\\qwen3_q8.jsonl",
+      "sha256": "de5e16c9d9106c5d670d54969f87ff0fdf783cf2e85c2092a988d7d81aa6e268",
+      "records": 175
+    },
+    {
+      "condition": "qwen25_q4",
+      "kind": "generation",
+      "relative_path": "runs\\livecodebench_v6_increment\\generations\\qwen25_q4.jsonl",
+      "sha256": "4a1834cd0428d3141e7a22722e6dd237708a329fdf358a9608ec8c39102f6adc",
+      "records": 875
+    },
+    {
+      "condition": "qwen25_q4",
+      "kind": "evaluation",
+      "relative_path": "runs\\livecodebench_v6_increment\\evaluations\\qwen25_q4.jsonl",
+      "sha256": "cb260283af0aaa94dcbc961fc2b29c5a0fe046fafe199014028cd032468d0160",
+      "records": 175
+    },
+    {
+      "condition": "qwen25_q8",
+      "kind": "generation",
+      "relative_path": "runs\\livecodebench_v6_increment\\generations\\qwen25_q8.jsonl",
+      "sha256": "ca082453b07ec745531c191c6f14c64f5bed7866967d50159f98844dfa2b186c",
+      "records": 875
+    },
+    {
+      "condition": "qwen25_q8",
+      "kind": "evaluation",
+      "relative_path": "runs\\livecodebench_v6_increment\\evaluations\\qwen25_q8.jsonl",
+      "sha256": "3c420f24e16a7f0446f7fb68e177fc33fdc621484ca383d9c91708a1f79a8f46",
+      "records": 175
+    },
+    {
+      "condition": "deepseek_q4",
+      "kind": "generation",
+      "relative_path": "runs\\livecodebench_v6_increment\\generations\\deepseek_q4.jsonl",
+      "sha256": "a8d315f1c4210247939996e17ef72d29967d485d3e0744641e6869d468daeed9",
+      "records": 875
+    },
+    {
+      "condition": "deepseek_q4",
+      "kind": "evaluation",
+      "relative_path": "runs\\livecodebench_v6_increment\\evaluations\\deepseek_q4.jsonl",
+      "sha256": "1fdd84b7c24ee3361aaf71bed29b68216c97991b8261912425aa7e5460427d1c",
+      "records": 175
+    },
+    {
+      "condition": "deepseek_q8",
+      "kind": "generation",
+      "relative_path": "runs\\livecodebench_v6_increment\\generations\\deepseek_q8.jsonl",
+      "sha256": "e8e82318e3c51ac3d4f60f639cf38573098802d6aa13372971204d905398e2e7",
+      "records": 875
+    },
+    {
+      "condition": "deepseek_q8",
+      "kind": "evaluation",
+      "relative_path": "runs\\livecodebench_v6_increment\\evaluations\\deepseek_q8.jsonl",
+      "sha256": "9566f397b278af21e369a17c2ed700ce81dc18776624e6ff85a3a70bf6ddf892",
+      "records": 175
+    }
+  ],
+  "conditions": [
+    {
+      "condition": "qwen3_q4",
+      "completed_requests": 875,
+      "affected_requests": 0,
+      "documented_sleep_overlap_seconds": 0.0
+    },
+    {
+      "condition": "qwen3_q8",
+      "completed_requests": 875,
+      "affected_requests": 1,
+      "documented_sleep_overlap_seconds": 1823.603196
+    },
+    {
+      "condition": "qwen25_q4",
+      "completed_requests": 875,
+      "affected_requests": 0,
+      "documented_sleep_overlap_seconds": 0.0
+    },
+    {
+      "condition": "qwen25_q8",
+      "completed_requests": 875,
+      "affected_requests": 0,
+      "documented_sleep_overlap_seconds": 0.0
+    },
+    {
+      "condition": "deepseek_q4",
+      "completed_requests": 875,
+      "affected_requests": 0,
+      "documented_sleep_overlap_seconds": 0.0
+    },
+    {
+      "condition": "deepseek_q8",
+      "completed_requests": 875,
+      "affected_requests": 0,
+      "documented_sleep_overlap_seconds": 0.0
+    }
+  ],
+  "later_recorded_transport_failures": [
+    {
+      "condition": "qwen3_q8",
+      "created_at_utc": "2026-10-09T05:20:58.266726+00:00",
+      "elapsed_seconds": 18.68405769999663,
+      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(10054, '\u8fdc\u7a0b\u4e3b\u673a\u5f3a\u8feb\u5173\u95ed\u4e86\u4e00\u4e2a\u73b0\u6709\u7684\u8fde\u63a5\u3002', None, 10054, None))",
+      "prompt_sha256": "94f8a3882cb0157537f15f2d476e1216af2864ad1abbcd9572a78f141478285d",
+      "seed": 0
+    }
+  ],
+  "exact_costs_missing_for_earlier_failures": true,
+  "interpretation": "Secondary sensitivity subtracting overlap with documented machine suspension from completed-request times. Excludes model load, warmup, downtime and failed requests; not a total operating-cost estimate. Raw costs and scientific results remain unchanged."
+}
