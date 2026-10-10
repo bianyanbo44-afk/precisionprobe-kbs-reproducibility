@@ -1,0 +1,1 @@
+{"condition": "qwen3_q8", "created_at_utc": "2026-10-09T05:20:58.266726+00:00", "elapsed_seconds": 18.68405769999663, "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))", "prompt_sha256": "94f8a3882cb0157537f15f2d476e1216af2864ad1abbcd9572a78f141478285d", "seed": 0}
